@@ -8,3 +8,4 @@ package-lock.json
 assets-src
 coverage
 playwright-report
+results.sarif
