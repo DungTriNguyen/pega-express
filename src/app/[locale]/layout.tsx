@@ -45,6 +45,9 @@ const mono = JetBrains_Mono({
   preload: false,
 });
 
+// Chỉ chấp nhận locale đã khai báo — /favicon.ico, /abc… trả 404 trước khi render trang
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -109,7 +112,8 @@ export default async function LocaleLayout({
       suppressHydrationWarning
       className={`${display.variable} ${sub.variable} ${body.variable} ${mono.variable}`}
     >
-      <body className="min-h-dvh">
+      {/* suppressHydrationWarning: extension trình duyệt (vd. ColorZilla) chèn thuộc tính vào <body> */}
+      <body className="min-h-dvh" suppressHydrationWarning>
         <JsonLd data={organizationSchema(l)} />
         <NextIntlClientProvider>
           <ThemeProvider>

@@ -17,9 +17,10 @@
     "sync:sheets": "tsx scripts/sync-sheets.ts",
     "check:demo": "tsx scripts/check-demo.ts",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "DEPLOY_ENV=production npm run check:demo && opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
-    "prepare": "husky"
+    "prepare": "husky",
+    "build:cf": "opennextjs-cloudflare build"
   },
   "dependencies": {
     "@hookform/resolvers": "^7.0.9",
