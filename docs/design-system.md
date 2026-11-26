@@ -17,7 +17,7 @@
 - **Tầng 3 component:** `--button-primary-bg/fg`, `--route-line`, `--label-paper/ink`, `--image-filter`.
 - Mảng luôn tối (hero, process, CTA cuối, footer) dùng thang tĩnh `bg-charcoal-900/950`, `text-ivory-50`.
 
-**Tương phản:** chữ trắng trên `#EB6224` chỉ ~3,3:1 → nút/chữ nhỏ dùng `brand-strong` (orange-700 `#C24E15`, ~4,8:1). Cam gốc chỉ cho mảng lớn/chữ ≥ 24px đậm.
+**Tương phản:** chữ trắng trên `#EB6224` chỉ ~3,3:1 → nút/chữ nhỏ dùng `brand-strong` (orange-700 `#AD4511`, ≥5:1 trên trắng và nền ngà — `#C24E15` của plan chỉ đạt 4,1–4,5:1 trên nền ngà nên đã chỉnh đậm hơn). Cam gốc chỉ cho mảng lớn/chữ ≥ 24px đậm.
 
 ## Chữ
 

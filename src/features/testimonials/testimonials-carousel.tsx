@@ -28,7 +28,7 @@ export function TestimonialsCarousel({ items }: { items: TestimonialView[] }) {
               key={it.id}
               className={
                 "min-w-0 shrink-0 basis-[85%] border border-border bg-surface p-6 sm:basis-[45%] lg:basis-[32%] " +
-                (it.demo ? "border-dashed opacity-80" : "")
+                (it.demo ? "border-dashed" : "")
               }
             >
               <div className="flex items-center justify-between">

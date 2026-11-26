@@ -195,13 +195,12 @@
 }
 
 /* Hiện dần khi cuộn — CSS scroll-driven, không cần JS. Trình duyệt không hỗ trợ: nội dung hiện bình thường. */
+/* Chỉ dịch chuyển, không làm mờ: chữ luôn đạt tương phản (axe/WCAG) kể cả khi chưa cuộn tới */
 @keyframes reveal-in {
   from {
-    opacity: 0;
     transform: translateY(16px);
   }
   to {
-    opacity: 1;
     transform: none;
   }
 }

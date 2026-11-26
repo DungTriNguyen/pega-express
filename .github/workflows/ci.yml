@@ -4,6 +4,8 @@ on:
   pull_request:
   push:
     branches: [main]
+    tags: ["v*"]
+  workflow_dispatch:
 
 concurrency:
   group: ci-${{ github.ref }}
@@ -42,8 +44,10 @@ jobs:
         run: npx --yes @lhci/cli@0.15.1 autorun
 
   production-gate:
-    # Chặn deploy production nếu còn dữ liệu demo (plan mục 4.4)
-    if: github.ref == 'refs/heads/main'
+    # Chặn phát hành production nếu còn dữ liệu demo (plan mục 4.4).
+    # Chạy khi gắn tag phát hành v* hoặc chạy tay — không chạy trên mỗi push main
+    # (main hiện là bản preview, demo được phép).
+    if: startsWith(github.ref, 'refs/tags/v') || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

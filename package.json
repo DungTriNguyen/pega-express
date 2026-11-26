@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run check:demo && next build",
+    "build": "opennextjs-cloudflare build",
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
@@ -16,11 +16,11 @@
     "images": "tsx scripts/optimize-images.ts",
     "sync:sheets": "tsx scripts/sync-sheets.ts",
     "check:demo": "tsx scripts/check-demo.ts",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "preview": "npm run build && opennextjs-cloudflare preview",
+    "deploy": "npm run build && opennextjs-cloudflare deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
     "prepare": "husky",
-    "build:cf": "opennextjs-cloudflare build"
+    "build:next": "npm run check:demo && next build"
   },
   "dependencies": {
     "@hookform/resolvers": "^7.0.9",

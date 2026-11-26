@@ -13,7 +13,7 @@
   --orange-400: #f07c46;
   --orange-500: #eb6224; /* ✅ màu thương hiệu */
   --orange-600: #d6581c;
-  --orange-700: #c24e15; /* brand-strong: nút & chữ cam nhỏ (≈4.8:1 với trắng) */
+  --orange-700: #ad4511; /* brand-strong: nút & chữ cam nhỏ — ≥5:1 trên trắng, ivory-50, ivory-100 (WCAG AA) */
   --orange-800: #9a3d12;
   --orange-900: #7a3110;
 
