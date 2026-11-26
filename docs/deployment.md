@@ -7,10 +7,22 @@
 ```bash
 npx wrangler login
 npm run preview          # build OpenNext + chạy thử runtime Workers cục bộ
-npm run deploy           # chỉ chạy được khi đã hết dữ liệu demo (check:demo với DEPLOY_ENV=production)
+npm run deploy           # đặt DEPLOY_ENV=production để chặn nếu còn dữ liệu demo
 ```
 
 Trang chạy trên `https://pega-express-web.<tài-khoản>.workers.dev`. Bật **Workers Builds** (kết nối GitHub) để mỗi nhánh/PR có link preview.
+
+## Cấu hình Cloudflare Workers Builds (Settings → Build)
+
+| Mục            | Giá trị                                                                                           |
+| -------------- | ------------------------------------------------------------------------------------------------- |
+| Build command  | `npm run build:cf` (= `opennextjs-cloudflare build`, tự gọi `npm run build` bên trong)            |
+| Deploy command | `npx wrangler deploy` (wrangler tự nhận ra OpenNext)                                              |
+| Biến build     | `DEPLOY_ENV=preview` khi còn dữ liệu demo; `DEPLOY_ENV=production` sẽ **chặn** build nếu còn demo |
+
+Không dùng `npm run build` làm build command: lệnh đó chỉ chạy `next build`, không tạo `.open-next/` → deploy báo "Could not find compiled Open Next config".
+
+> OpenNext cảnh báo hỗ trợ middleware chạy Node.js (`src/proxy.ts` của Next 16) trên Cloudflare còn thử nghiệm. Sau khi deploy cần thử chuyển ngôn ngữ `/en` và các slug tiếng Anh.
 
 ## Biến môi trường & bí mật
 
@@ -31,8 +43,6 @@ Trang chạy trên `https://pega-express-web.<tài-khoản>.workers.dev`. Bật 
 | `NEXT_PUBLIC_GA4_ID`, `NEXT_PUBLIC_META_PIXEL_ID`     | build var  | mặc định trống = tắt; có giá trị thì chỉ chạy sau khi khách đồng ý cookie    |
 
 Biến `NEXT_PUBLIC_*` được nhúng lúc build — đặt trong Workers Builds → Build variables.
-
-Lưu ý Windows: script `deploy` dùng cú pháp `VAR=value` của shell POSIX — chạy trong Git Bash/WSL hoặc trong CI.
 
 ## Bảo mật
 
