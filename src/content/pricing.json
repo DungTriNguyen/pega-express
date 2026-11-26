@@ -1,0 +1,221 @@
+{
+  "data": {
+    "currency": "VND",
+    "volumetricDivisor": 5000,
+    "minChargeableKg": 0.5,
+    "stepKg": 0.5,
+    "rangeSpread": 0.12,
+    "surchargePerKg": {
+      "general": 0,
+      "food": 15000,
+      "cosmetics": 20000,
+      "medicine": 25000,
+      "liquid": 30000
+    },
+    "rates": {
+      "us": [
+        {
+          "upToKg": 2,
+          "perKg": 306000
+        },
+        {
+          "upToKg": 5,
+          "perKg": 245000
+        },
+        {
+          "upToKg": 10,
+          "perKg": 216000
+        },
+        {
+          "upToKg": 20,
+          "perKg": 196000
+        },
+        {
+          "upToKg": 30,
+          "perKg": 186000
+        }
+      ],
+      "ca": [
+        {
+          "upToKg": 2,
+          "perKg": 319000
+        },
+        {
+          "upToKg": 5,
+          "perKg": 255000
+        },
+        {
+          "upToKg": 10,
+          "perKg": 224000
+        },
+        {
+          "upToKg": 20,
+          "perKg": 204000
+        },
+        {
+          "upToKg": 30,
+          "perKg": 194000
+        }
+      ],
+      "au": [
+        {
+          "upToKg": 2,
+          "perKg": 269000
+        },
+        {
+          "upToKg": 5,
+          "perKg": 215000
+        },
+        {
+          "upToKg": 10,
+          "perKg": 189000
+        },
+        {
+          "upToKg": 20,
+          "perKg": 172000
+        },
+        {
+          "upToKg": 30,
+          "perKg": 163000
+        }
+      ],
+      "jp": [
+        {
+          "upToKg": 2,
+          "perKg": 206000
+        },
+        {
+          "upToKg": 5,
+          "perKg": 165000
+        },
+        {
+          "upToKg": 10,
+          "perKg": 145000
+        },
+        {
+          "upToKg": 20,
+          "perKg": 132000
+        },
+        {
+          "upToKg": 30,
+          "perKg": 125000
+        }
+      ],
+      "kr": [
+        {
+          "upToKg": 2,
+          "perKg": 200000
+        },
+        {
+          "upToKg": 5,
+          "perKg": 160000
+        },
+        {
+          "upToKg": 10,
+          "perKg": 141000
+        },
+        {
+          "upToKg": 20,
+          "perKg": 128000
+        },
+        {
+          "upToKg": 30,
+          "perKg": 122000
+        }
+      ],
+      "tw": [
+        {
+          "upToKg": 2,
+          "perKg": 150000
+        },
+        {
+          "upToKg": 5,
+          "perKg": 120000
+        },
+        {
+          "upToKg": 10,
+          "perKg": 106000
+        },
+        {
+          "upToKg": 20,
+          "perKg": 96000
+        },
+        {
+          "upToKg": 30,
+          "perKg": 91000
+        }
+      ],
+      "cn": [
+        {
+          "upToKg": 2,
+          "perKg": 156000
+        },
+        {
+          "upToKg": 5,
+          "perKg": 125000
+        },
+        {
+          "upToKg": 10,
+          "perKg": 110000
+        },
+        {
+          "upToKg": 20,
+          "perKg": 100000
+        },
+        {
+          "upToKg": 30,
+          "perKg": 95000
+        }
+      ],
+      "my": [
+        {
+          "upToKg": 2,
+          "perKg": 144000
+        },
+        {
+          "upToKg": 5,
+          "perKg": 115000
+        },
+        {
+          "upToKg": 10,
+          "perKg": 101000
+        },
+        {
+          "upToKg": 20,
+          "perKg": 92000
+        },
+        {
+          "upToKg": 30,
+          "perKg": 87000
+        }
+      ],
+      "sg": [
+        {
+          "upToKg": 2,
+          "perKg": 138000
+        },
+        {
+          "upToKg": 5,
+          "perKg": 110000
+        },
+        {
+          "upToKg": 10,
+          "perKg": 97000
+        },
+        {
+          "upToKg": 20,
+          "perKg": 88000
+        },
+        {
+          "upToKg": 30,
+          "perKg": 84000
+        }
+      ]
+    },
+    "demo": true
+  },
+  "meta": {
+    "updatedAt": "2026-11-27",
+    "version": 1
+  }
+}

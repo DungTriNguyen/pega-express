@@ -1,0 +1,395 @@
+{
+  "common": {
+    "brandTagline": "International & express shipping",
+    "skipToContent": "Skip to main content",
+    "callNow": "Call now",
+    "chatZalo": "Chat on Zalo",
+    "chatMessenger": "Messenger",
+    "getQuote": "Get a quote",
+    "seePrices": "See prices",
+    "learnMore": "Learn more",
+    "days": "{min}–{max} days",
+    "daysShort": "days",
+    "from": "from",
+    "perKg": "/kg",
+    "demoPrice": "Indicative price",
+    "demoBadge": "Demo data — not official pricing",
+    "updatedAt": "Updated {date}",
+    "breadcrumbHome": "Home",
+    "openInNewTab": "(opens in a new tab)",
+    "loading": "Loading…",
+    "retry": "Try again",
+    "required": "required",
+    "optional": "optional"
+  },
+  "nav": {
+    "services": "Services",
+    "destinations": "Destinations",
+    "pricing": "Pricing",
+    "tracking": "Tracking",
+    "contact": "Contact",
+    "about": "About",
+    "process": "How it works",
+    "prohibited": "Prohibited items",
+    "volumetric": "Volumetric weight",
+    "quote": "Quote",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu",
+    "main": "Main navigation"
+  },
+  "theme": { "toggle": "Toggle light/dark mode", "light": "Light", "dark": "Dark" },
+  "locale": { "label": "Language", "switchTo": "Tiếng Việt", "short": "VI" },
+  "hero": {
+    "eyebrow": "SGN · Warehouse at Tan Son Nhat airport",
+    "title": "International shipping from Ho Chi Minh City — fast, safe, clear prices",
+    "subtitle": "Dedicated routes to the USA, Australia, Japan, Korea, Canada, Taiwan and more. Door pickup, standard packing, tracking at every leg.",
+    "primaryCta": "See prices",
+    "secondaryCta": "Chat on Zalo",
+    "photoCaption": "Real photo: Pega Express shipments at the airport cargo terminal"
+  },
+  "heroCard": {
+    "tabQuote": "Quote",
+    "tabTrack": "Track",
+    "label": "Shipping label",
+    "awb": "Air waybill"
+  },
+  "trust": {
+    "title": "Facts you can verify",
+    "taxId": "Tax ID {taxId}",
+    "taxIdNote": "Limited company, operating since 2026",
+    "airport": "Warehouse at TSN airport",
+    "airportNote": "431 Tan Son, near the cargo terminal",
+    "routes": "international routes",
+    "routesNote": "USA, Australia, Japan, Korea…",
+    "domestic": "domestic express cities",
+    "domesticNote": "HAN · HPH · DAD · SGN · VCA",
+    "hours": "Opening hours",
+    "pickup": "Door pickup"
+  },
+  "routes": {
+    "eyebrow": "Departures board",
+    "title": "9 international routes, public prices",
+    "subtitle": "Price per kg and estimated transit time. Pick a route for details.",
+    "colDestination": "Destination",
+    "colCode": "Code",
+    "colPrice": "From",
+    "colTransit": "Transit",
+    "colAction": "",
+    "viewRoute": "View route",
+    "allRoutes": "All routes"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "One partner for every shipment",
+    "subtitle": "From a gift for family to samples for a partner."
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "title": "4 steps, from quote to doorstep",
+    "steps": {
+      "1": { "title": "Quote", "body": "Enter destination and weight for an instant estimate, or message us on Zalo." },
+      "2": {
+        "title": "Pickup & packing",
+        "body": "We collect at your door, weigh transparently and pack to air-cargo standards."
+      },
+      "3": {
+        "title": "Flight & customs",
+        "body": "Parcels are consolidated near the airport, flown on dedicated routes and cleared through customs."
+      },
+      "4": {
+        "title": "Delivered",
+        "body": "You receive a waybill number to track the journey until the recipient signs."
+      }
+    }
+  },
+  "capability": {
+    "eyebrow": "Real operations",
+    "title": "Real cargo. Real warehouse. No stock photos.",
+    "subtitle": "Every photo below was taken by Pega Express at the Tan Son Nhat airport cargo area.",
+    "realBadge": "Real photo",
+    "prev": "Previous photo",
+    "next": "Next photo"
+  },
+  "why": {
+    "eyebrow": "Why Pega",
+    "title": "Five values, one promise",
+    "items": {
+      "speed": {
+        "title": "Speed",
+        "body": "A warehouse right by the airport shortens consolidation before each flight."
+      },
+      "trust": {
+        "title": "Reliability",
+        "body": "A registered company with a public tax ID and prices shown before you ship."
+      },
+      "connect": {
+        "title": "Connection",
+        "body": "9 international routes and 5 domestic express cities in one place."
+      },
+      "breakthrough": {
+        "title": "Breakthrough",
+        "body": "Instant quotes and one-tap tracking — no waiting for a callback to know the price."
+      },
+      "together": {
+        "title": "Partnership",
+        "body": "Country-specific advice on what you can ship before you seal the box."
+      }
+    }
+  },
+  "quickTools": {
+    "eyebrow": "Quick tools",
+    "title": "Get a price or track right here"
+  },
+  "quote": {
+    "destination": "Destination",
+    "chooseDestination": "Choose a destination",
+    "goodsType": "Goods type",
+    "goods": {
+      "general": "General goods",
+      "food": "Dry food",
+      "cosmetics": "Cosmetics",
+      "medicine": "Medicine / supplements",
+      "liquid": "Liquids"
+    },
+    "weight": "Weight (kg)",
+    "dimensions": "Box size (cm)",
+    "dimensionsHint": "Optional — used to calculate volumetric weight",
+    "length": "Length",
+    "width": "Width",
+    "height": "Height",
+    "calculate": "Calculate",
+    "resultTitle": "Estimated price",
+    "chargeable": "Chargeable weight",
+    "volumetric": "Volumetric weight",
+    "rate": "Rate",
+    "surcharge": "Goods surcharge",
+    "transit": "Transit time",
+    "disclaimer": "Indicative price, excluding destination taxes. Final price confirmed after weighing.",
+    "getExact": "Get an exact quote",
+    "errors": {
+      "unknown_destination": "Please choose a destination.",
+      "invalid_weight": "Enter a weight greater than 0.",
+      "over_max_weight": "Shipments over {max} kg — please contact us for a custom quote."
+    },
+    "empty": "Enter destination and weight to see an estimate."
+  },
+  "tracking": {
+    "title": "Track a shipment",
+    "subtitle": "Enter the waybill number Pega Express sent you. We detect the carrier and open its official tracking page.",
+    "label": "Waybill number",
+    "placeholder": "e.g. 1234567890",
+    "submit": "Track",
+    "detected": "Detected: {carrier}",
+    "chooseCarrier": "This number may belong to several carriers — choose one:",
+    "notRecognized": "We couldn't recognise the carrier from this number.",
+    "openOfficial": "Open {carrier} tracking",
+    "askZalo": "Send the number on Zalo for help",
+    "errorEmpty": "Please enter a waybill number.",
+    "errorShort": "The waybill number is too short.",
+    "timelineTitle": "Standard journey",
+    "timeline": {
+      "1": "Received in Ho Chi Minh City",
+      "2": "Packed and checked",
+      "3": "Departed SGN",
+      "4": "Customs cleared at destination",
+      "5": "Out for delivery / delivered"
+    },
+    "timelineNote": "Detailed status is shown on the carrier's site. Direct tracking on the Pega Express website will come once systems are connected."
+  },
+  "testimonials": {
+    "eyebrow": "Customer reviews",
+    "title": "What customers say",
+    "placeholderNotice": "Placeholder — real reviews from Google Maps and Zalo will be added before launch. Never shown in production.",
+    "source": { "google": "Google Maps", "facebook": "Facebook", "zalo": "Zalo", "placeholder": "Placeholder" },
+    "rating": "{rating} out of 5 stars"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Quick answers"
+  },
+  "finalCta": {
+    "title": "Ship today",
+    "subtitle": "A quote in seconds. Door pickup during business hours.",
+    "primary": "Get a quote",
+    "secondary": "Call {phone}"
+  },
+  "footer": {
+    "about": "Pega Express is a courier and international shipping company in Ho Chi Minh City, with dedicated routes to the USA, Canada, Australia, Japan, Korea, Taiwan, China, Malaysia, Singapore and domestic express between 5 cities.",
+    "operating": "Office & drop-off counter",
+    "registered": "Registered office",
+    "taxId": "Tax ID",
+    "hours": "Opening hours",
+    "contact": "Contact",
+    "services": "Services",
+    "company": "Company",
+    "policies": "Policies",
+    "cookieSettings": "Cookie settings",
+    "rights": "© {year} {legalName}. All rights reserved.",
+    "notAffiliated": "Not affiliated with Pegasystems or PEGA e-bikes.",
+    "map": "View map"
+  },
+  "mobileBar": { "label": "Quick contact", "zalo": "Zalo", "call": "Call", "quote": "Quote" },
+  "lead": {
+    "title": "Get an exact quote",
+    "subtitle": "Leave your details and Pega Express will contact you during business hours.",
+    "name": "Full name",
+    "phone": "Phone / Zalo",
+    "email": "Email",
+    "service": "Service",
+    "serviceOptions": {
+      "international": "International shipping",
+      "domestic": "Domestic express",
+      "packing": "Packing / pickup",
+      "other": "Other"
+    },
+    "destination": "Destination",
+    "weight": "Estimated weight (kg)",
+    "dimensions": "Dimensions (L×W×H cm)",
+    "goodsType": "Goods type",
+    "note": "Notes",
+    "notePlaceholder": "Describe the goods, preferred ship date…",
+    "consent": "I agree that Pega Express may process my personal data to quote and contact me, under the",
+    "consentLink": "Privacy policy",
+    "submit": "Send request",
+    "submitting": "Sending…",
+    "errors": {
+      "name_short": "Please enter your name (at least 2 characters).",
+      "phone_invalid": "Please enter a valid Vietnamese phone number (e.g. 0773 10 89 89).",
+      "email_invalid": "Please enter a valid email.",
+      "consent_required": "Please agree so we can contact you.",
+      "captcha_required": "Please complete the anti-spam check.",
+      "generic": "We couldn't send your request. Please try again or call/Zalo us.",
+      "offline": "You're offline. Check your connection and retry, or call/Zalo us.",
+      "rate_limited": "Too many attempts. Please wait a few minutes or call/Zalo us."
+    },
+    "captchaLabel": "Anti-spam check"
+  },
+  "thanks": {
+    "title": "We've received your request",
+    "body": "Pega Express will contact you during business hours (8:00–17:30). In a hurry? Chat on Zalo for a faster reply.",
+    "zalo": "Chat on Zalo now",
+    "home": "Back to home"
+  },
+  "consent": {
+    "title": "Cookies",
+    "body": "We'd like to use analytics cookies (Google Analytics, Meta Pixel) to improve the site. You can decline.",
+    "accept": "Accept",
+    "reject": "Decline",
+    "policy": "Cookie policy"
+  },
+  "pages": {
+    "home": {
+      "title": "Pega Express — International & express shipping from Ho Chi Minh City",
+      "description": "Ship to the USA, Australia, Japan, Korea, Canada, Taiwan, China, Malaysia and Singapore from Ho Chi Minh City. Transparent per-kg quotes, door pickup, warehouse at Tan Son Nhat airport."
+    },
+    "destinations": {
+      "title": "International shipping routes",
+      "h1": "International routes from Ho Chi Minh City",
+      "description": "9 international shipping routes from Ho Chi Minh City: price per kg, transit time and customs notes for each country."
+    },
+    "destination": {
+      "title": "Ship to {country} from Ho Chi Minh City — from {price}/kg",
+      "h1": "Ship to {country} from Ho Chi Minh City",
+      "description": "Shipping to {country} takes {min}–{max} days, from {price}/kg. Door pickup, standard packing, shipment tracking.",
+      "quickAnswer": "Quick answer",
+      "priceTable": "Price by weight tier",
+      "weightTier": "Weight tier",
+      "upTo": "Up to {kg} kg",
+      "perKg": "Rate/kg",
+      "cities": "Transit time by city",
+      "city": "City",
+      "transit": "Business days",
+      "allowed": "Usually accepted",
+      "restricted": "Not accepted / ask first",
+      "notes": "Customs & quarantine notes",
+      "faq": "Questions about shipping to {country}",
+      "quoteFor": "Quote for {country}",
+      "others": "Other routes"
+    },
+    "services": {
+      "title": "Pega Express shipping services",
+      "h1": "Services",
+      "description": "Dedicated international shipping, domestic express delivery, standard packing and door pickup in Ho Chi Minh City."
+    },
+    "pricing": {
+      "title": "International shipping rates per kg",
+      "h1": "International shipping rates",
+      "description": "Indicative international shipping rates from Ho Chi Minh City by country and weight tier, with goods surcharges.",
+      "intro": "Rate per kg by chargeable-weight tier. Chargeable weight = max(actual, L×W×H/5000), rounded up to the next 0.5 kg.",
+      "surcharges": "Surcharge by goods type (per kg)"
+    },
+    "quote": {
+      "title": "International shipping quote in 30 seconds",
+      "h1": "Instant quote",
+      "description": "Enter destination, weight and size to see the estimated shipping price, volumetric weight and transit time."
+    },
+    "tracking": {
+      "title": "Track DHL, FedEx, UPS shipments",
+      "h1": "Track a shipment",
+      "description": "Enter your waybill number to track your shipment on the official DHL, FedEx or UPS page."
+    },
+    "prohibited": {
+      "title": "Prohibited & restricted items",
+      "h1": "Prohibited items",
+      "description": "Items we don't accept and items accepted with conditions when shipping internationally from Ho Chi Minh City.",
+      "intro": "Rules vary by country. Message Pega Express on Zalo before packing if you're unsure."
+    },
+    "volumetric": {
+      "title": "Volumetric weight calculator",
+      "h1": "Volumetric weight calculator",
+      "description": "Calculate volumetric weight (L×W×H/5000) and chargeable weight for international shipments.",
+      "explain": "Airlines charge by the greater of actual weight and volumetric weight. A large but light box is charged by volume.",
+      "actual": "Actual weight (kg)",
+      "result": "Chargeable weight: {kg} kg",
+      "resultVol": "Volumetric weight: {kg} kg"
+    },
+    "process": {
+      "title": "How international shipping works",
+      "h1": "How it works",
+      "description": "4 steps to ship internationally with Pega Express: quote, pickup & packing, flight & customs, delivery."
+    },
+    "about": {
+      "title": "About Pega Express — Courier company in Ho Chi Minh City",
+      "h1": "About Pega Express",
+      "description": "Company details, addresses and mission of Pega Express — an international shipping company in Ho Chi Minh City.",
+      "lead": "Pega Express (PEGA EXPRESS COMPANY LIMITED) is a courier and international shipping company in Ho Chi Minh City, operating since 25 September 2026. We are not affiliated with Pegasystems software or the PEGA e-bike brand.",
+      "facts": "Company facts",
+      "legalName": "Legal name",
+      "intlName": "International name",
+      "taxId": "Tax ID",
+      "founded": "Operating since",
+      "representative": "Legal representative",
+      "operating": "Operating address",
+      "registered": "Registered office",
+      "phone": "Hotline / Zalo",
+      "email": "Email",
+      "mission": "Mission",
+      "missionText": "Connecting goods – Shortening distances – Adding value.",
+      "vision": "Vision",
+      "visionText": "To become a trusted, dynamic, internationally connected logistics brand.",
+      "story": "Brand story",
+      "storyText": "Pegasus — the winged horse — stands for the drive to overcome distance and time. The orange arc in our logo is the flight path that carries your parcels around the world.",
+      "values": "Core values"
+    },
+    "contact": {
+      "title": "Contact Pega Express",
+      "h1": "Contact",
+      "description": "Hotline/Zalo +84 773 108 989, office at 431 Tan Son near Tan Son Nhat airport, open 8:00–17:30.",
+      "visit": "Drop off in person",
+      "form": "Send a request"
+    },
+    "policy": { "title": "{title}", "draft": "Draft — content awaiting confirmation by Pega Express." },
+    "thanks": { "title": "Thank you", "description": "Pega Express has received your quote request." },
+    "notFound": {
+      "title": "Page not found",
+      "h1": "404 — Off route",
+      "body": "The page you're looking for doesn't exist or has moved. Try one of these instead.",
+      "home": "Back to home"
+    },
+    "error": {
+      "title": "Something went wrong",
+      "body": "We're having trouble. Please try again or call/Zalo us."
+    }
+  }
+}

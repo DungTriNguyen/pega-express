@@ -1,0 +1,392 @@
+{
+  "common": {
+    "brandTagline": "Gửi hàng quốc tế & hỏa tốc",
+    "skipToContent": "Bỏ qua đến nội dung chính",
+    "callNow": "Gọi ngay",
+    "chatZalo": "Chat Zalo",
+    "chatMessenger": "Messenger",
+    "getQuote": "Báo giá ngay",
+    "seePrices": "Xem giá ngay",
+    "learnMore": "Xem chi tiết",
+    "days": "{min}–{max} ngày",
+    "daysShort": "ngày",
+    "from": "từ",
+    "perKg": "/kg",
+    "demoPrice": "Giá tham khảo",
+    "demoBadge": "Dữ liệu demo — chưa phải giá chính thức",
+    "updatedAt": "Cập nhật {date}",
+    "breadcrumbHome": "Trang chủ",
+    "openInNewTab": "(mở tab mới)",
+    "loading": "Đang tải…",
+    "retry": "Thử lại",
+    "required": "bắt buộc",
+    "optional": "không bắt buộc"
+  },
+  "nav": {
+    "services": "Dịch vụ",
+    "destinations": "Tuyến",
+    "pricing": "Bảng giá",
+    "tracking": "Tra cứu",
+    "contact": "Liên hệ",
+    "about": "Về chúng tôi",
+    "process": "Quy trình",
+    "prohibited": "Hàng cấm gửi",
+    "volumetric": "Tính trọng lượng quy đổi",
+    "quote": "Báo giá",
+    "menu": "Menu",
+    "closeMenu": "Đóng menu",
+    "openMenu": "Mở menu",
+    "main": "Điều hướng chính"
+  },
+  "theme": { "toggle": "Đổi chế độ sáng/tối", "light": "Sáng", "dark": "Tối" },
+  "locale": { "label": "Ngôn ngữ", "switchTo": "English", "short": "EN" },
+  "hero": {
+    "eyebrow": "SGN · Kho hàng khu sân bay Tân Sơn Nhất",
+    "title": "Gửi hàng quốc tế từ TP.HCM — nhanh, an toàn, giá rõ ràng",
+    "subtitle": "Chuyên tuyến Mỹ, Úc, Nhật, Hàn, Canada, Đài Loan... Lấy hàng tận nhà, đóng gói chuẩn, theo dõi hành trình từng chặng.",
+    "primaryCta": "Xem giá ngay",
+    "secondaryCta": "Chat Zalo",
+    "photoCaption": "Ảnh thật: hàng của Pega Express tại nhà ga hàng hóa sân bay"
+  },
+  "heroCard": {
+    "tabQuote": "Báo giá",
+    "tabTrack": "Tra cứu",
+    "label": "Nhãn gửi hàng",
+    "awb": "Số vận đơn"
+  },
+  "trust": {
+    "title": "Thông tin có thể kiểm chứng",
+    "taxId": "MST {taxId}",
+    "taxIdNote": "Công ty TNHH, hoạt động từ 2026",
+    "airport": "Kho khu sân bay TSN",
+    "airportNote": "431 Tân Sơn, gần nhà ga hàng hóa",
+    "routes": "tuyến quốc tế",
+    "routesNote": "Mỹ, Úc, Nhật, Hàn, Đài…",
+    "domestic": "thành phố hỏa tốc nội địa",
+    "domesticNote": "HN · HP · ĐN · HCM · CT",
+    "hours": "Giờ làm việc",
+    "pickup": "Lấy hàng tận nơi"
+  },
+  "routes": {
+    "eyebrow": "Bảng giờ bay",
+    "title": "9 tuyến quốc tế, giá công khai",
+    "subtitle": "Giá từ mỗi kg và thời gian giao dự kiến. Chọn một tuyến để xem chi tiết.",
+    "colDestination": "Điểm đến",
+    "colCode": "Mã",
+    "colPrice": "Giá từ",
+    "colTransit": "Thời gian",
+    "colAction": "",
+    "viewRoute": "Xem tuyến",
+    "allRoutes": "Tất cả tuyến"
+  },
+  "services": {
+    "eyebrow": "Dịch vụ",
+    "title": "Một đầu mối cho mọi lô hàng",
+    "subtitle": "Từ món quà gửi người thân tới hàng mẫu cho đối tác."
+  },
+  "process": {
+    "eyebrow": "Quy trình",
+    "title": "4 bước, từ báo giá tới tận tay người nhận",
+    "steps": {
+      "1": {
+        "title": "Báo giá",
+        "body": "Nhập nước đến và cân nặng để biết giá dự kiến trong vài giây, hoặc nhắn Zalo."
+      },
+      "2": {
+        "title": "Lấy hàng & đóng gói",
+        "body": "Nhân viên lấy hàng tận nơi, cân đo minh bạch và đóng gói chuẩn hàng không."
+      },
+      "3": {
+        "title": "Bay & thông quan",
+        "body": "Hàng được tập kết tại kho khu sân bay, bay theo chuyên tuyến và làm thủ tục hải quan."
+      },
+      "4": {
+        "title": "Giao tận tay",
+        "body": "Bạn nhận mã vận đơn để tra cứu hành trình cho tới khi người nhận ký nhận."
+      }
+    }
+  },
+  "capability": {
+    "eyebrow": "Năng lực thật",
+    "title": "Hàng thật. Kho thật. Không ảnh minh họa.",
+    "subtitle": "Toàn bộ ảnh dưới đây do Pega Express chụp tại khu hàng hóa sân bay Tân Sơn Nhất.",
+    "realBadge": "Ảnh thật",
+    "prev": "Ảnh trước",
+    "next": "Ảnh tiếp theo"
+  },
+  "why": {
+    "eyebrow": "Tại sao chọn Pega",
+    "title": "Năm giá trị, một lời hứa",
+    "items": {
+      "speed": { "title": "Tốc độ", "body": "Kho ngay khu sân bay giúp rút ngắn khâu tập kết hàng trước chuyến bay." },
+      "trust": {
+        "title": "Tin cậy",
+        "body": "Pháp nhân rõ ràng, MST công khai, giá tham khảo hiển thị trước khi gửi."
+      },
+      "connect": { "title": "Kết nối", "body": "9 tuyến quốc tế và 5 thành phố hỏa tốc nội địa trong một đầu mối." },
+      "breakthrough": {
+        "title": "Bứt phá",
+        "body": "Báo giá tức thì, tra cứu một chạm — không phải chờ gọi lại mới biết giá."
+      },
+      "together": {
+        "title": "Đồng hành",
+        "body": "Tư vấn hàng được/không được gửi theo từng nước trước khi bạn đóng thùng."
+      }
+    }
+  },
+  "quickTools": {
+    "eyebrow": "Công cụ nhanh",
+    "title": "Tính giá hoặc tra cứu ngay tại đây"
+  },
+  "quote": {
+    "destination": "Nước đến",
+    "chooseDestination": "Chọn nước đến",
+    "goodsType": "Loại hàng",
+    "goods": {
+      "general": "Hàng thông thường",
+      "food": "Thực phẩm khô",
+      "cosmetics": "Mỹ phẩm",
+      "medicine": "Thuốc / TPCN",
+      "liquid": "Chất lỏng"
+    },
+    "weight": "Cân nặng (kg)",
+    "dimensions": "Kích thước thùng (cm)",
+    "dimensionsHint": "Không bắt buộc — dùng để tính khối lượng quy đổi",
+    "length": "Dài",
+    "width": "Rộng",
+    "height": "Cao",
+    "calculate": "Tính giá",
+    "resultTitle": "Giá dự kiến",
+    "chargeable": "Khối lượng tính cước",
+    "volumetric": "Khối lượng quy đổi",
+    "rate": "Đơn giá",
+    "surcharge": "Phụ phí loại hàng",
+    "transit": "Thời gian giao",
+    "disclaimer": "Giá tham khảo, chưa gồm thuế nước đến. Giá chính thức xác nhận sau khi cân đo thực tế.",
+    "getExact": "Nhận báo giá chính xác",
+    "errors": {
+      "unknown_destination": "Vui lòng chọn nước đến.",
+      "invalid_weight": "Nhập cân nặng lớn hơn 0.",
+      "over_max_weight": "Lô hàng trên {max} kg — vui lòng liên hệ để được báo giá riêng."
+    },
+    "empty": "Nhập nước đến và cân nặng để xem giá dự kiến."
+  },
+  "tracking": {
+    "title": "Tra cứu vận đơn",
+    "subtitle": "Nhập mã vận đơn Pega Express gửi cho bạn. Hệ thống nhận diện hãng và mở trang tra cứu chính thức.",
+    "label": "Mã vận đơn",
+    "placeholder": "VD: 1234567890",
+    "submit": "Tra cứu",
+    "detected": "Nhận diện: {carrier}",
+    "chooseCarrier": "Mã này có thể thuộc nhiều hãng — chọn hãng:",
+    "notRecognized": "Chưa nhận diện được hãng từ mã này.",
+    "openOfficial": "Mở trang tra cứu {carrier}",
+    "askZalo": "Gửi mã qua Zalo để được tra giúp",
+    "errorEmpty": "Vui lòng nhập mã vận đơn.",
+    "errorShort": "Mã vận đơn quá ngắn.",
+    "timelineTitle": "Hành trình tiêu chuẩn",
+    "timeline": {
+      "1": "Đã nhận hàng tại TP.HCM",
+      "2": "Đã đóng gói, kiểm hàng",
+      "3": "Đã bay khỏi SGN",
+      "4": "Thông quan tại nước đến",
+      "5": "Đang giao / đã giao"
+    },
+    "timelineNote": "Trạng thái chi tiết hiển thị trên trang của hãng vận chuyển. Tra cứu trực tiếp trên website Pega Express sẽ có khi kết nối hệ thống."
+  },
+  "testimonials": {
+    "eyebrow": "Cảm nhận khách hàng",
+    "title": "Khách hàng nói gì",
+    "placeholderNotice": "Khung giữ chỗ — đánh giá thật từ Google Maps và Zalo sẽ được thêm trước khi ra mắt. Không hiển thị ở production.",
+    "source": { "google": "Google Maps", "facebook": "Facebook", "zalo": "Zalo", "placeholder": "Giữ chỗ" },
+    "rating": "{rating} trên 5 sao"
+  },
+  "faq": {
+    "eyebrow": "Câu hỏi thường gặp",
+    "title": "Giải đáp nhanh"
+  },
+  "finalCta": {
+    "title": "Gửi hàng ngay hôm nay",
+    "subtitle": "Báo giá trong vài giây. Lấy hàng tận nhà trong giờ làm việc.",
+    "primary": "Báo giá ngay",
+    "secondary": "Gọi {phone}"
+  },
+  "footer": {
+    "about": "Pega Express là công ty chuyển phát và gửi hàng quốc tế tại TP.HCM, chuyên tuyến Mỹ, Canada, Úc, Nhật, Hàn, Đài Loan, Trung Quốc, Malaysia, Singapore và hỏa tốc nội địa 5 thành phố.",
+    "operating": "Văn phòng & quầy nhận hàng",
+    "registered": "Trụ sở đăng ký",
+    "taxId": "MST",
+    "hours": "Giờ làm việc",
+    "contact": "Liên hệ",
+    "services": "Dịch vụ",
+    "company": "Công ty",
+    "policies": "Chính sách",
+    "cookieSettings": "Cài đặt cookie",
+    "rights": "© {year} {legalName}. Bảo lưu mọi quyền.",
+    "notAffiliated": "Không liên quan tới Pegasystems hay xe điện PEGA.",
+    "map": "Xem bản đồ"
+  },
+  "mobileBar": { "label": "Liên hệ nhanh", "zalo": "Zalo", "call": "Gọi", "quote": "Báo giá" },
+  "lead": {
+    "title": "Nhận báo giá chính xác",
+    "subtitle": "Để lại thông tin, Pega Express liên hệ lại trong giờ làm việc.",
+    "name": "Họ tên",
+    "phone": "Số điện thoại / Zalo",
+    "email": "Email",
+    "service": "Dịch vụ",
+    "serviceOptions": {
+      "international": "Gửi hàng quốc tế",
+      "domestic": "Hỏa tốc nội địa",
+      "packing": "Đóng gói / lấy hàng",
+      "other": "Khác"
+    },
+    "destination": "Nước đến",
+    "weight": "Cân nặng ước tính (kg)",
+    "dimensions": "Kích thước (D×R×C cm)",
+    "goodsType": "Loại hàng",
+    "note": "Ghi chú",
+    "notePlaceholder": "Mô tả hàng hóa, thời gian muốn gửi…",
+    "consent": "Tôi đồng ý để Pega Express xử lý dữ liệu cá nhân của tôi nhằm báo giá và liên hệ tư vấn, theo",
+    "consentLink": "Chính sách bảo mật",
+    "submit": "Gửi yêu cầu",
+    "submitting": "Đang gửi…",
+    "errors": {
+      "name_short": "Vui lòng nhập họ tên (ít nhất 2 ký tự).",
+      "phone_invalid": "Số điện thoại Việt Nam chưa đúng (VD: 0773 10 89 89).",
+      "email_invalid": "Email chưa đúng định dạng.",
+      "consent_required": "Bạn cần đồng ý để chúng tôi liên hệ.",
+      "captcha_required": "Vui lòng hoàn tất xác minh chống spam.",
+      "generic": "Chưa gửi được. Vui lòng thử lại hoặc gọi/Zalo cho chúng tôi.",
+      "offline": "Mất kết nối mạng. Kiểm tra mạng rồi thử lại, hoặc gọi/Zalo cho chúng tôi.",
+      "rate_limited": "Bạn gửi quá nhiều lần. Vui lòng thử lại sau ít phút hoặc gọi/Zalo."
+    },
+    "captchaLabel": "Xác minh chống spam"
+  },
+  "thanks": {
+    "title": "Đã nhận yêu cầu của bạn",
+    "body": "Pega Express sẽ liên hệ lại trong giờ làm việc (8:00–17:30). Cần gấp? Chat Zalo ngay để được phản hồi nhanh hơn.",
+    "zalo": "Chat Zalo OA ngay",
+    "home": "Về trang chủ"
+  },
+  "consent": {
+    "title": "Cookie",
+    "body": "Chúng tôi muốn dùng cookie đo lường (Google Analytics, Meta Pixel) để cải thiện website. Bạn có thể từ chối.",
+    "accept": "Đồng ý",
+    "reject": "Từ chối",
+    "policy": "Chính sách cookie"
+  },
+  "pages": {
+    "home": {
+      "title": "Pega Express — Gửi hàng quốc tế & hỏa tốc từ TP.HCM",
+      "description": "Gửi hàng đi Mỹ, Úc, Nhật, Hàn, Canada, Đài Loan, Trung Quốc, Malaysia, Singapore từ TP.HCM. Báo giá minh bạch theo kg, lấy hàng tận nhà, kho khu sân bay Tân Sơn Nhất."
+    },
+    "destinations": {
+      "title": "Các tuyến gửi hàng quốc tế",
+      "h1": "Tuyến quốc tế từ TP.HCM",
+      "description": "9 tuyến gửi hàng quốc tế từ TP.HCM: giá từ mỗi kg, thời gian giao và lưu ý hải quan từng nước."
+    },
+    "destination": {
+      "title": "Gửi hàng đi {country} từ TP.HCM — giá từ {price}/kg",
+      "h1": "Gửi hàng đi {country} từ TP.HCM",
+      "description": "Gửi hàng đi {country} mất {min}–{max} ngày, giá từ {price}/kg. Lấy hàng tận nhà, đóng gói chuẩn, tra cứu hành trình.",
+      "quickAnswer": "Trả lời nhanh",
+      "priceTable": "Bảng giá theo mốc cân",
+      "weightTier": "Mốc cân",
+      "upTo": "Đến {kg} kg",
+      "perKg": "Đơn giá/kg",
+      "cities": "Thời gian giao theo thành phố",
+      "city": "Thành phố",
+      "transit": "Ngày làm việc",
+      "allowed": "Thường gửi được",
+      "restricted": "Không gửi / cần tư vấn",
+      "notes": "Lưu ý hải quan & kiểm dịch",
+      "faq": "Câu hỏi về tuyến {country}",
+      "quoteFor": "Báo giá gửi đi {country}",
+      "others": "Tuyến khác"
+    },
+    "services": {
+      "title": "Dịch vụ gửi hàng của Pega Express",
+      "h1": "Dịch vụ",
+      "description": "Gửi hàng quốc tế chuyên tuyến, chuyển phát hỏa tốc nội địa, đóng gói chuẩn và lấy hàng tận nhà tại TP.HCM."
+    },
+    "pricing": {
+      "title": "Bảng giá gửi hàng quốc tế theo kg",
+      "h1": "Bảng giá gửi hàng quốc tế",
+      "description": "Bảng giá tham khảo gửi hàng quốc tế từ TP.HCM theo từng nước và mốc cân, kèm phụ phí loại hàng.",
+      "intro": "Đơn giá mỗi kg theo mốc cân tính cước. Khối lượng tính cước = max(cân thực, D×R×C/5000), làm tròn lên mỗi 0,5 kg.",
+      "surcharges": "Phụ phí theo loại hàng (mỗi kg)"
+    },
+    "quote": {
+      "title": "Báo giá gửi hàng quốc tế trong 30 giây",
+      "h1": "Báo giá nhanh",
+      "description": "Nhập nước đến, cân nặng và kích thước để biết giá gửi hàng dự kiến, khối lượng quy đổi và thời gian giao."
+    },
+    "tracking": {
+      "title": "Tra cứu vận đơn DHL, FedEx, UPS",
+      "h1": "Tra cứu vận đơn",
+      "description": "Nhập mã vận đơn để tra cứu hành trình lô hàng trên trang chính thức của DHL, FedEx hoặc UPS."
+    },
+    "prohibited": {
+      "title": "Hàng cấm gửi & hàng gửi có điều kiện",
+      "h1": "Hàng cấm gửi",
+      "description": "Danh sách hàng không nhận gửi và hàng gửi có điều kiện khi gửi hàng quốc tế từ TP.HCM.",
+      "intro": "Quy định có thể khác theo từng nước. Nhắn Zalo cho Pega Express trước khi đóng thùng nếu bạn chưa chắc."
+    },
+    "volumetric": {
+      "title": "Công cụ tính trọng lượng quy đổi",
+      "h1": "Tính khối lượng quy đổi",
+      "description": "Tính khối lượng quy đổi (D×R×C/5000) và khối lượng tính cước cho hàng gửi quốc tế.",
+      "explain": "Hãng hàng không tính cước theo số lớn hơn giữa cân nặng thực và khối lượng quy đổi. Thùng to nhưng nhẹ sẽ bị tính theo thể tích.",
+      "actual": "Cân nặng thực (kg)",
+      "result": "Khối lượng tính cước: {kg} kg",
+      "resultVol": "Khối lượng quy đổi: {kg} kg"
+    },
+    "process": {
+      "title": "Quy trình gửi hàng quốc tế",
+      "h1": "Quy trình gửi hàng",
+      "description": "4 bước gửi hàng quốc tế cùng Pega Express: báo giá, lấy hàng & đóng gói, bay & thông quan, giao tận tay."
+    },
+    "about": {
+      "title": "Về Pega Express — Công ty chuyển phát tại TP.HCM",
+      "h1": "Về Pega Express",
+      "description": "Thông tin pháp nhân, địa chỉ, giấy tờ và sứ mệnh của Pega Express — công ty gửi hàng quốc tế tại TP.HCM.",
+      "lead": "Pega Express (CÔNG TY TNHH PEGA EXPRESS) là công ty chuyển phát và gửi hàng quốc tế tại TP.HCM, hoạt động từ ngày 25/09/2026. Chúng tôi không liên quan tới phần mềm Pegasystems hay thương hiệu xe điện PEGA.",
+      "facts": "Thông tin doanh nghiệp",
+      "legalName": "Tên pháp nhân",
+      "intlName": "Tên quốc tế",
+      "taxId": "Mã số thuế",
+      "founded": "Ngày hoạt động",
+      "representative": "Người đại diện",
+      "operating": "Địa chỉ vận hành",
+      "registered": "Trụ sở đăng ký",
+      "phone": "Hotline / Zalo",
+      "email": "Email",
+      "mission": "Sứ mệnh",
+      "missionText": "Kết nối hàng hóa – Rút ngắn khoảng cách – Gia tăng giá trị.",
+      "vision": "Tầm nhìn",
+      "visionText": "Trở thành thương hiệu logistics uy tín, năng động, kết nối quốc tế.",
+      "story": "Câu chuyện thương hiệu",
+      "storyText": "Pegasus — thiên mã có cánh — tượng trưng cho khát vọng vượt giới hạn khoảng cách và thời gian. Vòng cung cam trên logo là đường bay đưa hàng của bạn đi khắp thế giới.",
+      "values": "Giá trị cốt lõi"
+    },
+    "contact": {
+      "title": "Liên hệ Pega Express",
+      "h1": "Liên hệ",
+      "description": "Hotline/Zalo 0773 10 89 89, văn phòng 431 Tân Sơn gần sân bay Tân Sơn Nhất, mở cửa 8:00–17:30.",
+      "visit": "Đến gửi hàng trực tiếp",
+      "form": "Gửi yêu cầu"
+    },
+    "policy": { "title": "{title}", "draft": "Bản nháp — nội dung đang chờ Pega Express xác nhận." },
+    "thanks": { "title": "Cảm ơn bạn", "description": "Pega Express đã nhận yêu cầu báo giá của bạn." },
+    "notFound": {
+      "title": "Không tìm thấy trang",
+      "h1": "404 — Lạc tuyến rồi",
+      "body": "Trang bạn tìm không tồn tại hoặc đã được chuyển. Thử các trang dưới đây nhé.",
+      "home": "Về trang chủ"
+    },
+    "error": {
+      "title": "Có lỗi xảy ra",
+      "body": "Hệ thống đang gặp sự cố. Vui lòng thử lại hoặc gọi/Zalo cho chúng tôi."
+    }
+  }
+}

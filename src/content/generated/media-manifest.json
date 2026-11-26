@@ -1,0 +1,64 @@
+{
+  "data": {
+    "kho-san-bay-toan-canh": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        768,
+        1280
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAwAA4BaJYgCdH8AFd4dvS0UIAD+0EX6YTHutpKdgksfhJCtcAe6VvJEGAbmqVldpB/A0BV7fudzxbX6eDZbbkwIu4pCL6949AAA"
+    },
+    "kho-nhan-vien-kiem-hang": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        768,
+        1280
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAQCdASoQAAwAA4BaJZQAAld0XvgAAP7jf7v4srUq26iSkIGUc3d4C5elOlK1cbJKqu9Eob4XWr3bTL2tOem2iXsENGzhKEiFyR+OdOGsQtgpgAA="
+    },
+    "kho-pallet-hang-xuat": {
+      "width": 1284,
+      "height": 963,
+      "widths": [
+        480,
+        768,
+        1284
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAwAA4BaJZACdAEfnpLFSMuAAP7Au2yPkVtv17gZijrUrD+JV6tb0/Wte5PYusUfjYoYOs/m/pY6+iXzA6KuV2bC8X1holidhXANIKX4HplqDT8MeMKYZ6t6gAAA"
+    },
+    "kho-pallet-dong-chuan": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        768,
+        1280
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAQCdASoQAAwAA4BaJYgCdAYv+lJAAADOEHB8NVDry/O4QdVcYgOHxja4Rp1qTWxg+OWK1JsT7rThm2JLzMs54NRoNOxzuOk02UW0Bh9TZysS9MhQgRPvpwAAAA=="
+    },
+    "kho-hang-cho-bay": {
+      "width": 1276,
+      "height": 956,
+      "widths": [
+        480,
+        768,
+        1276
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAwAA4BaJZgCdAEVzpmoTlQAAPln43DkW0pGBYDHSuwiUYii1wWHFZWCyKX6dov6gyuD0nbz30VzzuiqUf50WnsRMmbcz8tcagSfw3n8jO9JD4gAAA=="
+    },
+    "kho-cua-xuat-hang": {
+      "width": 1276,
+      "height": 956,
+      "widths": [
+        480,
+        768,
+        1276
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAwAA4BaJQBdgCGumrZBqkQA/oQKms1nPlYi8JXbm+D6Z6nmwfKFn74ApYFDM3FmNL81kGwhJFHetMBG4wJ19Uz/+6aTNzboAAAA"
+    }
+  }
+}

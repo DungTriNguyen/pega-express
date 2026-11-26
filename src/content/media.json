@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "id": "kho-san-bay-toan-canh",
+      "file": "kho-san-bay-toan-canh.jpg",
+      "real": true,
+      "alt": {
+        "vi": "Các pallet hàng của Pega Express đã đóng gói, xếp chờ bay tại nhà ga hàng hóa sân bay Tân Sơn Nhất",
+        "en": "Pega Express pallets packed and staged for departure at the Tan Son Nhat airport cargo terminal"
+      }
+    },
+    {
+      "id": "kho-nhan-vien-kiem-hang",
+      "file": "kho-nhan-vien-kiem-hang.jpg",
+      "real": true,
+      "alt": {
+        "vi": "Nhân viên kiểm đếm các kiện hàng trên pallet tại kho hàng hóa sân bay",
+        "en": "A staff member checking parcels on pallets in the airport cargo warehouse"
+      }
+    },
+    {
+      "id": "kho-pallet-hang-xuat",
+      "file": "kho-pallet-hang-xuat.jpg",
+      "real": true,
+      "alt": {
+        "vi": "Thùng hàng quấn băng keo và màng xốp, xếp trên pallet chuẩn bị xuất",
+        "en": "Taped and bubble-wrapped cartons on pallets ready for export"
+      }
+    },
+    {
+      "id": "kho-pallet-dong-chuan",
+      "file": "kho-pallet-dong-chuan.jpg",
+      "real": true,
+      "alt": {
+        "vi": "Năm pallet hàng đóng gói đồng đều trong khu hàng hóa sân bay",
+        "en": "Five evenly packed pallets in the airport cargo area"
+      }
+    },
+    {
+      "id": "kho-hang-cho-bay",
+      "file": "kho-hang-cho-bay.jpg",
+      "real": true,
+      "alt": {
+        "vi": "Dãy pallet hàng gửi quốc tế đang chờ bay",
+        "en": "A row of international shipments on pallets awaiting their flight"
+      }
+    },
+    {
+      "id": "kho-cua-xuat-hang",
+      "file": "kho-cua-xuat-hang.jpg",
+      "real": true,
+      "alt": {
+        "vi": "Pallet hàng tập kết trước các cửa xuất hàng đánh số tại nhà ga hàng hóa",
+        "en": "Pallets gathered in front of numbered loading gates at the cargo terminal"
+      }
+    }
+  ],
+  "meta": { "updatedAt": "2026-11-27", "version": 1 }
+}

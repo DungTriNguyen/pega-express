@@ -1,0 +1,138 @@
+{
+  "data": [
+    {
+      "id": "privacy",
+      "slug": { "vi": "bao-mat", "en": "privacy" },
+      "title": { "vi": "Chính sách bảo mật dữ liệu cá nhân", "en": "Personal data privacy policy" },
+      "demo": true,
+      "sections": [
+        {
+          "heading": { "vi": "Dữ liệu chúng tôi thu thập", "en": "Data we collect" },
+          "body": [
+            {
+              "vi": "Khi bạn gửi form báo giá hoặc liên hệ, Pega Express thu thập: họ tên, số điện thoại/Zalo, email (nếu có), thông tin lô hàng (nước đến, cân nặng, kích thước, loại hàng), ghi chú, ngôn ngữ, trang nguồn và mã chiến dịch (UTM).",
+              "en": "When you submit a quote or contact form, Pega Express collects: name, phone/Zalo, email (optional), shipment details (destination, weight, dimensions, goods type), notes, language, source page and campaign code (UTM)."
+            }
+          ]
+        },
+        {
+          "heading": { "vi": "Mục đích và căn cứ xử lý", "en": "Purpose and legal basis" },
+          "body": [
+            {
+              "vi": "Dữ liệu chỉ dùng để báo giá, liên hệ tư vấn và thực hiện dịch vụ bạn yêu cầu, trên cơ sở sự đồng ý của bạn theo Luật Bảo vệ dữ liệu cá nhân (hiệu lực 01/01/2026) và Nghị định 13/2023/NĐ-CP.",
+              "en": "Data is used only to quote, contact you and deliver the service you request, based on your consent under Vietnam's Personal Data Protection Law (effective 1 January 2026) and Decree 13/2023/ND-CP."
+            }
+          ]
+        },
+        {
+          "heading": { "vi": "Lưu trữ và chia sẻ", "en": "Storage and sharing" },
+          "body": [
+            {
+              "vi": "Dữ liệu được lưu trên Google Sheets và hộp thư của công ty, chỉ nhân viên được phân quyền truy cập. Chúng tôi không bán dữ liệu; chỉ chia sẻ với hãng vận chuyển và cơ quan hải quan ở mức cần thiết để giao hàng.",
+              "en": "Data is stored in company Google Sheets and mailbox, accessible only to authorised staff. We never sell data; we share it with carriers and customs only as needed to deliver your shipment."
+            }
+          ]
+        },
+        {
+          "heading": { "vi": "Quyền của bạn", "en": "Your rights" },
+          "body": [
+            {
+              "vi": "Bạn có quyền yêu cầu xem, sửa, xóa dữ liệu hoặc rút lại sự đồng ý bằng cách email pegaexpressvn@gmail.com hoặc gọi 0773 10 89 89.",
+              "en": "You may request access, correction or deletion of your data, or withdraw consent, by emailing pegaexpressvn@gmail.com or calling 0773 10 89 89."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "slug": { "vi": "cookie", "en": "cookies" },
+      "title": { "vi": "Chính sách cookie", "en": "Cookie policy" },
+      "demo": true,
+      "sections": [
+        {
+          "heading": { "vi": "Cookie cần thiết", "en": "Essential cookies" },
+          "body": [
+            {
+              "vi": "Website lưu lựa chọn ngôn ngữ, chế độ sáng/tối và lựa chọn đồng ý cookie của bạn. Cloudflare Web Analytics không dùng cookie.",
+              "en": "The site stores your language, light/dark mode and cookie-consent choices. Cloudflare Web Analytics uses no cookies."
+            }
+          ]
+        },
+        {
+          "heading": { "vi": "Cookie đo lường và quảng cáo", "en": "Analytics and advertising cookies" },
+          "body": [
+            {
+              "vi": "Google Analytics 4 và Meta Pixel chỉ được bật khi bạn đồng ý trên banner cookie. Bạn có thể đổi lựa chọn bất cứ lúc nào bằng liên kết “Cài đặt cookie” ở chân trang.",
+              "en": "Google Analytics 4 and Meta Pixel load only after you accept on the cookie banner. You can change your choice anytime via “Cookie settings” in the footer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compensation",
+      "slug": { "vi": "boi-thuong", "en": "compensation" },
+      "title": { "vi": "Chính sách bồi thường", "en": "Compensation policy" },
+      "demo": true,
+      "sections": [
+        {
+          "heading": {
+            "vi": "Bản nháp — chờ Pega Express xác nhận",
+            "en": "Draft — awaiting confirmation by Pega Express"
+          },
+          "body": [
+            {
+              "vi": "Mức bồi thường cụ thể (theo kg, theo giá trị khai báo, bảo hiểm) sẽ được công bố khi Pega Express ban hành chính sách chính thức. Trang này bị chặn ở production cho tới khi có nội dung thật.",
+              "en": "Specific compensation levels (per kg, declared value, insurance) will be published once Pega Express issues its official policy. This page is blocked in production until real content is provided."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "complaints",
+      "slug": { "vi": "khieu-nai", "en": "complaints" },
+      "title": { "vi": "Quy trình khiếu nại", "en": "Complaints procedure" },
+      "demo": true,
+      "sections": [
+        {
+          "heading": { "vi": "Cách gửi khiếu nại", "en": "How to file a complaint" },
+          "body": [
+            {
+              "vi": "Gọi 0773 10 89 89, nhắn Zalo hoặc email pegaexpressvn@gmail.com kèm mã vận đơn, mô tả sự việc và hình ảnh (nếu có). Thời hạn tiếp nhận và xử lý sẽ được Pega Express xác nhận trong chính sách chính thức.",
+              "en": "Call 0773 10 89 89, message us on Zalo or email pegaexpressvn@gmail.com with your waybill number, a description and photos if available. Response times will be confirmed in Pega Express's official policy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "terms",
+      "slug": { "vi": "dieu-khoan", "en": "terms" },
+      "title": { "vi": "Điều khoản sử dụng", "en": "Terms of use" },
+      "demo": true,
+      "sections": [
+        {
+          "heading": { "vi": "Giá tham khảo", "en": "Indicative prices" },
+          "body": [
+            {
+              "vi": "Giá trên website và công cụ báo giá chỉ mang tính tham khảo. Giá chính thức được xác nhận sau khi Pega Express cân đo thực tế lô hàng.",
+              "en": "Prices on the website and quote tool are indicative only. The final price is confirmed after Pega Express weighs and measures your shipment."
+            }
+          ]
+        },
+        {
+          "heading": { "vi": "Trách nhiệm của người gửi", "en": "Sender responsibilities" },
+          "body": [
+            {
+              "vi": "Người gửi khai báo trung thực nội dung hàng hóa và không gửi hàng cấm theo quy định của Việt Nam và nước đến.",
+              "en": "Senders must declare contents truthfully and must not ship goods prohibited by Vietnam or the destination country."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": { "updatedAt": "2026-11-27", "version": 1 }
+}

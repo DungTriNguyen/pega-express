@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "id": "placeholder-1",
+      "author": "Khung giữ chỗ",
+      "destination": { "vi": "Úc", "en": "Australia" },
+      "rating": 5,
+      "text": {
+        "vi": "Khung giữ chỗ cho đánh giá thật của khách hàng (Google Maps / ảnh tin nhắn đã che thông tin). Không hiển thị ở production.",
+        "en": "Placeholder for a real customer review (Google Maps / redacted chat screenshot). Never shown in production."
+      },
+      "source": "placeholder",
+      "demo": true
+    },
+    {
+      "id": "placeholder-2",
+      "author": "Khung giữ chỗ",
+      "destination": { "vi": "Mỹ", "en": "United States" },
+      "rating": 5,
+      "text": {
+        "vi": "Khung giữ chỗ — thay bằng feedback thật đã được khách đồng ý trước khi lên production.",
+        "en": "Placeholder — replace with real, consented feedback before going to production."
+      },
+      "source": "placeholder",
+      "demo": true
+    },
+    {
+      "id": "placeholder-3",
+      "author": "Khung giữ chỗ",
+      "destination": { "vi": "Nhật Bản", "en": "Japan" },
+      "rating": 5,
+      "text": {
+        "vi": "Khung giữ chỗ — dữ liệu nhập ở Google Sheet tab Testimonials.",
+        "en": "Placeholder — data comes from the Testimonials tab in Google Sheets."
+      },
+      "source": "placeholder",
+      "demo": true
+    }
+  ],
+  "meta": { "updatedAt": "2026-11-27", "version": 1 }
+}

@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "id": "international",
+      "slug": { "vi": "gui-hang-quoc-te", "en": "international-shipping" },
+      "icon": "globe",
+      "name": { "vi": "Gửi hàng quốc tế chuyên tuyến", "en": "Dedicated international routes" },
+      "short": {
+        "vi": "Mỹ, Canada, Úc, Nhật, Hàn, Đài Loan, Trung Quốc, Malaysia, Singapore — bay từ TP.HCM.",
+        "en": "USA, Canada, Australia, Japan, Korea, Taiwan, China, Malaysia, Singapore — flown from Ho Chi Minh City."
+      },
+      "body": [
+        {
+          "vi": "Pega Express gom hàng tại kho khu vực sân bay Tân Sơn Nhất và gửi theo chuyên tuyến tới 9 quốc gia. Bạn biết trước giá dự kiến, khối lượng tính cước và thời gian giao trước khi gửi.",
+          "en": "Pega Express consolidates parcels near Tan Son Nhat airport and ships on dedicated routes to 9 countries. You see the estimated price, chargeable weight and delivery time before you ship."
+        },
+        {
+          "vi": "Phù hợp gửi quà, thực phẩm khô, quần áo, hàng mẫu cho người thân, khách hàng hoặc đối tác ở nước ngoài.",
+          "en": "Ideal for gifts, dry food, clothing and samples for family, customers or partners abroad."
+        }
+      ],
+      "points": [
+        {
+          "vi": "Báo giá theo kg, có khối lượng quy đổi rõ ràng",
+          "en": "Per-kg quotes with transparent volumetric weight"
+        },
+        { "vi": "Mã tra cứu hành trình cho từng kiện", "en": "A tracking number for every parcel" },
+        { "vi": "Tư vấn hàng được/không được gửi theo từng nước", "en": "Country-specific advice on what you can ship" }
+      ]
+    },
+    {
+      "id": "domestic",
+      "slug": { "vi": "chuyen-phat-hoa-toc-noi-dia", "en": "domestic-express" },
+      "icon": "zap",
+      "name": { "vi": "Chuyển phát hỏa tốc nội địa", "en": "Domestic express delivery" },
+      "short": {
+        "vi": "Hà Nội – Hải Phòng – Đà Nẵng – TP.HCM – Cần Thơ.",
+        "en": "Hanoi – Hai Phong – Da Nang – Ho Chi Minh City – Can Tho."
+      },
+      "body": [
+        {
+          "vi": "Dịch vụ hỏa tốc giữa 5 thành phố lớn cho chứng từ, hàng gấp và hàng giá trị. Khung giờ giao cụ thể cho từng cặp thành phố được xác nhận khi bạn đặt đơn.",
+          "en": "Express service between 5 major cities for documents, urgent and high-value goods. Delivery windows for each city pair are confirmed when you book."
+        }
+      ],
+      "points": [
+        {
+          "vi": "5 thành phố: Hà Nội, Hải Phòng, Đà Nẵng, TP.HCM, Cần Thơ",
+          "en": "5 cities: Hanoi, Hai Phong, Da Nang, HCMC, Can Tho"
+        },
+        { "vi": "Lấy hàng tận nơi trong giờ làm việc", "en": "Door pickup during business hours" },
+        { "vi": "Xác nhận khung giờ giao khi đặt đơn", "en": "Delivery window confirmed at booking" }
+      ]
+    },
+    {
+      "id": "packing",
+      "slug": { "vi": "dong-goi-lay-hang-tan-nha", "en": "packing-and-pickup" },
+      "icon": "package",
+      "name": { "vi": "Đóng gói chuẩn & lấy hàng tận nhà", "en": "Standard packing & door pickup" },
+      "short": {
+        "vi": "Thùng carton, quấn màng, chèn chống sốc theo chuẩn hàng không.",
+        "en": "Cartons, stretch wrap and cushioning to air-cargo standards."
+      },
+      "body": [
+        {
+          "vi": "Nhân viên Pega Express đến lấy hàng, cân đo và đóng gói lại nếu cần để hàng đi an toàn và không bị tính cước quy đổi quá cao.",
+          "en": "Pega Express staff pick up, weigh, measure and re-pack your goods when needed so they travel safely without excessive volumetric charges."
+        }
+      ],
+      "points": [
+        { "vi": "Cân đo minh bạch trước mặt khách", "en": "Transparent weighing in front of you" },
+        { "vi": "Đóng gói tối ưu thể tích để giảm cước", "en": "Volume-optimised packing to lower cost" },
+        {
+          "vi": "Quầy nhận hàng tại 431 Tân Sơn, gần sân bay",
+          "en": "Drop-off counter at 431 Tan Son, near the airport"
+        }
+      ]
+    }
+  ],
+  "meta": { "updatedAt": "2026-11-27", "version": 1 }
+}

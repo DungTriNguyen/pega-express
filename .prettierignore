@@ -1,0 +1,10 @@
+.next
+.open-next
+node_modules
+public
+src/content/generated
+package-lock.json
+.claude
+assets-src
+coverage
+playwright-report

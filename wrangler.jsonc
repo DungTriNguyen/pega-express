@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "pega-express-web",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-11-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": { "directory": ".open-next/assets", "binding": "ASSETS" },
+  "observability": { "enabled": true },
+  // Biến KHÔNG bí mật. Bí mật (TURNSTILE_SECRET_KEY, GOOGLE_SERVICE_ACCOUNT_KEY, RESEND_API_KEY…)
+  // đặt bằng: npx wrangler secret put <TÊN>   — xem docs/deployment.md
+  "vars": {
+    "DEPLOY_ENV": "preview",
+    "DATA_SOURCE": "json",
+    "LEAD_EMAIL_TO": "pegaexpressvn@gmail.com",
+  },
+}

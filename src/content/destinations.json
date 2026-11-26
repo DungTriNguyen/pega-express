@@ -1,0 +1,1011 @@
+{
+  "data": [
+    {
+      "id": "us",
+      "slug": {
+        "vi": "gui-hang-di-my",
+        "en": "ship-to-usa"
+      },
+      "name": {
+        "vi": "Mỹ",
+        "en": "United States"
+      },
+      "iata": "LAX",
+      "region": "americas",
+      "map": {
+        "x": 616,
+        "y": 156
+      },
+      "transitDays": {
+        "min": 5,
+        "max": 7
+      },
+      "summary": {
+        "vi": "Gửi hàng đi Mỹ từ TP.HCM mất khoảng 5–7 ngày làm việc. Pega Express lấy hàng tận nhà, đóng gói chuẩn hàng không và gửi mã tra cứu để bạn theo dõi hành trình.",
+        "en": "Shipping from Ho Chi Minh City to United States takes about 5–7 business days. Pega Express picks up at your door, packs to air-cargo standards and sends you a tracking number."
+      },
+      "cities": [
+        {
+          "name": {
+            "vi": "Los Angeles",
+            "en": "Los Angeles"
+          },
+          "days": "5–6"
+        },
+        {
+          "name": {
+            "vi": "New York",
+            "en": "New York"
+          },
+          "days": "6–7"
+        },
+        {
+          "name": {
+            "vi": "Houston",
+            "en": "Houston"
+          },
+          "days": "6–7"
+        }
+      ],
+      "allowed": [
+        {
+          "vi": "Quần áo, giày dép, phụ kiện",
+          "en": "Clothing, shoes and accessories"
+        },
+        {
+          "vi": "Quà tặng, đồ lưu niệm, sách vở",
+          "en": "Gifts, souvenirs and books"
+        },
+        {
+          "vi": "Thực phẩm khô đóng gói kín, có nhãn",
+          "en": "Sealed, labelled dry food"
+        },
+        {
+          "vi": "Hàng mẫu, tài liệu, chứng từ",
+          "en": "Samples and documents"
+        }
+      ],
+      "restricted": [
+        {
+          "vi": "Pin rời, sạc dự phòng, chất dễ cháy nổ",
+          "en": "Loose batteries, power banks, flammables"
+        },
+        {
+          "vi": "Thịt tươi, trứng, trái cây tươi",
+          "en": "Fresh meat, eggs and fresh fruit"
+        },
+        {
+          "vi": "Tiền mặt, vàng bạc, đá quý",
+          "en": "Cash, precious metals and gems"
+        },
+        {
+          "vi": "Thuốc kê đơn không có toa",
+          "en": "Prescription drugs without a prescription"
+        }
+      ],
+      "notes": {
+        "vi": "Hàng thực phẩm phải khai báo FDA; Mỹ kiểm tra kỹ thịt, trứng sữa và hạt giống.",
+        "en": "Food must be FDA-declared; the US closely inspects meat, dairy, eggs and seeds."
+      },
+      "faq": [
+        {
+          "id": "us-1",
+          "q": {
+            "vi": "Gửi hàng đi Mỹ mất bao lâu?",
+            "en": "How long does shipping to United States take?"
+          },
+          "a": {
+            "vi": "Thông thường 5–7 ngày làm việc kể từ khi hàng bay, tùy thành phố nhận và thời gian thông quan.",
+            "en": "Usually 5–7 business days after departure, depending on the destination city and customs clearance."
+          }
+        },
+        {
+          "id": "us-2",
+          "q": {
+            "vi": "Gửi thực phẩm đi Mỹ được không?",
+            "en": "Can I send food to United States?"
+          },
+          "a": {
+            "vi": "Được với thực phẩm khô đóng gói kín, có nhãn. Pega Express sẽ kiểm tra và tư vấn trước khi nhận hàng.",
+            "en": "Yes for sealed, labelled dry food. Pega Express checks and advises before accepting your parcel."
+          }
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "ca",
+      "slug": {
+        "vi": "gui-hang-di-canada",
+        "en": "ship-to-canada"
+      },
+      "name": {
+        "vi": "Canada",
+        "en": "Canada"
+      },
+      "iata": "YYZ",
+      "region": "americas",
+      "map": {
+        "x": 723,
+        "y": 129
+      },
+      "transitDays": {
+        "min": 6,
+        "max": 8
+      },
+      "summary": {
+        "vi": "Gửi hàng đi Canada từ TP.HCM mất khoảng 6–8 ngày làm việc. Pega Express lấy hàng tận nhà, đóng gói chuẩn hàng không và gửi mã tra cứu để bạn theo dõi hành trình.",
+        "en": "Shipping from Ho Chi Minh City to Canada takes about 6–8 business days. Pega Express picks up at your door, packs to air-cargo standards and sends you a tracking number."
+      },
+      "cities": [
+        {
+          "name": {
+            "vi": "Toronto",
+            "en": "Toronto"
+          },
+          "days": "6–7"
+        },
+        {
+          "name": {
+            "vi": "Vancouver",
+            "en": "Vancouver"
+          },
+          "days": "6–8"
+        },
+        {
+          "name": {
+            "vi": "Montreal",
+            "en": "Montreal"
+          },
+          "days": "7–8"
+        }
+      ],
+      "allowed": [
+        {
+          "vi": "Quần áo, giày dép, phụ kiện",
+          "en": "Clothing, shoes and accessories"
+        },
+        {
+          "vi": "Quà tặng, đồ lưu niệm, sách vở",
+          "en": "Gifts, souvenirs and books"
+        },
+        {
+          "vi": "Thực phẩm khô đóng gói kín, có nhãn",
+          "en": "Sealed, labelled dry food"
+        },
+        {
+          "vi": "Hàng mẫu, tài liệu, chứng từ",
+          "en": "Samples and documents"
+        }
+      ],
+      "restricted": [
+        {
+          "vi": "Pin rời, sạc dự phòng, chất dễ cháy nổ",
+          "en": "Loose batteries, power banks, flammables"
+        },
+        {
+          "vi": "Thịt tươi, trứng, trái cây tươi",
+          "en": "Fresh meat, eggs and fresh fruit"
+        },
+        {
+          "vi": "Tiền mặt, vàng bạc, đá quý",
+          "en": "Cash, precious metals and gems"
+        },
+        {
+          "vi": "Thuốc kê đơn không có toa",
+          "en": "Prescription drugs without a prescription"
+        }
+      ],
+      "notes": {
+        "vi": "Canada (CFIA) hạn chế thịt, sản phẩm từ sữa và thực vật tươi.",
+        "en": "Canada (CFIA) restricts meat, dairy and fresh plant products."
+      },
+      "faq": [
+        {
+          "id": "ca-1",
+          "q": {
+            "vi": "Gửi hàng đi Canada mất bao lâu?",
+            "en": "How long does shipping to Canada take?"
+          },
+          "a": {
+            "vi": "Thông thường 6–8 ngày làm việc kể từ khi hàng bay, tùy thành phố nhận và thời gian thông quan.",
+            "en": "Usually 6–8 business days after departure, depending on the destination city and customs clearance."
+          }
+        },
+        {
+          "id": "ca-2",
+          "q": {
+            "vi": "Gửi thực phẩm đi Canada được không?",
+            "en": "Can I send food to Canada?"
+          },
+          "a": {
+            "vi": "Được với thực phẩm khô đóng gói kín, có nhãn. Pega Express sẽ kiểm tra và tư vấn trước khi nhận hàng.",
+            "en": "Yes for sealed, labelled dry food. Pega Express checks and advises before accepting your parcel."
+          }
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "au",
+      "slug": {
+        "vi": "gui-hang-di-uc",
+        "en": "ship-to-australia"
+      },
+      "name": {
+        "vi": "Úc",
+        "en": "Australia"
+      },
+      "iata": "SYD",
+      "region": "oceania",
+      "map": {
+        "x": 364,
+        "y": 344
+      },
+      "transitDays": {
+        "min": 4,
+        "max": 6
+      },
+      "summary": {
+        "vi": "Gửi hàng đi Úc từ TP.HCM mất khoảng 4–6 ngày làm việc. Pega Express lấy hàng tận nhà, đóng gói chuẩn hàng không và gửi mã tra cứu để bạn theo dõi hành trình.",
+        "en": "Shipping from Ho Chi Minh City to Australia takes about 4–6 business days. Pega Express picks up at your door, packs to air-cargo standards and sends you a tracking number."
+      },
+      "cities": [
+        {
+          "name": {
+            "vi": "Sydney",
+            "en": "Sydney"
+          },
+          "days": "4–5"
+        },
+        {
+          "name": {
+            "vi": "Melbourne",
+            "en": "Melbourne"
+          },
+          "days": "4–6"
+        },
+        {
+          "name": {
+            "vi": "Brisbane",
+            "en": "Brisbane"
+          },
+          "days": "5–6"
+        }
+      ],
+      "allowed": [
+        {
+          "vi": "Quần áo, giày dép, phụ kiện",
+          "en": "Clothing, shoes and accessories"
+        },
+        {
+          "vi": "Quà tặng, đồ lưu niệm, sách vở",
+          "en": "Gifts, souvenirs and books"
+        },
+        {
+          "vi": "Thực phẩm khô đóng gói kín, có nhãn",
+          "en": "Sealed, labelled dry food"
+        },
+        {
+          "vi": "Hàng mẫu, tài liệu, chứng từ",
+          "en": "Samples and documents"
+        }
+      ],
+      "restricted": [
+        {
+          "vi": "Pin rời, sạc dự phòng, chất dễ cháy nổ",
+          "en": "Loose batteries, power banks, flammables"
+        },
+        {
+          "vi": "Thịt tươi, trứng, trái cây tươi",
+          "en": "Fresh meat, eggs and fresh fruit"
+        },
+        {
+          "vi": "Tiền mặt, vàng bạc, đá quý",
+          "en": "Cash, precious metals and gems"
+        },
+        {
+          "vi": "Thuốc kê đơn không có toa",
+          "en": "Prescription drugs without a prescription"
+        }
+      ],
+      "notes": {
+        "vi": "Úc kiểm dịch rất nghiêm: hạt, gỗ, thực phẩm chứa trứng/sữa/thịt cần khai báo đầy đủ.",
+        "en": "Australia has strict biosecurity: seeds, wood and food with egg/dairy/meat must be fully declared."
+      },
+      "faq": [
+        {
+          "id": "au-1",
+          "q": {
+            "vi": "Gửi hàng đi Úc mất bao lâu?",
+            "en": "How long does shipping to Australia take?"
+          },
+          "a": {
+            "vi": "Thông thường 4–6 ngày làm việc kể từ khi hàng bay, tùy thành phố nhận và thời gian thông quan.",
+            "en": "Usually 4–6 business days after departure, depending on the destination city and customs clearance."
+          }
+        },
+        {
+          "id": "au-2",
+          "q": {
+            "vi": "Gửi thực phẩm đi Úc được không?",
+            "en": "Can I send food to Australia?"
+          },
+          "a": {
+            "vi": "Được với thực phẩm khô đóng gói kín, có nhãn. Pega Express sẽ kiểm tra và tư vấn trước khi nhận hàng.",
+            "en": "Yes for sealed, labelled dry food. Pega Express checks and advises before accepting your parcel."
+          }
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "jp",
+      "slug": {
+        "vi": "gui-hang-di-nhat",
+        "en": "ship-to-japan"
+      },
+      "name": {
+        "vi": "Nhật Bản",
+        "en": "Japan"
+      },
+      "iata": "NRT",
+      "region": "asia",
+      "map": {
+        "x": 333,
+        "y": 151
+      },
+      "transitDays": {
+        "min": 3,
+        "max": 5
+      },
+      "summary": {
+        "vi": "Gửi hàng đi Nhật Bản từ TP.HCM mất khoảng 3–5 ngày làm việc. Pega Express lấy hàng tận nhà, đóng gói chuẩn hàng không và gửi mã tra cứu để bạn theo dõi hành trình.",
+        "en": "Shipping from Ho Chi Minh City to Japan takes about 3–5 business days. Pega Express picks up at your door, packs to air-cargo standards and sends you a tracking number."
+      },
+      "cities": [
+        {
+          "name": {
+            "vi": "Tokyo",
+            "en": "Tokyo"
+          },
+          "days": "3–4"
+        },
+        {
+          "name": {
+            "vi": "Osaka",
+            "en": "Osaka"
+          },
+          "days": "3–5"
+        },
+        {
+          "name": {
+            "vi": "Nagoya",
+            "en": "Nagoya"
+          },
+          "days": "4–5"
+        }
+      ],
+      "allowed": [
+        {
+          "vi": "Quần áo, giày dép, phụ kiện",
+          "en": "Clothing, shoes and accessories"
+        },
+        {
+          "vi": "Quà tặng, đồ lưu niệm, sách vở",
+          "en": "Gifts, souvenirs and books"
+        },
+        {
+          "vi": "Thực phẩm khô đóng gói kín, có nhãn",
+          "en": "Sealed, labelled dry food"
+        },
+        {
+          "vi": "Hàng mẫu, tài liệu, chứng từ",
+          "en": "Samples and documents"
+        }
+      ],
+      "restricted": [
+        {
+          "vi": "Pin rời, sạc dự phòng, chất dễ cháy nổ",
+          "en": "Loose batteries, power banks, flammables"
+        },
+        {
+          "vi": "Thịt tươi, trứng, trái cây tươi",
+          "en": "Fresh meat, eggs and fresh fruit"
+        },
+        {
+          "vi": "Tiền mặt, vàng bạc, đá quý",
+          "en": "Cash, precious metals and gems"
+        },
+        {
+          "vi": "Thuốc kê đơn không có toa",
+          "en": "Prescription drugs without a prescription"
+        }
+      ],
+      "notes": {
+        "vi": "Nhật giới hạn số lượng mỹ phẩm và thuốc cho mục đích cá nhân.",
+        "en": "Japan limits personal-use quantities of cosmetics and medicine."
+      },
+      "faq": [
+        {
+          "id": "jp-1",
+          "q": {
+            "vi": "Gửi hàng đi Nhật Bản mất bao lâu?",
+            "en": "How long does shipping to Japan take?"
+          },
+          "a": {
+            "vi": "Thông thường 3–5 ngày làm việc kể từ khi hàng bay, tùy thành phố nhận và thời gian thông quan.",
+            "en": "Usually 3–5 business days after departure, depending on the destination city and customs clearance."
+          }
+        },
+        {
+          "id": "jp-2",
+          "q": {
+            "vi": "Gửi thực phẩm đi Nhật Bản được không?",
+            "en": "Can I send food to Japan?"
+          },
+          "a": {
+            "vi": "Được với thực phẩm khô đóng gói kín, có nhãn. Pega Express sẽ kiểm tra và tư vấn trước khi nhận hàng.",
+            "en": "Yes for sealed, labelled dry food. Pega Express checks and advises before accepting your parcel."
+          }
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "kr",
+      "slug": {
+        "vi": "gui-hang-di-han-quoc",
+        "en": "ship-to-south-korea"
+      },
+      "name": {
+        "vi": "Hàn Quốc",
+        "en": "South Korea"
+      },
+      "iata": "ICN",
+      "region": "asia",
+      "map": {
+        "x": 297,
+        "y": 146
+      },
+      "transitDays": {
+        "min": 3,
+        "max": 5
+      },
+      "summary": {
+        "vi": "Gửi hàng đi Hàn Quốc từ TP.HCM mất khoảng 3–5 ngày làm việc. Pega Express lấy hàng tận nhà, đóng gói chuẩn hàng không và gửi mã tra cứu để bạn theo dõi hành trình.",
+        "en": "Shipping from Ho Chi Minh City to South Korea takes about 3–5 business days. Pega Express picks up at your door, packs to air-cargo standards and sends you a tracking number."
+      },
+      "cities": [
+        {
+          "name": {
+            "vi": "Seoul",
+            "en": "Seoul"
+          },
+          "days": "3–4"
+        },
+        {
+          "name": {
+            "vi": "Busan",
+            "en": "Busan"
+          },
+          "days": "4–5"
+        },
+        {
+          "name": {
+            "vi": "Incheon",
+            "en": "Incheon"
+          },
+          "days": "3–4"
+        }
+      ],
+      "allowed": [
+        {
+          "vi": "Quần áo, giày dép, phụ kiện",
+          "en": "Clothing, shoes and accessories"
+        },
+        {
+          "vi": "Quà tặng, đồ lưu niệm, sách vở",
+          "en": "Gifts, souvenirs and books"
+        },
+        {
+          "vi": "Thực phẩm khô đóng gói kín, có nhãn",
+          "en": "Sealed, labelled dry food"
+        },
+        {
+          "vi": "Hàng mẫu, tài liệu, chứng từ",
+          "en": "Samples and documents"
+        }
+      ],
+      "restricted": [
+        {
+          "vi": "Pin rời, sạc dự phòng, chất dễ cháy nổ",
+          "en": "Loose batteries, power banks, flammables"
+        },
+        {
+          "vi": "Thịt tươi, trứng, trái cây tươi",
+          "en": "Fresh meat, eggs and fresh fruit"
+        },
+        {
+          "vi": "Tiền mặt, vàng bạc, đá quý",
+          "en": "Cash, precious metals and gems"
+        },
+        {
+          "vi": "Thuốc kê đơn không có toa",
+          "en": "Prescription drugs without a prescription"
+        }
+      ],
+      "notes": {
+        "vi": "Hàn Quốc yêu cầu mã thông quan cá nhân (PCCC) của người nhận.",
+        "en": "South Korea requires the recipient's Personal Customs Clearance Code (PCCC)."
+      },
+      "faq": [
+        {
+          "id": "kr-1",
+          "q": {
+            "vi": "Gửi hàng đi Hàn Quốc mất bao lâu?",
+            "en": "How long does shipping to South Korea take?"
+          },
+          "a": {
+            "vi": "Thông thường 3–5 ngày làm việc kể từ khi hàng bay, tùy thành phố nhận và thời gian thông quan.",
+            "en": "Usually 3–5 business days after departure, depending on the destination city and customs clearance."
+          }
+        },
+        {
+          "id": "kr-2",
+          "q": {
+            "vi": "Gửi thực phẩm đi Hàn Quốc được không?",
+            "en": "Can I send food to South Korea?"
+          },
+          "a": {
+            "vi": "Được với thực phẩm khô đóng gói kín, có nhãn. Pega Express sẽ kiểm tra và tư vấn trước khi nhận hàng.",
+            "en": "Yes for sealed, labelled dry food. Pega Express checks and advises before accepting your parcel."
+          }
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "tw",
+      "slug": {
+        "vi": "gui-hang-di-dai-loan",
+        "en": "ship-to-taiwan"
+      },
+      "name": {
+        "vi": "Đài Loan",
+        "en": "Taiwan"
+      },
+      "iata": "TPE",
+      "region": "asia",
+      "map": {
+        "x": 282,
+        "y": 181
+      },
+      "transitDays": {
+        "min": 2,
+        "max": 4
+      },
+      "summary": {
+        "vi": "Gửi hàng đi Đài Loan từ TP.HCM mất khoảng 2–4 ngày làm việc. Pega Express lấy hàng tận nhà, đóng gói chuẩn hàng không và gửi mã tra cứu để bạn theo dõi hành trình.",
+        "en": "Shipping from Ho Chi Minh City to Taiwan takes about 2–4 business days. Pega Express picks up at your door, packs to air-cargo standards and sends you a tracking number."
+      },
+      "cities": [
+        {
+          "name": {
+            "vi": "Đài Bắc",
+            "en": "Taipei"
+          },
+          "days": "2–3"
+        },
+        {
+          "name": {
+            "vi": "Đài Trung",
+            "en": "Taichung"
+          },
+          "days": "3–4"
+        },
+        {
+          "name": {
+            "vi": "Cao Hùng",
+            "en": "Kaohsiung"
+          },
+          "days": "3–4"
+        }
+      ],
+      "allowed": [
+        {
+          "vi": "Quần áo, giày dép, phụ kiện",
+          "en": "Clothing, shoes and accessories"
+        },
+        {
+          "vi": "Quà tặng, đồ lưu niệm, sách vở",
+          "en": "Gifts, souvenirs and books"
+        },
+        {
+          "vi": "Thực phẩm khô đóng gói kín, có nhãn",
+          "en": "Sealed, labelled dry food"
+        },
+        {
+          "vi": "Hàng mẫu, tài liệu, chứng từ",
+          "en": "Samples and documents"
+        }
+      ],
+      "restricted": [
+        {
+          "vi": "Pin rời, sạc dự phòng, chất dễ cháy nổ",
+          "en": "Loose batteries, power banks, flammables"
+        },
+        {
+          "vi": "Thịt tươi, trứng, trái cây tươi",
+          "en": "Fresh meat, eggs and fresh fruit"
+        },
+        {
+          "vi": "Tiền mặt, vàng bạc, đá quý",
+          "en": "Cash, precious metals and gems"
+        },
+        {
+          "vi": "Thuốc kê đơn không có toa",
+          "en": "Prescription drugs without a prescription"
+        }
+      ],
+      "notes": {
+        "vi": "Đài Loan cấm thịt heo và sản phẩm từ thịt heo từ Việt Nam.",
+        "en": "Taiwan bans pork and pork products from Vietnam."
+      },
+      "faq": [
+        {
+          "id": "tw-1",
+          "q": {
+            "vi": "Gửi hàng đi Đài Loan mất bao lâu?",
+            "en": "How long does shipping to Taiwan take?"
+          },
+          "a": {
+            "vi": "Thông thường 2–4 ngày làm việc kể từ khi hàng bay, tùy thành phố nhận và thời gian thông quan.",
+            "en": "Usually 2–4 business days after departure, depending on the destination city and customs clearance."
+          }
+        },
+        {
+          "id": "tw-2",
+          "q": {
+            "vi": "Gửi thực phẩm đi Đài Loan được không?",
+            "en": "Can I send food to Taiwan?"
+          },
+          "a": {
+            "vi": "Được với thực phẩm khô đóng gói kín, có nhãn. Pega Express sẽ kiểm tra và tư vấn trước khi nhận hàng.",
+            "en": "Yes for sealed, labelled dry food. Pega Express checks and advises before accepting your parcel."
+          }
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "cn",
+      "slug": {
+        "vi": "gui-hang-di-trung-quoc",
+        "en": "ship-to-china"
+      },
+      "name": {
+        "vi": "Trung Quốc",
+        "en": "China"
+      },
+      "iata": "PVG",
+      "region": "asia",
+      "map": {
+        "x": 282,
+        "y": 163
+      },
+      "transitDays": {
+        "min": 3,
+        "max": 5
+      },
+      "summary": {
+        "vi": "Gửi hàng đi Trung Quốc từ TP.HCM mất khoảng 3–5 ngày làm việc. Pega Express lấy hàng tận nhà, đóng gói chuẩn hàng không và gửi mã tra cứu để bạn theo dõi hành trình.",
+        "en": "Shipping from Ho Chi Minh City to China takes about 3–5 business days. Pega Express picks up at your door, packs to air-cargo standards and sends you a tracking number."
+      },
+      "cities": [
+        {
+          "name": {
+            "vi": "Thượng Hải",
+            "en": "Shanghai"
+          },
+          "days": "3–4"
+        },
+        {
+          "name": {
+            "vi": "Quảng Châu",
+            "en": "Guangzhou"
+          },
+          "days": "3–4"
+        },
+        {
+          "name": {
+            "vi": "Bắc Kinh",
+            "en": "Beijing"
+          },
+          "days": "4–5"
+        }
+      ],
+      "allowed": [
+        {
+          "vi": "Quần áo, giày dép, phụ kiện",
+          "en": "Clothing, shoes and accessories"
+        },
+        {
+          "vi": "Quà tặng, đồ lưu niệm, sách vở",
+          "en": "Gifts, souvenirs and books"
+        },
+        {
+          "vi": "Thực phẩm khô đóng gói kín, có nhãn",
+          "en": "Sealed, labelled dry food"
+        },
+        {
+          "vi": "Hàng mẫu, tài liệu, chứng từ",
+          "en": "Samples and documents"
+        }
+      ],
+      "restricted": [
+        {
+          "vi": "Pin rời, sạc dự phòng, chất dễ cháy nổ",
+          "en": "Loose batteries, power banks, flammables"
+        },
+        {
+          "vi": "Thịt tươi, trứng, trái cây tươi",
+          "en": "Fresh meat, eggs and fresh fruit"
+        },
+        {
+          "vi": "Tiền mặt, vàng bạc, đá quý",
+          "en": "Cash, precious metals and gems"
+        },
+        {
+          "vi": "Thuốc kê đơn không có toa",
+          "en": "Prescription drugs without a prescription"
+        }
+      ],
+      "notes": {
+        "vi": "Người nhận cần cung cấp thông tin định danh để thông quan.",
+        "en": "The recipient must provide ID details for customs clearance."
+      },
+      "faq": [
+        {
+          "id": "cn-1",
+          "q": {
+            "vi": "Gửi hàng đi Trung Quốc mất bao lâu?",
+            "en": "How long does shipping to China take?"
+          },
+          "a": {
+            "vi": "Thông thường 3–5 ngày làm việc kể từ khi hàng bay, tùy thành phố nhận và thời gian thông quan.",
+            "en": "Usually 3–5 business days after departure, depending on the destination city and customs clearance."
+          }
+        },
+        {
+          "id": "cn-2",
+          "q": {
+            "vi": "Gửi thực phẩm đi Trung Quốc được không?",
+            "en": "Can I send food to China?"
+          },
+          "a": {
+            "vi": "Được với thực phẩm khô đóng gói kín, có nhãn. Pega Express sẽ kiểm tra và tư vấn trước khi nhận hàng.",
+            "en": "Yes for sealed, labelled dry food. Pega Express checks and advises before accepting your parcel."
+          }
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "my",
+      "slug": {
+        "vi": "gui-hang-di-malaysia",
+        "en": "ship-to-malaysia"
+      },
+      "name": {
+        "vi": "Malaysia",
+        "en": "Malaysia"
+      },
+      "iata": "KUL",
+      "region": "asia",
+      "map": {
+        "x": 227,
+        "y": 241
+      },
+      "transitDays": {
+        "min": 2,
+        "max": 4
+      },
+      "summary": {
+        "vi": "Gửi hàng đi Malaysia từ TP.HCM mất khoảng 2–4 ngày làm việc. Pega Express lấy hàng tận nhà, đóng gói chuẩn hàng không và gửi mã tra cứu để bạn theo dõi hành trình.",
+        "en": "Shipping from Ho Chi Minh City to Malaysia takes about 2–4 business days. Pega Express picks up at your door, packs to air-cargo standards and sends you a tracking number."
+      },
+      "cities": [
+        {
+          "name": {
+            "vi": "Kuala Lumpur",
+            "en": "Kuala Lumpur"
+          },
+          "days": "2–3"
+        },
+        {
+          "name": {
+            "vi": "Penang",
+            "en": "Penang"
+          },
+          "days": "3–4"
+        },
+        {
+          "name": {
+            "vi": "Johor Bahru",
+            "en": "Johor Bahru"
+          },
+          "days": "3–4"
+        }
+      ],
+      "allowed": [
+        {
+          "vi": "Quần áo, giày dép, phụ kiện",
+          "en": "Clothing, shoes and accessories"
+        },
+        {
+          "vi": "Quà tặng, đồ lưu niệm, sách vở",
+          "en": "Gifts, souvenirs and books"
+        },
+        {
+          "vi": "Thực phẩm khô đóng gói kín, có nhãn",
+          "en": "Sealed, labelled dry food"
+        },
+        {
+          "vi": "Hàng mẫu, tài liệu, chứng từ",
+          "en": "Samples and documents"
+        }
+      ],
+      "restricted": [
+        {
+          "vi": "Pin rời, sạc dự phòng, chất dễ cháy nổ",
+          "en": "Loose batteries, power banks, flammables"
+        },
+        {
+          "vi": "Thịt tươi, trứng, trái cây tươi",
+          "en": "Fresh meat, eggs and fresh fruit"
+        },
+        {
+          "vi": "Tiền mặt, vàng bạc, đá quý",
+          "en": "Cash, precious metals and gems"
+        },
+        {
+          "vi": "Thuốc kê đơn không có toa",
+          "en": "Prescription drugs without a prescription"
+        }
+      ],
+      "notes": {
+        "vi": "Malaysia kiểm soát thực phẩm chức năng và mỹ phẩm chưa đăng ký.",
+        "en": "Malaysia controls unregistered supplements and cosmetics."
+      },
+      "faq": [
+        {
+          "id": "my-1",
+          "q": {
+            "vi": "Gửi hàng đi Malaysia mất bao lâu?",
+            "en": "How long does shipping to Malaysia take?"
+          },
+          "a": {
+            "vi": "Thông thường 2–4 ngày làm việc kể từ khi hàng bay, tùy thành phố nhận và thời gian thông quan.",
+            "en": "Usually 2–4 business days after departure, depending on the destination city and customs clearance."
+          }
+        },
+        {
+          "id": "my-2",
+          "q": {
+            "vi": "Gửi thực phẩm đi Malaysia được không?",
+            "en": "Can I send food to Malaysia?"
+          },
+          "a": {
+            "vi": "Được với thực phẩm khô đóng gói kín, có nhãn. Pega Express sẽ kiểm tra và tư vấn trước khi nhận hàng.",
+            "en": "Yes for sealed, labelled dry food. Pega Express checks and advises before accepting your parcel."
+          }
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "sg",
+      "slug": {
+        "vi": "gui-hang-di-singapore",
+        "en": "ship-to-singapore"
+      },
+      "name": {
+        "vi": "Singapore",
+        "en": "Singapore"
+      },
+      "iata": "SIN",
+      "region": "asia",
+      "map": {
+        "x": 233,
+        "y": 246
+      },
+      "transitDays": {
+        "min": 2,
+        "max": 3
+      },
+      "summary": {
+        "vi": "Gửi hàng đi Singapore từ TP.HCM mất khoảng 2–3 ngày làm việc. Pega Express lấy hàng tận nhà, đóng gói chuẩn hàng không và gửi mã tra cứu để bạn theo dõi hành trình.",
+        "en": "Shipping from Ho Chi Minh City to Singapore takes about 2–3 business days. Pega Express picks up at your door, packs to air-cargo standards and sends you a tracking number."
+      },
+      "cities": [
+        {
+          "name": {
+            "vi": "Singapore",
+            "en": "Singapore"
+          },
+          "days": "2–3"
+        }
+      ],
+      "allowed": [
+        {
+          "vi": "Quần áo, giày dép, phụ kiện",
+          "en": "Clothing, shoes and accessories"
+        },
+        {
+          "vi": "Quà tặng, đồ lưu niệm, sách vở",
+          "en": "Gifts, souvenirs and books"
+        },
+        {
+          "vi": "Thực phẩm khô đóng gói kín, có nhãn",
+          "en": "Sealed, labelled dry food"
+        },
+        {
+          "vi": "Hàng mẫu, tài liệu, chứng từ",
+          "en": "Samples and documents"
+        }
+      ],
+      "restricted": [
+        {
+          "vi": "Pin rời, sạc dự phòng, chất dễ cháy nổ",
+          "en": "Loose batteries, power banks, flammables"
+        },
+        {
+          "vi": "Thịt tươi, trứng, trái cây tươi",
+          "en": "Fresh meat, eggs and fresh fruit"
+        },
+        {
+          "vi": "Tiền mặt, vàng bạc, đá quý",
+          "en": "Cash, precious metals and gems"
+        },
+        {
+          "vi": "Thuốc kê đơn không có toa",
+          "en": "Prescription drugs without a prescription"
+        }
+      ],
+      "notes": {
+        "vi": "Singapore cấm kẹo cao su và kiểm soát chặt thuốc lá điện tử.",
+        "en": "Singapore bans chewing gum and strictly controls e-cigarettes."
+      },
+      "faq": [
+        {
+          "id": "sg-1",
+          "q": {
+            "vi": "Gửi hàng đi Singapore mất bao lâu?",
+            "en": "How long does shipping to Singapore take?"
+          },
+          "a": {
+            "vi": "Thông thường 2–3 ngày làm việc kể từ khi hàng bay, tùy thành phố nhận và thời gian thông quan.",
+            "en": "Usually 2–3 business days after departure, depending on the destination city and customs clearance."
+          }
+        },
+        {
+          "id": "sg-2",
+          "q": {
+            "vi": "Gửi thực phẩm đi Singapore được không?",
+            "en": "Can I send food to Singapore?"
+          },
+          "a": {
+            "vi": "Được với thực phẩm khô đóng gói kín, có nhãn. Pega Express sẽ kiểm tra và tư vấn trước khi nhận hàng.",
+            "en": "Yes for sealed, labelled dry food. Pega Express checks and advises before accepting your parcel."
+          }
+        }
+      ],
+      "demo": true
+    }
+  ],
+  "meta": {
+    "updatedAt": "2026-11-27",
+    "version": 1
+  }
+}

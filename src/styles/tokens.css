@@ -1,0 +1,115 @@
+/*
+ * DESIGN TOKENS — 3 tầng, khai báo DUY NHẤT tại đây (plan v1.4 mục 2.1).
+ * Tầng 1: thang gốc (primitive) · Tầng 2: ngữ nghĩa (đổi theo light/dark) · Tầng 3: component.
+ * Component chỉ dùng tầng 2/3 qua class Tailwind (bg-surface, text-muted…). Cấm mã màu cứng.
+ */
+
+/* ---------- Tầng 1: primitive ---------- */
+:root {
+  --orange-50: #fef3ec;
+  --orange-100: #fde3d3;
+  --orange-200: #fac4a6;
+  --orange-300: #f59d71;
+  --orange-400: #f07c46;
+  --orange-500: #eb6224; /* ✅ màu thương hiệu */
+  --orange-600: #d6581c;
+  --orange-700: #c24e15; /* brand-strong: nút & chữ cam nhỏ (≈4.8:1 với trắng) */
+  --orange-800: #9a3d12;
+  --orange-900: #7a3110;
+
+  --charcoal-50: #f2f5f6;
+  --charcoal-100: #e1e7ea;
+  --charcoal-200: #c3ced4;
+  --charcoal-300: #9baeb8;
+  --charcoal-400: #6f8794;
+  --charcoal-500: #4e6572;
+  --charcoal-600: #3a4f5b;
+  --charcoal-700: #2c3e48;
+  --charcoal-800: #1e2f38; /* ✅ màu thương hiệu */
+  --charcoal-900: #142129;
+  --charcoal-950: #0d171d;
+
+  --ivory-50: #faf7f2;
+  --ivory-100: #f3eee5;
+  --ivory-200: #e9e1d3;
+
+  --white: #ffffff;
+  --success-500: #1f9d55;
+  --warning-500: #f2a900;
+  --danger-500: #d93025;
+
+  --gradient-brand: linear-gradient(90deg, #e8392b 0%, #eb6224 50%, #f7941d 100%);
+}
+
+/* ---------- Tầng 2: semantic (light) ---------- */
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+  --c-bg: var(--ivory-50);
+  --c-surface: var(--white);
+  --c-surface-2: var(--ivory-100);
+  --c-surface-inverse: var(--charcoal-800);
+  --c-text: var(--charcoal-900);
+  --c-text-muted: var(--charcoal-500);
+  --c-text-inverse: var(--ivory-50);
+  --c-text-inverse-muted: var(--charcoal-200);
+  --c-brand: var(--orange-500);
+  --c-brand-strong: var(--orange-700);
+  --c-border: var(--charcoal-100);
+  --c-border-strong: var(--charcoal-200);
+  --c-focus: var(--orange-600);
+  --c-success: #17803f;
+  --c-warning: #8a5f00;
+  --c-danger: #b3261e;
+
+  /* ---------- Tầng 3: component ---------- */
+  --button-primary-bg: var(--orange-700);
+  --button-primary-bg-hover: var(--orange-800);
+  --button-primary-fg: var(--white);
+  --card-bg: var(--c-surface);
+  --route-line: var(--orange-500);
+  --label-paper: var(--white);
+  --label-ink: var(--charcoal-900);
+  --image-filter: none;
+}
+
+/* ---------- Tầng 2: semantic (dark) ---------- */
+[data-theme="dark"] {
+  color-scheme: dark;
+  --c-bg: var(--charcoal-900);
+  --c-surface: var(--charcoal-800);
+  --c-surface-2: var(--charcoal-700);
+  --c-surface-inverse: var(--ivory-100);
+  --c-text: var(--ivory-50);
+  --c-text-muted: var(--charcoal-300);
+  --c-text-inverse: var(--charcoal-900);
+  --c-text-inverse-muted: var(--charcoal-600);
+  --c-brand: var(--orange-400);
+  --c-brand-strong: var(--orange-300);
+  --c-border: var(--charcoal-700);
+  --c-border-strong: var(--charcoal-600);
+  --c-focus: var(--orange-300);
+  --c-success: #4ccb83;
+  --c-warning: #ffc94d;
+  --c-danger: #ff8a80;
+
+  --button-primary-bg: var(--orange-400);
+  --button-primary-bg-hover: var(--orange-300);
+  --button-primary-fg: var(--charcoal-950);
+  --card-bg: var(--c-surface);
+  --route-line: var(--orange-400);
+  --label-paper: var(--charcoal-800);
+  --label-ink: var(--ivory-50);
+  --image-filter: brightness(0.88) saturate(0.95);
+}
+
+/* ---------- Token khác (mục 2.4) ---------- */
+:root {
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 150ms;
+  --duration-base: 300ms;
+  --duration-slow: 600ms;
+  --sh-1: 0 1px 2px rgb(13 23 29 / 0.06), 0 1px 1px rgb(13 23 29 / 0.04);
+  --sh-2: 0 10px 30px -12px rgb(13 23 29 / 0.25);
+  --header-h: 4.25rem;
+}

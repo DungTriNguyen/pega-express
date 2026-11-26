@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "id": "banned",
+      "level": "banned",
+      "title": { "vi": "Không nhận gửi", "en": "Not accepted" },
+      "items": [
+        { "vi": "Vũ khí, đạn dược, chất nổ, pháo", "en": "Weapons, ammunition, explosives, fireworks" },
+        { "vi": "Ma túy, chất gây nghiện, chất cấm", "en": "Narcotics and illegal substances" },
+        {
+          "vi": "Chất dễ cháy, khí nén, bình gas, hóa chất độc hại",
+          "en": "Flammables, compressed gas, toxic chemicals"
+        },
+        {
+          "vi": "Tiền mặt, vàng bạc, đá quý, giấy tờ có giá",
+          "en": "Cash, precious metals, gems, negotiable instruments"
+        },
+        { "vi": "Động vật sống, thực vật sống", "en": "Live animals and live plants" },
+        { "vi": "Hàng giả, hàng vi phạm sở hữu trí tuệ", "en": "Counterfeit or IP-infringing goods" }
+      ]
+    },
+    {
+      "id": "conditional",
+      "level": "conditional",
+      "title": { "vi": "Gửi có điều kiện — cần tư vấn trước", "en": "Conditional — ask us first" },
+      "items": [
+        { "vi": "Pin, sạc dự phòng, thiết bị điện tử có pin", "en": "Batteries, power banks, battery-powered devices" },
+        { "vi": "Thực phẩm (chỉ hàng khô, đóng gói kín, có nhãn)", "en": "Food (dry, sealed and labelled only)" },
+        {
+          "vi": "Mỹ phẩm, nước hoa, chất lỏng (giới hạn dung tích)",
+          "en": "Cosmetics, perfume, liquids (volume limits)"
+        },
+        {
+          "vi": "Thuốc, thực phẩm chức năng (kèm toa hoặc giới hạn số lượng)",
+          "en": "Medicine and supplements (prescription or quantity limits)"
+        },
+        {
+          "vi": "Hạt giống, gỗ, sản phẩm từ động vật (tùy nước kiểm dịch)",
+          "en": "Seeds, wood, animal products (subject to quarantine rules)"
+        }
+      ]
+    }
+  ],
+  "meta": { "updatedAt": "2026-11-27", "version": 1 }
+}

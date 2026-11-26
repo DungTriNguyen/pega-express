@@ -1,0 +1,3 @@
+# Bản sao cho `npm run preview` (wrangler). Copy thành .dev.vars — KHÔNG commit .dev.vars
+NEXTJS_ENV=development
+DEPLOY_ENV=development

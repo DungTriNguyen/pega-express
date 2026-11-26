@@ -1,0 +1,85 @@
+{
+  "data": [
+    {
+      "id": "faq-price",
+      "q": {
+        "vi": "Giá gửi hàng được tính như thế nào?",
+        "en": "How is the shipping price calculated?"
+      },
+      "a": {
+        "vi": "Giá tính theo khối lượng tính cước — là số lớn hơn giữa cân nặng thực và khối lượng quy đổi (Dài × Rộng × Cao ÷ 5000), làm tròn lên mỗi 0,5 kg — nhân với đơn giá theo nước đến và mốc cân. Một số loại hàng như thực phẩm, mỹ phẩm, thuốc, chất lỏng có phụ phí.",
+        "en": "Price is based on chargeable weight — the greater of actual weight and volumetric weight (L × W × H ÷ 5000), rounded up to the next 0.5 kg — times the rate for the destination and weight tier. Some goods such as food, cosmetics, medicine and liquids carry a surcharge."
+      }
+    },
+    {
+      "id": "faq-pickup",
+      "q": {
+        "vi": "Pega Express có lấy hàng tận nhà không?",
+        "en": "Do you pick up from my home?"
+      },
+      "a": {
+        "vi": "Có. Bạn đặt lịch qua hotline 0773 10 89 89, Zalo hoặc form báo giá; nhân viên sẽ đến lấy hàng trong giờ làm việc (8:00–17:30).",
+        "en": "Yes. Book via hotline 0773 10 89 89, Zalo or the quote form; our staff will collect during business hours (8:00–17:30)."
+      }
+    },
+    {
+      "id": "faq-food",
+      "q": {
+        "vi": "Tôi có gửi được thực phẩm, mỹ phẩm, thuốc không?",
+        "en": "Can I send food, cosmetics or medicine?"
+      },
+      "a": {
+        "vi": "Tùy nước đến. Thực phẩm khô đóng gói kín, có nhãn thường gửi được; thuốc và mỹ phẩm có giới hạn số lượng. Xem trang Hàng cấm gửi hoặc nhắn Zalo để được tư vấn trước khi gửi.",
+        "en": "It depends on the destination. Sealed, labelled dry food is usually fine; medicine and cosmetics have quantity limits. See the Prohibited items page or message us on Zalo before shipping."
+      }
+    },
+    {
+      "id": "faq-track",
+      "q": {
+        "vi": "Làm sao để theo dõi đơn hàng?",
+        "en": "How do I track my shipment?"
+      },
+      "a": {
+        "vi": "Sau khi hàng bay, Pega Express gửi mã vận đơn. Bạn nhập mã ở trang Tra cứu để mở trang theo dõi chính thức của DHL, FedEx hoặc UPS, hoặc gửi mã qua Zalo để được tra giúp.",
+        "en": "Once your parcel departs, Pega Express sends you a waybill number. Enter it on the Tracking page to open the official DHL, FedEx or UPS tracker, or send it to us on Zalo."
+      }
+    },
+    {
+      "id": "faq-pack",
+      "q": {
+        "vi": "Tôi có cần tự đóng gói không?",
+        "en": "Do I need to pack the goods myself?"
+      },
+      "a": {
+        "vi": "Không bắt buộc. Pega Express kiểm tra và đóng gói lại theo chuẩn hàng không, tối ưu thể tích để hạn chế cước quy đổi.",
+        "en": "No. Pega Express checks and re-packs to air-cargo standards, optimising volume to limit volumetric charges."
+      }
+    },
+    {
+      "id": "faq-hours",
+      "q": {
+        "vi": "Giờ làm việc và địa chỉ gửi hàng?",
+        "en": "What are your hours and drop-off address?"
+      },
+      "a": {
+        "vi": "Văn phòng và quầy nhận hàng: 431 Tân Sơn, Phường An Hội Tây, TP.HCM (gần sân bay Tân Sơn Nhất). Giờ làm việc 8:00–17:30.",
+        "en": "Office and drop-off counter: 431 Tan Son, An Hoi Tay Ward, Ho Chi Minh City (near Tan Son Nhat airport). Open 8:00–17:30."
+      }
+    },
+    {
+      "id": "faq-identity",
+      "q": {
+        "vi": "Pega Express có liên quan tới Pegasystems hay xe điện PEGA không?",
+        "en": "Is Pega Express related to Pegasystems or PEGA e-bikes?"
+      },
+      "a": {
+        "vi": "Không. Pega Express (CÔNG TY TNHH PEGA EXPRESS, MST 0319722024) là công ty chuyển phát và gửi hàng quốc tế tại TP.HCM, không liên quan tới phần mềm Pegasystems hay thương hiệu xe điện PEGA.",
+        "en": "No. Pega Express (PEGA EXPRESS COMPANY LIMITED, tax ID 0319722024) is a courier and international shipping company in Ho Chi Minh City, unrelated to Pegasystems software or the PEGA e-bike brand."
+      }
+    }
+  ],
+  "meta": {
+    "updatedAt": "2026-11-27",
+    "version": 1
+  }
+}
