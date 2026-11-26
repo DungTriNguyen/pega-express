@@ -30,6 +30,8 @@ export function buildMetadata({
   noindex?: boolean;
   absoluteTitle?: boolean;
 }): Metadata {
+  // Phòng thủ: locale lạ (vd. yêu cầu file tĩnh lọt vào route [locale]) thì không dựng metadata
+  if (!routing.locales.includes(locale)) return {};
   const canonical = localizedUrl(hrefByLocale[locale], locale);
   const languages = Object.fromEntries(routing.locales.map((l) => [l, localizedUrl(hrefByLocale[l], l)]));
   return {
