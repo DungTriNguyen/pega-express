@@ -24,6 +24,10 @@ Không dùng `npm run build` làm build command: lệnh đó chỉ chạy `next 
 
 > OpenNext cảnh báo hỗ trợ middleware chạy Node.js (`src/proxy.ts` của Next 16) trên Cloudflare còn thử nghiệm. Sau khi deploy cần thử chuyển ngôn ngữ `/en` và các slug tiếng Anh.
 
+## Cache trang trên Workers Free
+
+Mọi trang nội dung được build sẵn và phục vụ từ static assets (`static-assets-incremental-cache` + cache interception, ADR-007) để không vượt giới hạn 10 ms CPU của gói Free. Header `x-opennext-cache: HIT` xác nhận trang được trả từ cache. Đổi nội dung = build + deploy lại; không có ISR.
+
 ## Biến môi trường & bí mật
 
 | Biến                                                  | Loại       | Ghi chú                                                                      |

@@ -47,6 +47,9 @@ const mono = JetBrains_Mono({
 
 // Chỉ chấp nhận locale đã khai báo — /favicon.ico, /abc… trả 404 trước khi render trang
 export const dynamicParams = false;
+// Toàn bộ trang nội dung là tĩnh (build sẵn) — Worker chỉ đọc từ cache, không render lại (ADR-007)
+export const dynamic = "force-static";
+export const revalidate = false;
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
