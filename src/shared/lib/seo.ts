@@ -91,7 +91,7 @@ export function organizationSchema(locale: AppLocale) {
       "@id": absoluteUrl("/#localbusiness"),
       name: `${site.brand} — ${locale === "vi" ? "Gửi hàng quốc tế & hỏa tốc" : "International & express shipping"}`,
       parentOrganization: { "@id": orgId },
-      image: absoluteUrl("/media/kho-san-bay-toan-canh-1280.webp"),
+      image: absoluteUrl("/media/banner-2-1280.webp"),
       telephone: site.phone.e164,
       email: site.email,
       url: absoluteUrl(locale === "vi" ? "/" : "/en"),

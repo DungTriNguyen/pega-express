@@ -17,12 +17,12 @@
         "y": 156
       },
       "transitDays": {
-        "min": 5,
-        "max": 7
+        "min": 7,
+        "max": 15
       },
       "summary": {
-        "vi": "Gửi hàng đi Mỹ từ TP.HCM mất khoảng 5–7 ngày làm việc. Pega Express lấy hàng tận nhà, đóng gói chuẩn hàng không và gửi mã tra cứu để bạn theo dõi hành trình.",
-        "en": "Shipping from Ho Chi Minh City to United States takes about 5–7 business days. Pega Express picks up at your door, packs to air-cargo standards and sends you a tracking number."
+        "vi": "Gửi hàng đi Mỹ từ TP.HCM mất khoảng 7–15 ngày làm việc. Pega Express lấy hàng tận nhà, đóng gói chuẩn hàng không và gửi mã tra cứu để bạn theo dõi hành trình.",
+        "en": "Shipping from Ho Chi Minh City to United States takes about 7–15 business days. Pega Express picks up at your door, packs to air-cargo standards and sends you a tracking number."
       },
       "cities": [
         {
@@ -30,21 +30,21 @@
             "vi": "Los Angeles",
             "en": "Los Angeles"
           },
-          "days": "5–6"
+          "days": "7–10"
         },
         {
           "name": {
             "vi": "New York",
             "en": "New York"
           },
-          "days": "6–7"
+          "days": "8–15"
         },
         {
           "name": {
             "vi": "Houston",
             "en": "Houston"
           },
-          "days": "6–7"
+          "days": "8–15"
         }
       ],
       "allowed": [
@@ -95,8 +95,8 @@
             "en": "How long does shipping to United States take?"
           },
           "a": {
-            "vi": "Thông thường 5–7 ngày làm việc kể từ khi hàng bay, tùy thành phố nhận và thời gian thông quan.",
-            "en": "Usually 5–7 business days after departure, depending on the destination city and customs clearance."
+            "vi": "Thông thường 7–15 ngày làm việc kể từ khi hàng bay, tùy thành phố nhận và thời gian thông quan.",
+            "en": "Usually 7–15 business days after departure, depending on the destination city and customs clearance."
           }
         },
         {
@@ -334,6 +334,345 @@
           "a": {
             "vi": "Được với thực phẩm khô đóng gói kín, có nhãn. Pega Express sẽ kiểm tra và tư vấn trước khi nhận hàng.",
             "en": "Yes for sealed, labelled dry food. Pega Express checks and advises before accepting your parcel."
+          }
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "gb",
+      "slug": {
+        "vi": "gui-hang-di-anh",
+        "en": "ship-to-uk"
+      },
+      "name": {
+        "vi": "Anh",
+        "en": "United Kingdom"
+      },
+      "iata": "LHR",
+      "region": "europe",
+      "map": {
+        "x": 176,
+        "y": 104
+      },
+      "transitDays": {
+        "min": 5,
+        "max": 7
+      },
+      "summary": {
+        "vi": "Gửi hàng đi Anh từ TP.HCM mất khoảng 5–7 ngày làm việc. Pega Express lấy hàng tận nhà, đóng gói chuẩn hàng không và gửi mã tra cứu để bạn theo dõi hành trình.",
+        "en": "Shipping from Ho Chi Minh City to United Kingdom takes about 5–7 business days. Pega Express picks up at your door, packs to air-cargo standards and sends you a tracking number."
+      },
+      "cities": [
+        {
+          "name": {
+            "vi": "London",
+            "en": "London"
+          },
+          "days": "5–6"
+        },
+        {
+          "name": {
+            "vi": "Manchester",
+            "en": "Manchester"
+          },
+          "days": "5–7"
+        },
+        {
+          "name": {
+            "vi": "Birmingham",
+            "en": "Birmingham"
+          },
+          "days": "5–7"
+        }
+      ],
+      "allowed": [
+        {
+          "vi": "Quần áo, giày dép, phụ kiện",
+          "en": "Clothing, shoes and accessories"
+        },
+        {
+          "vi": "Quà tặng, đồ lưu niệm, sách vở",
+          "en": "Gifts, souvenirs and books"
+        },
+        {
+          "vi": "Thực phẩm khô đóng gói kín, có nhãn",
+          "en": "Sealed, labelled dry food"
+        },
+        {
+          "vi": "Hàng mẫu, tài liệu, chứng từ",
+          "en": "Samples and documents"
+        }
+      ],
+      "restricted": [
+        {
+          "vi": "Thuốc tây, bột trắng, cồn, sơn móng, acetone",
+          "en": "Medicines, white powders, alcohol, nail polish, acetone"
+        },
+        {
+          "vi": "Hàng dễ cháy, hàng có áp suất, nicotine",
+          "en": "Flammables, pressurised items, nicotine"
+        },
+        {
+          "vi": "Thịt, trứng, sữa và sản phẩm từ sữa",
+          "en": "Meat, eggs, milk and dairy products"
+        },
+        {
+          "vi": "Hàng giả, hàng nhái thương hiệu",
+          "en": "Counterfeit branded goods"
+        }
+      ],
+      "notes": {
+        "vi": "Giao tận nhà qua DPD sau khi thông quan. Mỗi kiện tối đa 30kg, cạnh dài nhất không quá 100cm.",
+        "en": "Home delivery by DPD after customs clearance. Max 30 kg per parcel, longest side up to 100 cm."
+      },
+      "faq": [
+        {
+          "id": "gb-1",
+          "q": {
+            "vi": "Gửi hàng đi Anh mất bao lâu?",
+            "en": "How long does shipping to United Kingdom take?"
+          },
+          "a": {
+            "vi": "Thông thường 5–7 ngày làm việc kể từ khi hàng bay, tùy thành phố nhận và thời gian thông quan.",
+            "en": "Usually 5–7 business days after departure, depending on the destination city and customs clearance."
+          }
+        },
+        {
+          "id": "gb-2",
+          "q": {
+            "vi": "Gửi thực phẩm đi Anh được không?",
+            "en": "Can I send food to United Kingdom?"
+          },
+          "a": {
+            "vi": "Được với thực phẩm khô đóng gói kín, có nhãn. Thịt, trứng, sữa không được nhận. Pega Express sẽ kiểm tra và tư vấn trước khi nhận hàng.",
+            "en": "Yes for sealed, labelled dry food. Meat, eggs and dairy are not accepted. Pega Express checks and advises before accepting your parcel."
+          }
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "fr",
+      "slug": {
+        "vi": "gui-hang-di-phap",
+        "en": "ship-to-france"
+      },
+      "name": {
+        "vi": "Pháp",
+        "en": "France"
+      },
+      "iata": "CDG",
+      "region": "europe",
+      "map": {
+        "x": 180,
+        "y": 118
+      },
+      "transitDays": {
+        "min": 6,
+        "max": 10
+      },
+      "summary": {
+        "vi": "Gửi hàng đi Pháp từ TP.HCM mất khoảng 6–10 ngày làm việc. Pega Express lấy hàng tận nhà, đóng gói chuẩn hàng không và gửi mã tra cứu để bạn theo dõi hành trình.",
+        "en": "Shipping from Ho Chi Minh City to France takes about 6–10 business days. Pega Express picks up at your door, packs to air-cargo standards and sends you a tracking number."
+      },
+      "cities": [
+        {
+          "name": {
+            "vi": "Paris",
+            "en": "Paris"
+          },
+          "days": "6–8"
+        },
+        {
+          "name": {
+            "vi": "Lyon",
+            "en": "Lyon"
+          },
+          "days": "7–10"
+        },
+        {
+          "name": {
+            "vi": "Marseille",
+            "en": "Marseille"
+          },
+          "days": "7–10"
+        }
+      ],
+      "allowed": [
+        {
+          "vi": "Quần áo, giày dép, phụ kiện",
+          "en": "Clothing, shoes and accessories"
+        },
+        {
+          "vi": "Quà tặng, đồ lưu niệm, sách vở",
+          "en": "Gifts, souvenirs and books"
+        },
+        {
+          "vi": "Thực phẩm khô đóng gói kín, có nhãn",
+          "en": "Sealed, labelled dry food"
+        },
+        {
+          "vi": "Hàng mẫu, tài liệu, chứng từ",
+          "en": "Samples and documents"
+        }
+      ],
+      "restricted": [
+        {
+          "vi": "Thuốc tây, bột trắng, cồn, sơn móng, acetone",
+          "en": "Medicines, white powders, alcohol, nail polish, acetone"
+        },
+        {
+          "vi": "Hàng dễ cháy, hàng có áp suất, nicotine",
+          "en": "Flammables, pressurised items, nicotine"
+        },
+        {
+          "vi": "Thịt, trứng, sữa và sản phẩm từ sữa",
+          "en": "Meat, eggs, milk and dairy products"
+        },
+        {
+          "vi": "Hàng giả, hàng nhái thương hiệu",
+          "en": "Counterfeit branded goods"
+        }
+      ],
+      "notes": {
+        "vi": "Giao qua DHL hoặc UPS. Mỗi kiện phải bọc thùng carton vuông, dán kín băng keo. Không giao địa chỉ PO Box.",
+        "en": "Delivered by DHL or UPS. Every parcel must be a sealed square carton. No PO Box addresses."
+      },
+      "faq": [
+        {
+          "id": "fr-1",
+          "q": {
+            "vi": "Gửi hàng đi Pháp mất bao lâu?",
+            "en": "How long does shipping to France take?"
+          },
+          "a": {
+            "vi": "Thông thường 6–10 ngày làm việc kể từ khi hàng bay, tùy thành phố nhận và thời gian thông quan.",
+            "en": "Usually 6–10 business days after departure, depending on the destination city and customs clearance."
+          }
+        },
+        {
+          "id": "fr-2",
+          "q": {
+            "vi": "Gửi thực phẩm đi Pháp được không?",
+            "en": "Can I send food to France?"
+          },
+          "a": {
+            "vi": "Được với thực phẩm khô đóng gói kín, có nhãn. Thịt, trứng, sữa không được nhận. Pega Express sẽ kiểm tra và tư vấn trước khi nhận hàng.",
+            "en": "Yes for sealed, labelled dry food. Meat, eggs and dairy are not accepted. Pega Express checks and advises before accepting your parcel."
+          }
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "de",
+      "slug": {
+        "vi": "gui-hang-di-duc",
+        "en": "ship-to-germany"
+      },
+      "name": {
+        "vi": "Đức",
+        "en": "Germany"
+      },
+      "iata": "FRA",
+      "region": "europe",
+      "map": {
+        "x": 190,
+        "y": 108
+      },
+      "transitDays": {
+        "min": 6,
+        "max": 10
+      },
+      "summary": {
+        "vi": "Gửi hàng đi Đức từ TP.HCM mất khoảng 6–10 ngày làm việc. Pega Express lấy hàng tận nhà, đóng gói chuẩn hàng không và gửi mã tra cứu để bạn theo dõi hành trình.",
+        "en": "Shipping from Ho Chi Minh City to Germany takes about 6–10 business days. Pega Express picks up at your door, packs to air-cargo standards and sends you a tracking number."
+      },
+      "cities": [
+        {
+          "name": {
+            "vi": "Berlin",
+            "en": "Berlin"
+          },
+          "days": "6–8"
+        },
+        {
+          "name": {
+            "vi": "Frankfurt",
+            "en": "Frankfurt"
+          },
+          "days": "6–8"
+        },
+        {
+          "name": {
+            "vi": "München",
+            "en": "Munich"
+          },
+          "days": "7–10"
+        }
+      ],
+      "allowed": [
+        {
+          "vi": "Quần áo, giày dép, phụ kiện",
+          "en": "Clothing, shoes and accessories"
+        },
+        {
+          "vi": "Quà tặng, đồ lưu niệm, sách vở",
+          "en": "Gifts, souvenirs and books"
+        },
+        {
+          "vi": "Thực phẩm khô đóng gói kín, có nhãn",
+          "en": "Sealed, labelled dry food"
+        },
+        {
+          "vi": "Hàng mẫu, tài liệu, chứng từ",
+          "en": "Samples and documents"
+        }
+      ],
+      "restricted": [
+        {
+          "vi": "Thuốc tây, bột trắng, cồn, sơn móng, acetone",
+          "en": "Medicines, white powders, alcohol, nail polish, acetone"
+        },
+        {
+          "vi": "Hàng dễ cháy, hàng có áp suất, nicotine",
+          "en": "Flammables, pressurised items, nicotine"
+        },
+        {
+          "vi": "Thịt, trứng, sữa và sản phẩm từ sữa",
+          "en": "Meat, eggs, milk and dairy products"
+        },
+        {
+          "vi": "Hàng giả, hàng nhái thương hiệu",
+          "en": "Counterfeit branded goods"
+        }
+      ],
+      "notes": {
+        "vi": "Giao qua DHL hoặc UPS. Có tuyến đông lạnh đi Đức (nhận từ 10kg). Mỗi kiện phải bọc thùng carton vuông, dán kín băng keo.",
+        "en": "Delivered by DHL or UPS. A frozen route to Germany is available (from 10 kg). Every parcel must be a sealed square carton."
+      },
+      "faq": [
+        {
+          "id": "de-1",
+          "q": {
+            "vi": "Gửi hàng đi Đức mất bao lâu?",
+            "en": "How long does shipping to Germany take?"
+          },
+          "a": {
+            "vi": "Thông thường 6–10 ngày làm việc kể từ khi hàng bay, tùy thành phố nhận và thời gian thông quan.",
+            "en": "Usually 6–10 business days after departure, depending on the destination city and customs clearance."
+          }
+        },
+        {
+          "id": "de-2",
+          "q": {
+            "vi": "Gửi thực phẩm đi Đức được không?",
+            "en": "Can I send food to Germany?"
+          },
+          "a": {
+            "vi": "Được với thực phẩm khô đóng gói kín, có nhãn. Thịt, trứng, sữa không được nhận. Pega Express sẽ kiểm tra và tư vấn trước khi nhận hàng.",
+            "en": "Yes for sealed, labelled dry food. Meat, eggs and dairy are not accepted. Pega Express checks and advises before accepting your parcel."
           }
         }
       ],
@@ -1005,7 +1344,7 @@
     }
   ],
   "meta": {
-    "updatedAt": "2026-11-27",
-    "version": 1
+    "updatedAt": "2026-11-28",
+    "version": 2
   }
 }

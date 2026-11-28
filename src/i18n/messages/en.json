@@ -38,8 +38,16 @@
     "openMenu": "Open menu",
     "main": "Main navigation"
   },
-  "theme": { "toggle": "Toggle light/dark mode", "light": "Light", "dark": "Dark" },
-  "locale": { "label": "Language", "switchTo": "Tiếng Việt", "short": "VI" },
+  "theme": {
+    "toggle": "Toggle light/dark mode",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "locale": {
+    "label": "Language",
+    "switchTo": "Tiếng Việt",
+    "short": "VI"
+  },
   "hero": {
     "eyebrow": "SGN · Warehouse at Tan Son Nhat airport",
     "title": "International shipping from Ho Chi Minh City — fast, safe, clear prices",
@@ -60,7 +68,7 @@
     "taxIdNote": "Limited company, operating since 2026",
     "airport": "Warehouse at TSN airport",
     "airportNote": "431 Tan Son, near the cargo terminal",
-    "routes": "international routes",
+    "routes": "countries & territories",
     "routesNote": "USA, Australia, Japan, Korea…",
     "domestic": "domestic express cities",
     "domesticNote": "HAN · HPH · DAD · SGN · VCA",
@@ -69,15 +77,18 @@
   },
   "routes": {
     "eyebrow": "Departures board",
-    "title": "9 international routes, public prices",
-    "subtitle": "Price per kg and estimated transit time. Pick a route for details.",
+    "title": "12 main routes, 200 countries & territories, public prices",
+    "subtitle": "Shipped from Ho Chi Minh City. Lowest price per kg and estimated transit time. Pick a route for details.",
     "colDestination": "Destination",
     "colCode": "Code",
     "colPrice": "From",
-    "colTransit": "Transit",
+    "colTransit": "Estimated transit",
     "colAction": "",
     "viewRoute": "View route",
-    "allRoutes": "All routes"
+    "allRoutes": "All routes",
+    "colOrigin": "Origin",
+    "originName": "Ho Chi Minh City",
+    "contact": "Contact us"
   },
   "services": {
     "eyebrow": "Services",
@@ -88,7 +99,10 @@
     "eyebrow": "How it works",
     "title": "4 steps, from quote to doorstep",
     "steps": {
-      "1": { "title": "Quote", "body": "Enter destination and weight for an instant estimate, or message us on Zalo." },
+      "1": {
+        "title": "Quote",
+        "body": "Enter destination and weight for an instant estimate, or message us on Zalo."
+      },
       "2": {
         "title": "Pickup & packing",
         "body": "We collect at your door, weigh transparently and pack to air-cargo standards."
@@ -104,12 +118,13 @@
     }
   },
   "capability": {
-    "eyebrow": "Real operations",
-    "title": "Real cargo. Real warehouse. No stock photos.",
-    "subtitle": "Every photo below was taken by Pega Express at the Tan Son Nhat airport cargo area.",
+    "eyebrow": "Shipping capability",
+    "title": "Team, warehouse and transport",
+    "subtitle": "Illustrations of the Pega Express team, parcel handling and the transport modes we use.",
     "realBadge": "Real photo",
     "prev": "Previous photo",
-    "next": "Next photo"
+    "next": "Next photo",
+    "illustrationBadge": "Illustration"
   },
   "why": {
     "eyebrow": "Why Pega",
@@ -125,7 +140,7 @@
       },
       "connect": {
         "title": "Connection",
-        "body": "9 international routes and 5 domestic express cities in one place."
+        "body": "12 international routes, a frozen route and domestic express in one place."
       },
       "breakthrough": {
         "title": "Breakthrough",
@@ -170,7 +185,8 @@
     "errors": {
       "unknown_destination": "Please choose a destination.",
       "invalid_weight": "Enter a weight greater than 0.",
-      "over_max_weight": "Shipments over {max} kg — please contact us for a custom quote."
+      "over_max_weight": "Shipments over {max} kg — please contact us for a custom quote.",
+      "contact_for_price": "This route has no public rate yet — please contact us for a quote."
     },
     "empty": "Enter destination and weight to see an estimate."
   },
@@ -201,7 +217,12 @@
     "eyebrow": "Customer reviews",
     "title": "What customers say",
     "placeholderNotice": "Placeholder — real reviews from Google Maps and Zalo will be added before launch. Never shown in production.",
-    "source": { "google": "Google Maps", "facebook": "Facebook", "zalo": "Zalo", "placeholder": "Placeholder" },
+    "source": {
+      "google": "Google Maps",
+      "facebook": "Facebook",
+      "zalo": "Zalo",
+      "placeholder": "Placeholder"
+    },
     "rating": "{rating} out of 5 stars"
   },
   "faq": {
@@ -215,7 +236,7 @@
     "secondary": "Call {phone}"
   },
   "footer": {
-    "about": "Pega Express is a courier and international shipping company in Ho Chi Minh City, with dedicated routes to the USA, Canada, Australia, Japan, Korea, Taiwan, China, Malaysia, Singapore and domestic express between 5 cities.",
+    "about": "Pega Express is an international courier in Ho Chi Minh City serving the USA, Canada, Australia, the UK, France, Germany, Japan, Korea, Taiwan, China, Malaysia and Singapore, plus frozen shipping and domestic express.",
     "operating": "Office & drop-off counter",
     "registered": "Registered office",
     "taxId": "Tax ID",
@@ -229,7 +250,12 @@
     "notAffiliated": "Not affiliated with Pegasystems or PEGA e-bikes.",
     "map": "View map"
   },
-  "mobileBar": { "label": "Quick contact", "zalo": "Zalo", "call": "Call", "quote": "Quote" },
+  "mobileBar": {
+    "label": "Quick contact",
+    "zalo": "Zalo",
+    "call": "Call",
+    "quote": "Quote"
+  },
   "lead": {
     "title": "Get an exact quote",
     "subtitle": "Leave your details and Pega Express will contact you during business hours.",
@@ -281,19 +307,19 @@
   "pages": {
     "home": {
       "title": "Pega Express — International & express shipping from Ho Chi Minh City",
-      "description": "Ship to the USA, Australia, Japan, Korea, Canada, Taiwan, China, Malaysia and Singapore from Ho Chi Minh City. Transparent per-kg quotes, door pickup, warehouse at Tan Son Nhat airport."
+      "description": "Ship to the USA, Canada, Australia, the UK, France, Germany, Japan, Korea, Taiwan, China, Malaysia and Singapore from Ho Chi Minh City. Transparent per-kg quotes, door pickup, warehouse at Tan Son Nhat airport."
     },
     "destinations": {
       "title": "International shipping routes",
       "h1": "International routes from Ho Chi Minh City",
-      "description": "9 international shipping routes from Ho Chi Minh City: price per kg, transit time and customs notes for each country."
+      "description": "12 international shipping routes from Ho Chi Minh City: price per kg, transit time and customs notes for each country."
     },
     "destination": {
       "title": "Ship to {country} from Ho Chi Minh City — from {price}/kg",
       "h1": "Ship to {country} from Ho Chi Minh City",
       "description": "Shipping to {country} takes {min}–{max} days, from {price}/kg. Door pickup, standard packing, shipment tracking.",
       "quickAnswer": "Quick answer",
-      "priceTable": "Price by weight tier",
+      "priceTable": "Rates",
       "weightTier": "Weight tier",
       "upTo": "Up to {kg} kg",
       "perKg": "Rate/kg",
@@ -305,7 +331,10 @@
       "notes": "Customs & quarantine notes",
       "faq": "Questions about shipping to {country}",
       "quoteFor": "Quote for {country}",
-      "others": "Other routes"
+      "others": "Other routes",
+      "packageTitle": "Package price per parcel",
+      "titleNoPrice": "Ship to {country} from Ho Chi Minh City — quote on request",
+      "descriptionNoPrice": "Shipping to {country} takes {min}–{max} days. Contact us for a quote. Door pickup, standard packing, shipment tracking."
     },
     "services": {
       "title": "Pega Express shipping services",
@@ -315,9 +344,11 @@
     "pricing": {
       "title": "International shipping rates per kg",
       "h1": "International shipping rates",
-      "description": "Indicative international shipping rates from Ho Chi Minh City by country and weight tier, with goods surcharges.",
-      "intro": "Rate per kg by chargeable-weight tier. Chargeable weight = max(actual, L×W×H/5000), rounded up to the next 0.5 kg.",
-      "surcharges": "Surcharge by goods type (per kg)"
+      "description": "International shipping rates from Ho Chi Minh City: lowest price per kg, estimated transit, frozen routes and surcharges.",
+      "intro": "Shipped from Ho Chi Minh City. \"From\" is the lowest per-kg price on each route's rate card (usually for large shipments). Small parcels are priced per package — use the quote tool for a weight-based estimate.",
+      "surcharges": "Surcharges by goods type",
+      "validUntil": "Promotional prices valid until {date}",
+      "surchargeAsk": "Confirmed before pickup"
     },
     "quote": {
       "title": "International shipping quote in 30 seconds",
@@ -379,8 +410,14 @@
       "visit": "Drop off in person",
       "form": "Send a request"
     },
-    "policy": { "title": "{title}", "draft": "Draft — content awaiting confirmation by Pega Express." },
-    "thanks": { "title": "Thank you", "description": "Pega Express has received your quote request." },
+    "policy": {
+      "title": "{title}",
+      "draft": "Draft — content awaiting confirmation by Pega Express."
+    },
+    "thanks": {
+      "title": "Thank you",
+      "description": "Pega Express has received your quote request."
+    },
     "notFound": {
       "title": "Page not found",
       "h1": "404 — Off route",
@@ -391,5 +428,21 @@
       "title": "Something went wrong",
       "body": "We're having trouble. Please try again or call/Zalo us."
     }
+  },
+  "frozen": {
+    "eyebrow": "Frozen route",
+    "title": "Frozen shipping to the USA, Australia, UK, Germany, Korea, Taiwan",
+    "subtitle": "Seafood and frozen food kept cold the whole way. Lowest price per kg from each rate card.",
+    "freeTitle": "Free frozen packing",
+    "free": {
+      "box": "Styrofoam box",
+      "bag": "Insulated bag",
+      "gel": "Cold gel packs",
+      "freeze": "Frozen at -18°C at both ends"
+    },
+    "colRoute": "Route",
+    "minKg": "from {kg} kg",
+    "contact": "Contact for a quote",
+    "cta": "Get a frozen-shipping quote"
   }
 }

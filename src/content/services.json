@@ -2,17 +2,23 @@
   "data": [
     {
       "id": "international",
-      "slug": { "vi": "gui-hang-quoc-te", "en": "international-shipping" },
+      "slug": {
+        "vi": "gui-hang-quoc-te",
+        "en": "international-shipping"
+      },
       "icon": "globe",
-      "name": { "vi": "Gửi hàng quốc tế chuyên tuyến", "en": "Dedicated international routes" },
+      "name": {
+        "vi": "Gửi hàng quốc tế chuyên tuyến",
+        "en": "Dedicated international routes"
+      },
       "short": {
-        "vi": "Mỹ, Canada, Úc, Nhật, Hàn, Đài Loan, Trung Quốc, Malaysia, Singapore — bay từ TP.HCM.",
-        "en": "USA, Canada, Australia, Japan, Korea, Taiwan, China, Malaysia, Singapore — flown from Ho Chi Minh City."
+        "vi": "Mỹ, Canada, Úc, Anh, Pháp, Đức, Nhật, Hàn, Đài Loan, Trung Quốc, Malaysia, Singapore — gửi từ TP.HCM.",
+        "en": "USA, Canada, Australia, UK, France, Germany, Japan, Korea, Taiwan, China, Malaysia, Singapore — shipped from Ho Chi Minh City."
       },
       "body": [
         {
-          "vi": "Pega Express gom hàng tại kho khu vực sân bay Tân Sơn Nhất và gửi theo chuyên tuyến tới 9 quốc gia. Bạn biết trước giá dự kiến, khối lượng tính cước và thời gian giao trước khi gửi.",
-          "en": "Pega Express consolidates parcels near Tan Son Nhat airport and ships on dedicated routes to 9 countries. You see the estimated price, chargeable weight and delivery time before you ship."
+          "vi": "Pega Express gom hàng tại kho khu vực sân bay Tân Sơn Nhất và gửi theo chuyên tuyến tới 12 quốc gia. Bạn biết trước giá dự kiến, khối lượng tính cước và thời gian giao trước khi gửi.",
+          "en": "Pega Express consolidates parcels near Tan Son Nhat airport and ships on dedicated routes to 12 countries. You see the estimated price, chargeable weight and delivery time before you ship."
         },
         {
           "vi": "Phù hợp gửi quà, thực phẩm khô, quần áo, hàng mẫu cho người thân, khách hàng hoặc đối tác ở nước ngoài.",
@@ -24,39 +30,111 @@
           "vi": "Báo giá theo kg, có khối lượng quy đổi rõ ràng",
           "en": "Per-kg quotes with transparent volumetric weight"
         },
-        { "vi": "Mã tra cứu hành trình cho từng kiện", "en": "A tracking number for every parcel" },
-        { "vi": "Tư vấn hàng được/không được gửi theo từng nước", "en": "Country-specific advice on what you can ship" }
+        {
+          "vi": "Mã tra cứu hành trình cho từng kiện",
+          "en": "A tracking number for every parcel"
+        },
+        {
+          "vi": "Tư vấn hàng được/không được gửi theo từng nước",
+          "en": "Country-specific advice on what you can ship"
+        }
       ]
     },
     {
-      "id": "domestic",
-      "slug": { "vi": "chuyen-phat-hoa-toc-noi-dia", "en": "domestic-express" },
-      "icon": "zap",
-      "name": { "vi": "Chuyển phát hỏa tốc nội địa", "en": "Domestic express delivery" },
+      "id": "frozen",
+      "slug": {
+        "vi": "gui-hang-dong-lanh",
+        "en": "frozen-shipping"
+      },
+      "icon": "snowflake",
+      "name": {
+        "vi": "Gửi hàng đông lạnh quốc tế",
+        "en": "International frozen shipping"
+      },
       "short": {
-        "vi": "Hà Nội – Hải Phòng – Đà Nẵng – TP.HCM – Cần Thơ.",
-        "en": "Hanoi – Hai Phong – Da Nang – Ho Chi Minh City – Can Tho."
+        "vi": "Mỹ, Úc, Anh, Đức (EU), Hàn Quốc, Đài Loan. Miễn phí đóng gói đông lạnh.",
+        "en": "USA, Australia, UK, Germany (EU), Korea, Taiwan. Free frozen packing."
       },
       "body": [
         {
-          "vi": "Dịch vụ hỏa tốc giữa 5 thành phố lớn cho chứng từ, hàng gấp và hàng giá trị. Khung giờ giao cụ thể cho từng cặp thành phố được xác nhận khi bạn đặt đơn.",
-          "en": "Express service between 5 major cities for documents, urgent and high-value goods. Delivery windows for each city pair are confirmed when you book."
+          "vi": "Tuyến đông lạnh cho hải sản, thực phẩm đông lạnh và bánh đông lạnh đi Mỹ, Úc, Anh, Đức (EU), Hàn Quốc và Đài Loan. Hàng được cấp đông -18°C ở cả hai đầu để giữ chất lượng suốt hành trình.",
+          "en": "A frozen route for seafood, frozen food and frozen cakes to the USA, Australia, the UK, Germany (EU), Korea and Taiwan. Goods are frozen at -18°C at both ends to keep quality throughout the journey."
+        },
+        {
+          "vi": "Miễn phí đóng gói đông lạnh: thùng xốp, túi giữ nhiệt và túi gel giữ nhiệt. Mặt hàng nhận và điều kiện từng nước (ví dụ hải sản phải luộc chín đi Hàn, Đài) được tư vấn trước khi nhận hàng.",
+          "en": "Free frozen packing: styrofoam box, insulated bag and cold gel packs. Accepted items and country rules (for example, seafood must be cooked for Korea and Taiwan) are explained before pickup."
         }
       ],
       "points": [
         {
+          "vi": "Miễn phí thùng xốp, túi giữ nhiệt, túi gel giữ nhiệt",
+          "en": "Free styrofoam box, insulated bag and gel packs"
+        },
+        {
+          "vi": "Cấp đông -18°C hai đầu",
+          "en": "Frozen at -18°C at both ends"
+        },
+        {
+          "vi": "Mỹ, Úc, Anh, Đức (EU), Hàn Quốc, Đài Loan",
+          "en": "USA, Australia, UK, Germany (EU), Korea, Taiwan"
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "slug": {
+        "vi": "chuyen-phat-hoa-toc-noi-dia",
+        "en": "domestic-express"
+      },
+      "icon": "zap",
+      "name": {
+        "vi": "Hỏa tốc nội địa",
+        "en": "Domestic express"
+      },
+      "short": {
+        "vi": "Đường bay, giao ngay trong ngày hoặc trong 24h: Hà Nội, Hải Phòng, Đà Nẵng, TP.HCM, Cần Thơ.",
+        "en": "By air, delivered the same day or within 24 hours: Hanoi, Hai Phong, Da Nang, HCMC, Can Tho."
+      },
+      "body": [
+        {
+          "vi": "Dịch vụ hỏa tốc nội địa bằng đường bay cho chứng từ, hàng gấp, hàng giá trị và hàng đông lạnh. Hàng được giao ngay trong ngày hoặc trong vòng 24 giờ tùy cặp thành phố và giờ nhận hàng.",
+          "en": "Domestic express by air for documents, urgent, high-value and frozen goods. Parcels are delivered the same day or within 24 hours, depending on the city pair and pickup time."
+        },
+        {
+          "vi": "Khung giờ giao cụ thể được xác nhận khi bạn đặt đơn.",
+          "en": "The exact delivery window is confirmed when you book."
+        }
+      ],
+      "points": [
+        {
+          "vi": "Giao trong ngày hoặc trong 24h bằng đường bay",
+          "en": "Same-day or within-24h delivery by air"
+        },
+        {
           "vi": "5 thành phố: Hà Nội, Hải Phòng, Đà Nẵng, TP.HCM, Cần Thơ",
           "en": "5 cities: Hanoi, Hai Phong, Da Nang, HCMC, Can Tho"
         },
-        { "vi": "Lấy hàng tận nơi trong giờ làm việc", "en": "Door pickup during business hours" },
-        { "vi": "Xác nhận khung giờ giao khi đặt đơn", "en": "Delivery window confirmed at booking" }
+        {
+          "vi": "Nhận cả hàng thường và hàng đông lạnh",
+          "en": "Regular and frozen goods accepted"
+        },
+        {
+          "vi": "Lấy hàng tận nơi trong giờ làm việc",
+          "en": "Door pickup during business hours"
+        }
       ]
     },
     {
       "id": "packing",
-      "slug": { "vi": "dong-goi-lay-hang-tan-nha", "en": "packing-and-pickup" },
+      "slug": {
+        "vi": "dong-goi-lay-hang-tan-nha",
+        "en": "packing-and-pickup"
+      },
       "icon": "package",
-      "name": { "vi": "Đóng gói chuẩn & lấy hàng tận nhà", "en": "Standard packing & door pickup" },
+      "name": {
+        "vi": "Đóng gói chuẩn & lấy hàng tận nhà",
+        "en": "Standard packing & door pickup"
+      },
       "short": {
         "vi": "Thùng carton, quấn màng, chèn chống sốc theo chuẩn hàng không.",
         "en": "Cartons, stretch wrap and cushioning to air-cargo standards."
@@ -68,8 +146,14 @@
         }
       ],
       "points": [
-        { "vi": "Cân đo minh bạch trước mặt khách", "en": "Transparent weighing in front of you" },
-        { "vi": "Đóng gói tối ưu thể tích để giảm cước", "en": "Volume-optimised packing to lower cost" },
+        {
+          "vi": "Cân đo minh bạch trước mặt khách",
+          "en": "Transparent weighing in front of you"
+        },
+        {
+          "vi": "Đóng gói tối ưu thể tích để giảm cước",
+          "en": "Volume-optimised packing to lower cost"
+        },
         {
           "vi": "Quầy nhận hàng tại 431 Tân Sơn, gần sân bay",
           "en": "Drop-off counter at 431 Tan Son, near the airport"
@@ -77,5 +161,8 @@
       ]
     }
   ],
-  "meta": { "updatedAt": "2026-11-27", "version": 1 }
+  "meta": {
+    "updatedAt": "2026-11-28",
+    "version": 2
+  }
 }

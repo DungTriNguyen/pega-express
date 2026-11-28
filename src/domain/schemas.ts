@@ -59,6 +59,22 @@ export const pricingSchema = z.object({
     z.string(),
     z.array(z.object({ upToKg: z.number().positive(), perKg: z.number().positive() })).min(1),
   ),
+  /** Giá "từ" hiển thị cho từng tuyến = mức giá/kg thấp nhất trong bảng giá gốc. Thiếu → lấy min của `rates`. */
+  fromPerKg: z.record(z.string(), z.number().positive()).default({}),
+  /** Tuyến chưa có bảng giá công khai → hiển thị "Liên hệ báo giá" */
+  contactOnly: z.array(z.string()).default([]),
+  /** Tuyến đông lạnh. Không có `fromPerKg` → liên hệ báo giá. */
+  frozen: z
+    .array(
+      z.object({
+        destinationId: z.string(),
+        fromPerKg: z.number().positive().optional(),
+        minKg: z.number().positive().optional(),
+      }),
+    )
+    .default([]),
+  /** Hạn áp dụng giá ưu đãi (ISO date) */
+  validUntil: z.string().optional(),
   demo: z.boolean(),
 });
 export type Pricing = z.infer<typeof pricingSchema>;
@@ -66,7 +82,7 @@ export type Pricing = z.infer<typeof pricingSchema>;
 export const serviceSchema = z.object({
   id: z.string(),
   slug: localizedSchema,
-  icon: z.enum(["globe", "zap", "package", "truck"]),
+  icon: z.enum(["globe", "zap", "package", "truck", "snowflake"]),
   name: localizedSchema,
   short: localizedSchema,
   body: z.array(localizedSchema),

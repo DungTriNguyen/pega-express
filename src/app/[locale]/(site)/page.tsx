@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { ArrowRight, Globe, MessageCircle, Package, Phone, Truck, Zap } from "lucide-react";
+import { ArrowRight, Globe, MessageCircle, Package, Phone, Snowflake, Truck, Zap } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import type { AppLocale } from "@/i18n/routing";
 import { getRepositories } from "@/data";
@@ -8,7 +8,7 @@ import { site, zaloUrl } from "@/shared/config/site";
 import { Section, FaqList, JsonLd, buttonClass, DemoNotice } from "@/shared/ui";
 import { Hero, TrustBar, ProcessSteps, CapabilityGallery, FinalCta } from "@/shared/sections";
 import { buildMetadata, faqSchema } from "@/shared/lib/seo";
-import { DeparturesBoard, RouteMap } from "@/features/destinations";
+import { DeparturesBoard, FrozenRoutes, RouteMap } from "@/features/destinations";
 import { HeroCard } from "@/features/hero-card";
 import { QuoteCalculator } from "@/features/quote";
 import { TrackingForm } from "@/features/tracking";
@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
-const serviceIcons = { globe: Globe, zap: Zap, package: Package, truck: Truck } as const;
+const serviceIcons = { globe: Globe, zap: Zap, package: Package, truck: Truck, snowflake: Snowflake } as const;
 
 export default async function HomePage({ params }: Props) {
   const { locale } = await params;
@@ -46,7 +46,7 @@ export default async function HomePage({ params }: Props) {
       repos.testimonials.list(),
     ]);
   const zalo = zaloUrl();
-  const heroImage = images.find((i) => i.id === "kho-san-bay-toan-canh") ?? images[0]!;
+  const heroImage = images.find((i) => i.id === "banner-2") ?? images[0]!;
   const faqItems = faq.map((f) => ({ id: f.id, q: f.q[locale], a: f.a[locale] }));
 
   return (
@@ -56,7 +56,7 @@ export default async function HomePage({ params }: Props) {
         eyebrow={t("hero.eyebrow")}
         title={t("hero.title")}
         subtitle={t("hero.subtitle")}
-        caption={t("hero.photoCaption")}
+        // caption={t("hero.photoCaption")}
         image={heroImage}
         routeMap={<RouteMap destinations={destinations} className="h-[22rem] w-full sm:h-[28rem] lg:h-[34rem]" />}
         actions={
@@ -82,9 +82,10 @@ export default async function HomePage({ params }: Props) {
       <TrustBar
         title={t("trust.title")}
         items={[
-          { label: t("trust.taxId", { taxId: site.taxId }), note: t("trust.taxIdNote") },
-          { label: t("trust.airport"), note: t("trust.airportNote") },
-          { value: destinations.length, strong: t("trust.routes"), label: "", note: t("trust.routesNote") },
+          // { label: t("trust.taxId", { taxId: site.taxId }), note: t("trust.taxIdNote") },
+          { value: 1, strong: t("trust.airport"), label: "", note: t("trust.airportNote") },
+          // { value: destinations.length, strong: t("trust.routes"), label: "", note: t("trust.routesNote") },
+          { value: 200, strong: t("trust.routes"), label: "", note: t("trust.routesNote") },
           { value: site.domesticCities.length, strong: t("trust.domestic"), label: "", note: t("trust.domesticNote") },
         ]}
       />
@@ -104,13 +105,27 @@ export default async function HomePage({ params }: Props) {
       </Section>
 
       <Section
-        id="dich-vu"
+        id="dong-lanh"
         tone="alt"
+        eyebrow={t("frozen.eyebrow")}
+        title={t("frozen.title")}
+        subtitle={t("frozen.subtitle")}
+        actions={
+          <Link href="/bao-gia" className={buttonClass("secondary", "md")}>
+            {t("frozen.cta")} <ArrowRight aria-hidden className="size-4" />
+          </Link>
+        }
+      >
+        <FrozenRoutes pricing={pricing} destinations={destinations} locale={locale} />
+      </Section>
+
+      <Section
+        id="dich-vu"
         eyebrow={t("services.eyebrow")}
         title={t("services.title")}
         subtitle={t("services.subtitle")}
       >
-        <ul className="grid gap-px border border-border bg-border md:grid-cols-3">
+        <ul className="grid gap-px border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
           {services.map((s) => {
             const Icon = serviceIcons[s.icon];
             return (
@@ -152,7 +167,12 @@ export default async function HomePage({ params }: Props) {
       >
         <CapabilityGallery
           images={images}
-          labels={{ real: t("capability.realBadge"), prev: t("capability.prev"), next: t("capability.next") }}
+          labels={{
+            real: t("capability.realBadge"),
+            illustration: t("capability.illustrationBadge"),
+            prev: t("capability.prev"),
+            next: t("capability.next"),
+          }}
         />
       </Section>
 
@@ -183,9 +203,9 @@ export default async function HomePage({ params }: Props) {
 
       {testimonials.length > 0 && (
         <Section id="cam-nhan" eyebrow={t("testimonials.eyebrow")} title={t("testimonials.title")}>
-          {testimonials.some((x) => x.demo) && (
+          {/* {testimonials.some((x) => x.demo) && (
             <DemoNotice className="mb-6">{t("testimonials.placeholderNotice")}</DemoNotice>
-          )}
+          )} */}
           <TestimonialsCarousel
             items={testimonials.map((x) => ({
               id: x.id,

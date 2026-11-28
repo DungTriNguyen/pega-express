@@ -25,7 +25,7 @@ export function Hero({
   card: ReactNode;
   image: ResponsiveImageData;
   routeMap: ReactNode;
-  caption: string;
+  caption?: string;
   video?: { mp4: string; webm?: string; poster: string };
 }) {
   return (
@@ -51,17 +51,18 @@ export function Hero({
               priority
               sizes="100vw"
               className="h-full"
-              imgClassName="opacity-55 grayscale-[30%]"
+              imgClassName="object-cover object-center"
               decorative
             />
           </ParallaxImage>
         )}
-        <div className="absolute inset-0 bg-gradient-to-r from-charcoal-950 via-charcoal-950/85 to-charcoal-950/40" />
-        <div className="absolute inset-0 bg-gradient-to-t from-charcoal-950 via-transparent to-charcoal-950/60" />
+        <div className="absolute inset-0 bg-charcoal-950/45" />
+        <div className="absolute inset-0 bg-gradient-to-r from-charcoal-950/85 via-charcoal-950/30 to-transparent lg:via-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-charcoal-950/90 via-transparent to-charcoal-950/50" />
       </div>
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-x-0 top-10 -z-10 text-ivory-50/70 opacity-35 lg:top-6 lg:left-[40%] lg:opacity-80"
+        className="pointer-events-none absolute inset-x-0 top-10 -z-10 text-ivory-50/70 opacity-25 lg:top-6 lg:left-[40%] lg:opacity-40"
       >
         {routeMap}
       </div>
@@ -73,7 +74,7 @@ export function Hero({
           <p className="mt-6 max-w-xl text-lg text-charcoal-200">{subtitle}</p>
           <div className="mt-8 flex flex-wrap gap-3">{actions}</div>
           <p className="mt-10 hidden font-mono text-[0.7rem] tracking-[0.18em] text-charcoal-300 uppercase lg:block">
-            ◉ {caption}
+            {/* ◉ {caption} */}
           </p>
         </div>
         <div className="text-fg lg:w-full lg:max-w-md lg:justify-self-end">{card}</div>

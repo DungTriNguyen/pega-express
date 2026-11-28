@@ -33,6 +33,7 @@ export function toImage(m: MediaItem, locale: AppLocale): ResponsiveImageData {
     widths: m.widths,
     blurDataURL: m.blurDataURL,
     alt: m.alt[locale],
+    real: m.real,
   };
 }
 

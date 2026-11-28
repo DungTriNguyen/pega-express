@@ -33,7 +33,10 @@ export async function GET() {
     "## Tuyến quốc tế từ TP.HCM",
     ...destinations.map(
       (d) =>
-        `- [Gửi hàng đi ${d.name.vi}](${localizedUrl({ pathname: "/[routeSlug]", params: { routeSlug: d.slug.vi } }, "vi")}): ${d.transitDays.min}–${d.transitDays.max} ngày, giá từ ${priceFromPerKg(pricing, d.id)?.toLocaleString("vi-VN")} đ/kg`,
+        `- [Gửi hàng đi ${d.name.vi}](${localizedUrl({ pathname: "/[routeSlug]", params: { routeSlug: d.slug.vi } }, "vi")}): ${d.transitDays.min}–${d.transitDays.max} ngày, ${(() => {
+          const p = priceFromPerKg(pricing, d.id);
+          return p ? `giá từ ${p.toLocaleString("vi-VN")} đ/kg` : "liên hệ báo giá";
+        })()}`,
     ),
     "",
     "## Hỏa tốc nội địa",

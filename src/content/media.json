@@ -1,59 +1,89 @@
 {
   "data": [
     {
-      "id": "kho-san-bay-toan-canh",
-      "file": "kho-san-bay-toan-canh.jpg",
-      "real": true,
+      "id": "banner-2",
+      "file": "banner-2.webp",
+      "real": false,
       "alt": {
-        "vi": "Các pallet hàng của Pega Express đã đóng gói, xếp chờ bay tại nhà ga hàng hóa sân bay Tân Sơn Nhất",
-        "en": "Pega Express pallets packed and staged for departure at the Tan Son Nhat airport cargo terminal"
+        "vi": "Hình minh họa: xe đầu kéo Pega Express tại cảng, phía sau là tàu container và máy bay",
+        "en": "Illustration: a Pega Express truck at the port with a container ship and a plane behind"
       }
     },
     {
-      "id": "kho-nhan-vien-kiem-hang",
-      "file": "kho-nhan-vien-kiem-hang.jpg",
-      "real": true,
+      "id": "company",
+      "file": "company.webp",
+      "real": false,
       "alt": {
-        "vi": "Nhân viên kiểm đếm các kiện hàng trên pallet tại kho hàng hóa sân bay",
-        "en": "A staff member checking parcels on pallets in the airport cargo warehouse"
+        "vi": "Hình minh họa: đội ngũ Pega Express trước văn phòng 431 Tân Sơn",
+        "en": "Illustration: the Pega Express team in front of the 431 Tan Son office"
       }
     },
     {
-      "id": "kho-pallet-hang-xuat",
-      "file": "kho-pallet-hang-xuat.jpg",
-      "real": true,
+      "id": "ware-house",
+      "file": "ware-house.webp",
+      "real": false,
       "alt": {
-        "vi": "Thùng hàng quấn băng keo và màng xốp, xếp trên pallet chuẩn bị xuất",
-        "en": "Taped and bubble-wrapped cartons on pallets ready for export"
+        "vi": "Hình minh họa: nhân viên Pega Express kiểm đếm thùng hàng trong kho",
+        "en": "Illustration: Pega Express staff checking parcels in the warehouse"
       }
     },
     {
-      "id": "kho-pallet-dong-chuan",
-      "file": "kho-pallet-dong-chuan.jpg",
-      "real": true,
+      "id": "men-caculator",
+      "file": "men-caculator.webp",
+      "real": false,
       "alt": {
-        "vi": "Năm pallet hàng đóng gói đồng đều trong khu hàng hóa sân bay",
-        "en": "Five evenly packed pallets in the airport cargo area"
+        "vi": "Hình minh họa: nhân viên cân thùng hàng trước khi gửi",
+        "en": "Illustration: a staff member weighing a parcel before shipping"
       }
     },
     {
-      "id": "kho-hang-cho-bay",
-      "file": "kho-hang-cho-bay.jpg",
-      "real": true,
+      "id": "men-truck",
+      "file": "men-truck.webp",
+      "real": false,
       "alt": {
-        "vi": "Dãy pallet hàng gửi quốc tế đang chờ bay",
-        "en": "A row of international shipments on pallets awaiting their flight"
+        "vi": "Hình minh họa: nhân viên mang thùng hàng ra xe van Pega Express",
+        "en": "Illustration: a staff member carrying a parcel to a Pega Express van"
       }
     },
     {
-      "id": "kho-cua-xuat-hang",
-      "file": "kho-cua-xuat-hang.jpg",
-      "real": true,
+      "id": "pega-company",
+      "file": "pega-company.webp",
+      "real": false,
       "alt": {
-        "vi": "Pallet hàng tập kết trước các cửa xuất hàng đánh số tại nhà ga hàng hóa",
-        "en": "Pallets gathered in front of numbered loading gates at the cargo terminal"
+        "vi": "Hình minh họa: thùng hàng Pega Express chờ gửi tại văn phòng",
+        "en": "Illustration: Pega Express parcels waiting to ship at the office"
+      }
+    },
+    {
+      "id": "banner",
+      "file": "banner.webp",
+      "real": false,
+      "alt": {
+        "vi": "Hình minh họa: xe van Pega Express trong kho hàng hóa, xung quanh là các thùng hàng đã đóng gói",
+        "en": "Illustration: a Pega Express van inside a cargo warehouse surrounded by packed parcels"
+      }
+    },
+    {
+      "id": "sea",
+      "file": "sea.webp",
+      "real": false,
+      "alt": {
+        "vi": "Hình minh họa: tàu container mang logo Pega Express trên biển",
+        "en": "Illustration: a container ship with the Pega Express logo at sea"
+      }
+    },
+    {
+      "id": "container",
+      "file": "container.webp",
+      "real": false,
+      "alt": {
+        "vi": "Hình minh họa: container lạnh mang logo Pega Express cho hàng đông lạnh",
+        "en": "Illustration: a Pega Express refrigerated container for frozen goods"
       }
     }
   ],
-  "meta": { "updatedAt": "2026-11-27", "version": 1 }
+  "meta": {
+    "updatedAt": "2026-11-28",
+    "version": 3
+  }
 }

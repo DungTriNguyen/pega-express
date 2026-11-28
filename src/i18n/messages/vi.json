@@ -38,8 +38,16 @@
     "openMenu": "Mở menu",
     "main": "Điều hướng chính"
   },
-  "theme": { "toggle": "Đổi chế độ sáng/tối", "light": "Sáng", "dark": "Tối" },
-  "locale": { "label": "Ngôn ngữ", "switchTo": "English", "short": "EN" },
+  "theme": {
+    "toggle": "Đổi chế độ sáng/tối",
+    "light": "Sáng",
+    "dark": "Tối"
+  },
+  "locale": {
+    "label": "Ngôn ngữ",
+    "switchTo": "English",
+    "short": "EN"
+  },
   "hero": {
     "eyebrow": "SGN · Kho hàng khu sân bay Tân Sơn Nhất",
     "title": "Gửi hàng quốc tế từ TP.HCM — nhanh, an toàn, giá rõ ràng",
@@ -60,24 +68,27 @@
     "taxIdNote": "Công ty TNHH, hoạt động từ 2026",
     "airport": "Kho khu sân bay TSN",
     "airportNote": "431 Tân Sơn, gần nhà ga hàng hóa",
-    "routes": "tuyến quốc tế",
+    "routes": "quốc gia và vùng lãnh thổ",
     "routesNote": "Mỹ, Úc, Nhật, Hàn, Đài…",
     "domestic": "thành phố hỏa tốc nội địa",
-    "domesticNote": "HN · HP · ĐN · HCM · CT",
+    "domesticNote": "Hà Nội · HCM · Đà Nẵng · Cần Thơ · Hải Phòng",
     "hours": "Giờ làm việc",
     "pickup": "Lấy hàng tận nơi"
   },
   "routes": {
     "eyebrow": "Bảng giờ bay",
-    "title": "9 tuyến quốc tế, giá công khai",
-    "subtitle": "Giá từ mỗi kg và thời gian giao dự kiến. Chọn một tuyến để xem chi tiết.",
+    "title": "12 tuyến chính, 200 quốc gia và vùng lãnh thổ, giá công khai",
+    "subtitle": "Gửi từ TP.HCM. Giá từ mỗi kg (mức thấp nhất trong bảng giá) và thời gian giao dự kiến. Chọn một tuyến để xem chi tiết.",
     "colDestination": "Điểm đến",
     "colCode": "Mã",
     "colPrice": "Giá từ",
-    "colTransit": "Thời gian",
+    "colTransit": "Thời gian dự kiến",
     "colAction": "",
     "viewRoute": "Xem tuyến",
-    "allRoutes": "Tất cả tuyến"
+    "allRoutes": "Tất cả tuyến",
+    "colOrigin": "Điểm gửi",
+    "originName": "TP.HCM",
+    "contact": "Liên hệ"
   },
   "services": {
     "eyebrow": "Dịch vụ",
@@ -107,23 +118,30 @@
     }
   },
   "capability": {
-    "eyebrow": "Năng lực thật",
-    "title": "Hàng thật. Kho thật. Không ảnh minh họa.",
-    "subtitle": "Toàn bộ ảnh dưới đây do Pega Express chụp tại khu hàng hóa sân bay Tân Sơn Nhất.",
+    "eyebrow": "Năng lực vận chuyển",
+    "title": "Đội ngũ, kho hàng và phương tiện",
+    "subtitle": "Hình minh họa về đội ngũ, quy trình nhận hàng và các phương thức vận chuyển của Pega Express.",
     "realBadge": "Ảnh thật",
     "prev": "Ảnh trước",
-    "next": "Ảnh tiếp theo"
+    "next": "Ảnh tiếp theo",
+    "illustrationBadge": "Hình minh họa"
   },
   "why": {
     "eyebrow": "Tại sao chọn Pega",
     "title": "Năm giá trị, một lời hứa",
     "items": {
-      "speed": { "title": "Tốc độ", "body": "Kho ngay khu sân bay giúp rút ngắn khâu tập kết hàng trước chuyến bay." },
+      "speed": {
+        "title": "Tốc độ",
+        "body": "Kho ngay khu sân bay giúp rút ngắn khâu tập kết hàng trước chuyến bay."
+      },
       "trust": {
         "title": "Tin cậy",
         "body": "Pháp nhân rõ ràng, MST công khai, giá tham khảo hiển thị trước khi gửi."
       },
-      "connect": { "title": "Kết nối", "body": "9 tuyến quốc tế và 5 thành phố hỏa tốc nội địa trong một đầu mối." },
+      "connect": {
+        "title": "Kết nối",
+        "body": "12 tuyến quốc tế, tuyến đông lạnh và hỏa tốc nội địa trong một đầu mối."
+      },
       "breakthrough": {
         "title": "Bứt phá",
         "body": "Báo giá tức thì, tra cứu một chạm — không phải chờ gọi lại mới biết giá."
@@ -167,7 +185,8 @@
     "errors": {
       "unknown_destination": "Vui lòng chọn nước đến.",
       "invalid_weight": "Nhập cân nặng lớn hơn 0.",
-      "over_max_weight": "Lô hàng trên {max} kg — vui lòng liên hệ để được báo giá riêng."
+      "over_max_weight": "Lô hàng trên {max} kg — vui lòng liên hệ để được báo giá riêng.",
+      "contact_for_price": "Tuyến này chưa có bảng giá công khai — vui lòng liên hệ để được báo giá."
     },
     "empty": "Nhập nước đến và cân nặng để xem giá dự kiến."
   },
@@ -198,7 +217,12 @@
     "eyebrow": "Cảm nhận khách hàng",
     "title": "Khách hàng nói gì",
     "placeholderNotice": "Khung giữ chỗ — đánh giá thật từ Google Maps và Zalo sẽ được thêm trước khi ra mắt. Không hiển thị ở production.",
-    "source": { "google": "Google Maps", "facebook": "Facebook", "zalo": "Zalo", "placeholder": "Giữ chỗ" },
+    "source": {
+      "google": "Google Maps",
+      "facebook": "Facebook",
+      "zalo": "Zalo",
+      "placeholder": "Giữ chỗ"
+    },
     "rating": "{rating} trên 5 sao"
   },
   "faq": {
@@ -212,7 +236,7 @@
     "secondary": "Gọi {phone}"
   },
   "footer": {
-    "about": "Pega Express là công ty chuyển phát và gửi hàng quốc tế tại TP.HCM, chuyên tuyến Mỹ, Canada, Úc, Nhật, Hàn, Đài Loan, Trung Quốc, Malaysia, Singapore và hỏa tốc nội địa 5 thành phố.",
+    "about": "Pega Express là công ty chuyển phát và gửi hàng quốc tế tại TP.HCM, chuyên tuyến Mỹ, Canada, Úc, Anh, Pháp, Đức, Nhật, Hàn, Đài Loan, Trung Quốc, Malaysia, Singapore, tuyến đông lạnh và hỏa tốc nội địa.",
     "operating": "Văn phòng & quầy nhận hàng",
     "registered": "Trụ sở đăng ký",
     "taxId": "MST",
@@ -226,7 +250,12 @@
     "notAffiliated": "Không liên quan tới Pegasystems hay xe điện PEGA.",
     "map": "Xem bản đồ"
   },
-  "mobileBar": { "label": "Liên hệ nhanh", "zalo": "Zalo", "call": "Gọi", "quote": "Báo giá" },
+  "mobileBar": {
+    "label": "Liên hệ nhanh",
+    "zalo": "Zalo",
+    "call": "Gọi",
+    "quote": "Báo giá"
+  },
   "lead": {
     "title": "Nhận báo giá chính xác",
     "subtitle": "Để lại thông tin, Pega Express liên hệ lại trong giờ làm việc.",
@@ -278,19 +307,19 @@
   "pages": {
     "home": {
       "title": "Pega Express — Gửi hàng quốc tế & hỏa tốc từ TP.HCM",
-      "description": "Gửi hàng đi Mỹ, Úc, Nhật, Hàn, Canada, Đài Loan, Trung Quốc, Malaysia, Singapore từ TP.HCM. Báo giá minh bạch theo kg, lấy hàng tận nhà, kho khu sân bay Tân Sơn Nhất."
+      "description": "Gửi hàng đi Mỹ, Canada, Úc, Anh, Pháp, Đức, Nhật, Hàn, Đài Loan, Trung Quốc, Malaysia, Singapore từ TP.HCM. Báo giá minh bạch theo kg, lấy hàng tận nhà, kho khu sân bay Tân Sơn Nhất."
     },
     "destinations": {
       "title": "Các tuyến gửi hàng quốc tế",
       "h1": "Tuyến quốc tế từ TP.HCM",
-      "description": "9 tuyến gửi hàng quốc tế từ TP.HCM: giá từ mỗi kg, thời gian giao và lưu ý hải quan từng nước."
+      "description": "12 tuyến gửi hàng quốc tế từ TP.HCM: giá từ mỗi kg, thời gian giao và lưu ý hải quan từng nước."
     },
     "destination": {
       "title": "Gửi hàng đi {country} từ TP.HCM — giá từ {price}/kg",
       "h1": "Gửi hàng đi {country} từ TP.HCM",
       "description": "Gửi hàng đi {country} mất {min}–{max} ngày, giá từ {price}/kg. Lấy hàng tận nhà, đóng gói chuẩn, tra cứu hành trình.",
       "quickAnswer": "Trả lời nhanh",
-      "priceTable": "Bảng giá theo mốc cân",
+      "priceTable": "Bảng giá",
       "weightTier": "Mốc cân",
       "upTo": "Đến {kg} kg",
       "perKg": "Đơn giá/kg",
@@ -302,7 +331,10 @@
       "notes": "Lưu ý hải quan & kiểm dịch",
       "faq": "Câu hỏi về tuyến {country}",
       "quoteFor": "Báo giá gửi đi {country}",
-      "others": "Tuyến khác"
+      "others": "Tuyến khác",
+      "packageTitle": "Giá trọn gói theo kiện",
+      "titleNoPrice": "Gửi hàng đi {country} từ TP.HCM — báo giá theo lô",
+      "descriptionNoPrice": "Gửi hàng đi {country} mất {min}–{max} ngày. Liên hệ để được báo giá. Lấy hàng tận nhà, đóng gói chuẩn, tra cứu hành trình."
     },
     "services": {
       "title": "Dịch vụ gửi hàng của Pega Express",
@@ -312,9 +344,11 @@
     "pricing": {
       "title": "Bảng giá gửi hàng quốc tế theo kg",
       "h1": "Bảng giá gửi hàng quốc tế",
-      "description": "Bảng giá tham khảo gửi hàng quốc tế từ TP.HCM theo từng nước và mốc cân, kèm phụ phí loại hàng.",
-      "intro": "Đơn giá mỗi kg theo mốc cân tính cước. Khối lượng tính cước = max(cân thực, D×R×C/5000), làm tròn lên mỗi 0,5 kg.",
-      "surcharges": "Phụ phí theo loại hàng (mỗi kg)"
+      "description": "Bảng giá gửi hàng quốc tế từ TP.HCM: giá từ mỗi kg, thời gian giao dự kiến, tuyến đông lạnh và phụ phí.",
+      "intro": "Gửi từ TP.HCM. Giá từ = mức giá/kg thấp nhất trong bảng giá của tuyến (thường áp dụng cho lô hàng lớn). Kiện nhỏ tính giá trọn gói — dùng công cụ báo giá để biết giá theo cân nặng.",
+      "surcharges": "Phụ phí theo loại hàng",
+      "validUntil": "Giá ưu đãi áp dụng đến {date}",
+      "surchargeAsk": "Báo trước khi nhận hàng"
     },
     "quote": {
       "title": "Báo giá gửi hàng quốc tế trong 30 giây",
@@ -376,8 +410,14 @@
       "visit": "Đến gửi hàng trực tiếp",
       "form": "Gửi yêu cầu"
     },
-    "policy": { "title": "{title}", "draft": "Bản nháp — nội dung đang chờ Pega Express xác nhận." },
-    "thanks": { "title": "Cảm ơn bạn", "description": "Pega Express đã nhận yêu cầu báo giá của bạn." },
+    "policy": {
+      "title": "{title}",
+      "draft": "Bản nháp — nội dung đang chờ Pega Express xác nhận."
+    },
+    "thanks": {
+      "title": "Cảm ơn bạn",
+      "description": "Pega Express đã nhận yêu cầu báo giá của bạn."
+    },
     "notFound": {
       "title": "Không tìm thấy trang",
       "h1": "404 — Lạc tuyến rồi",
@@ -388,5 +428,21 @@
       "title": "Có lỗi xảy ra",
       "body": "Hệ thống đang gặp sự cố. Vui lòng thử lại hoặc gọi/Zalo cho chúng tôi."
     }
+  },
+  "frozen": {
+    "eyebrow": "Tuyến đông lạnh",
+    "title": "Gửi hàng đông lạnh đi Mỹ, Úc, Anh, Đức, Hàn, Đài",
+    "subtitle": "Hải sản, thực phẩm đông lạnh được giữ lạnh suốt hành trình. Giá từ mỗi kg, mức thấp nhất trong bảng giá.",
+    "freeTitle": "Miễn phí đóng gói đông lạnh",
+    "free": {
+      "box": "Thùng xốp",
+      "bag": "Túi giữ nhiệt",
+      "gel": "Túi gel giữ nhiệt",
+      "freeze": "Cấp đông -18°C hai đầu"
+    },
+    "colRoute": "Tuyến",
+    "minKg": "nhận từ {kg} kg",
+    "contact": "Liên hệ báo giá",
+    "cta": "Báo giá hàng đông lạnh"
   }
 }

@@ -7,215 +7,1103 @@
     "rangeSpread": 0.12,
     "surchargePerKg": {
       "general": 0,
-      "food": 15000,
-      "cosmetics": 20000,
-      "medicine": 25000,
-      "liquid": 30000
+      "food": 0,
+      "cosmetics": 0,
+      "medicine": 0,
+      "liquid": 0
+    },
+    "fromPerKg": {
+      "us": 280000,
+      "au": 139000,
+      "gb": 222000,
+      "fr": 251000,
+      "de": 233000,
+      "jp": 128000,
+      "kr": 84000,
+      "tw": 94000,
+      "cn": 114000,
+      "my": 70000
     },
     "rates": {
       "us": [
         {
+          "upToKg": 0.5,
+          "perKg": 1696000
+        },
+        {
+          "upToKg": 1,
+          "perKg": 884000
+        },
+        {
+          "upToKg": 1.5,
+          "perKg": 682666
+        },
+        {
           "upToKg": 2,
-          "perKg": 306000
+          "perKg": 583000
+        },
+        {
+          "upToKg": 2.5,
+          "perKg": 522800
+        },
+        {
+          "upToKg": 3,
+          "perKg": 482666
+        },
+        {
+          "upToKg": 3.5,
+          "perKg": 454285
+        },
+        {
+          "upToKg": 4,
+          "perKg": 432750
+        },
+        {
+          "upToKg": 4.5,
+          "perKg": 416444
         },
         {
           "upToKg": 5,
-          "perKg": 245000
+          "perKg": 414800
+        },
+        {
+          "upToKg": 5.5,
+          "perKg": 400727
+        },
+        {
+          "upToKg": 6,
+          "perKg": 389166
+        },
+        {
+          "upToKg": 6.5,
+          "perKg": 380769
+        },
+        {
+          "upToKg": 7,
+          "perKg": 373714
+        },
+        {
+          "upToKg": 7.5,
+          "perKg": 367600
+        },
+        {
+          "upToKg": 8,
+          "perKg": 362125
+        },
+        {
+          "upToKg": 8.5,
+          "perKg": 357294
+        },
+        {
+          "upToKg": 9,
+          "perKg": 352888
+        },
+        {
+          "upToKg": 9.5,
+          "perKg": 349052
         },
         {
           "upToKg": 10,
-          "perKg": 216000
+          "perKg": 351300
+        },
+        {
+          "upToKg": 10.5,
+          "perKg": 347714
+        },
+        {
+          "upToKg": 11,
+          "perKg": 344363
+        },
+        {
+          "upToKg": 11.5,
+          "perKg": 341478
+        },
+        {
+          "upToKg": 12,
+          "perKg": 338833
+        },
+        {
+          "upToKg": 12.5,
+          "perKg": 336480
+        },
+        {
+          "upToKg": 13,
+          "perKg": 334307
+        },
+        {
+          "upToKg": 13.5,
+          "perKg": 332518
+        },
+        {
+          "upToKg": 14,
+          "perKg": 330642
+        },
+        {
+          "upToKg": 14.5,
+          "perKg": 328896
+        },
+        {
+          "upToKg": 15,
+          "perKg": 327400
+        },
+        {
+          "upToKg": 15.5,
+          "perKg": 325935
+        },
+        {
+          "upToKg": 16,
+          "perKg": 324687
+        },
+        {
+          "upToKg": 16.5,
+          "perKg": 323393
+        },
+        {
+          "upToKg": 17,
+          "perKg": 322235
+        },
+        {
+          "upToKg": 17.5,
+          "perKg": 321085
+        },
+        {
+          "upToKg": 18,
+          "perKg": 320055
+        },
+        {
+          "upToKg": 18.5,
+          "perKg": 319243
+        },
+        {
+          "upToKg": 19,
+          "perKg": 318473
+        },
+        {
+          "upToKg": 19.5,
+          "perKg": 317487
         },
         {
           "upToKg": 20,
-          "perKg": 196000
+          "perKg": 316450
         },
         {
-          "upToKg": 30,
-          "perKg": 186000
-        }
-      ],
-      "ca": [
-        {
-          "upToKg": 2,
-          "perKg": 319000
+          "upToKg": 44,
+          "perKg": 295000
         },
         {
-          "upToKg": 5,
-          "perKg": 255000
+          "upToKg": 99,
+          "perKg": 285000
         },
         {
-          "upToKg": 10,
-          "perKg": 224000
-        },
-        {
-          "upToKg": 20,
-          "perKg": 204000
-        },
-        {
-          "upToKg": 30,
-          "perKg": 194000
+          "upToKg": 100,
+          "perKg": 280000
         }
       ],
       "au": [
         {
+          "upToKg": 0.5,
+          "perKg": 700000
+        },
+        {
+          "upToKg": 1,
+          "perKg": 412000
+        },
+        {
+          "upToKg": 1.5,
+          "perKg": 316000
+        },
+        {
           "upToKg": 2,
-          "perKg": 269000
+          "perKg": 274500
+        },
+        {
+          "upToKg": 2.5,
+          "perKg": 244400
+        },
+        {
+          "upToKg": 3,
+          "perKg": 224666
+        },
+        {
+          "upToKg": 3.5,
+          "perKg": 210285
+        },
+        {
+          "upToKg": 4,
+          "perKg": 206000
+        },
+        {
+          "upToKg": 4.5,
+          "perKg": 197111
         },
         {
           "upToKg": 5,
-          "perKg": 215000
+          "perKg": 189800
+        },
+        {
+          "upToKg": 5.5,
+          "perKg": 184000
+        },
+        {
+          "upToKg": 6,
+          "perKg": 185000
+        },
+        {
+          "upToKg": 6.5,
+          "perKg": 180307
+        },
+        {
+          "upToKg": 7,
+          "perKg": 176428
+        },
+        {
+          "upToKg": 7.5,
+          "perKg": 172933
+        },
+        {
+          "upToKg": 8,
+          "perKg": 169875
+        },
+        {
+          "upToKg": 8.5,
+          "perKg": 167294
+        },
+        {
+          "upToKg": 9,
+          "perKg": 172333
+        },
+        {
+          "upToKg": 9.5,
+          "perKg": 169789
         },
         {
           "upToKg": 10,
-          "perKg": 189000
+          "perKg": 167600
+        },
+        {
+          "upToKg": 10.5,
+          "perKg": 165523
+        },
+        {
+          "upToKg": 11,
+          "perKg": 163636
+        },
+        {
+          "upToKg": 11.5,
+          "perKg": 162000
+        },
+        {
+          "upToKg": 12,
+          "perKg": 160416
+        },
+        {
+          "upToKg": 12.5,
+          "perKg": 158960
+        },
+        {
+          "upToKg": 13,
+          "perKg": 157692
+        },
+        {
+          "upToKg": 13.5,
+          "perKg": 156444
+        },
+        {
+          "upToKg": 14,
+          "perKg": 160500
+        },
+        {
+          "upToKg": 14.5,
+          "perKg": 159241
+        },
+        {
+          "upToKg": 15,
+          "perKg": 158066
+        },
+        {
+          "upToKg": 15.5,
+          "perKg": 157032
+        },
+        {
+          "upToKg": 16,
+          "perKg": 156000
+        },
+        {
+          "upToKg": 16.5,
+          "perKg": 155030
+        },
+        {
+          "upToKg": 17,
+          "perKg": 154176
+        },
+        {
+          "upToKg": 17.5,
+          "perKg": 153314
+        },
+        {
+          "upToKg": 18,
+          "perKg": 152555
+        },
+        {
+          "upToKg": 18.5,
+          "perKg": 151783
+        },
+        {
+          "upToKg": 19,
+          "perKg": 151052
+        },
+        {
+          "upToKg": 19.5,
+          "perKg": 150410
         },
         {
           "upToKg": 20,
-          "perKg": 172000
+          "perKg": 149750
         },
         {
-          "upToKg": 30,
-          "perKg": 163000
+          "upToKg": 20.5,
+          "perKg": 149121
+        },
+        {
+          "upToKg": 100,
+          "perKg": 139000
+        }
+      ],
+      "gb": [
+        {
+          "upToKg": 0.5,
+          "perKg": 1108000
+        },
+        {
+          "upToKg": 1,
+          "perKg": 659000
+        },
+        {
+          "upToKg": 1.5,
+          "perKg": 539333
+        },
+        {
+          "upToKg": 2,
+          "perKg": 462500
+        },
+        {
+          "upToKg": 2.5,
+          "perKg": 416400
+        },
+        {
+          "upToKg": 3,
+          "perKg": 385666
+        },
+        {
+          "upToKg": 3.5,
+          "perKg": 363714
+        },
+        {
+          "upToKg": 4,
+          "perKg": 347250
+        },
+        {
+          "upToKg": 4.5,
+          "perKg": 334444
+        },
+        {
+          "upToKg": 5,
+          "perKg": 324200
+        },
+        {
+          "upToKg": 5.5,
+          "perKg": 310000
+        },
+        {
+          "upToKg": 6,
+          "perKg": 303166
+        },
+        {
+          "upToKg": 6.5,
+          "perKg": 297384
+        },
+        {
+          "upToKg": 7,
+          "perKg": 292285
+        },
+        {
+          "upToKg": 7.5,
+          "perKg": 288000
+        },
+        {
+          "upToKg": 8,
+          "perKg": 284250
+        },
+        {
+          "upToKg": 8.5,
+          "perKg": 280941
+        },
+        {
+          "upToKg": 9,
+          "perKg": 278000
+        },
+        {
+          "upToKg": 9.5,
+          "perKg": 275263
+        },
+        {
+          "upToKg": 10,
+          "perKg": 272900
+        },
+        {
+          "upToKg": 10.5,
+          "perKg": 265714
+        },
+        {
+          "upToKg": 11,
+          "perKg": 263818
+        },
+        {
+          "upToKg": 11.5,
+          "perKg": 262086
+        },
+        {
+          "upToKg": 12,
+          "perKg": 260416
+        },
+        {
+          "upToKg": 12.5,
+          "perKg": 258960
+        },
+        {
+          "upToKg": 13,
+          "perKg": 257615
+        },
+        {
+          "upToKg": 13.5,
+          "perKg": 256370
+        },
+        {
+          "upToKg": 14,
+          "perKg": 255142
+        },
+        {
+          "upToKg": 14.5,
+          "perKg": 254068
+        },
+        {
+          "upToKg": 15,
+          "perKg": 251866
+        },
+        {
+          "upToKg": 15.5,
+          "perKg": 245096
+        },
+        {
+          "upToKg": 16,
+          "perKg": 243187
+        },
+        {
+          "upToKg": 16.5,
+          "perKg": 241393
+        },
+        {
+          "upToKg": 17,
+          "perKg": 239764
+        },
+        {
+          "upToKg": 17.5,
+          "perKg": 238171
+        },
+        {
+          "upToKg": 18,
+          "perKg": 236666
+        },
+        {
+          "upToKg": 18.5,
+          "perKg": 235243
+        },
+        {
+          "upToKg": 19,
+          "perKg": 233947
+        },
+        {
+          "upToKg": 19.5,
+          "perKg": 232666
+        },
+        {
+          "upToKg": 20,
+          "perKg": 231450
+        },
+        {
+          "upToKg": 20.5,
+          "perKg": 230292
+        },
+        {
+          "upToKg": 100,
+          "perKg": 222000
+        }
+      ],
+      "fr": [
+        {
+          "upToKg": 0.5,
+          "perKg": 1190000
+        },
+        {
+          "upToKg": 1,
+          "perKg": 725000
+        },
+        {
+          "upToKg": 1.5,
+          "perKg": 570000
+        },
+        {
+          "upToKg": 2,
+          "perKg": 492500
+        },
+        {
+          "upToKg": 2.5,
+          "perKg": 446000
+        },
+        {
+          "upToKg": 3,
+          "perKg": 415000
+        },
+        {
+          "upToKg": 3.5,
+          "perKg": 393142
+        },
+        {
+          "upToKg": 4,
+          "perKg": 376500
+        },
+        {
+          "upToKg": 4.5,
+          "perKg": 363555
+        },
+        {
+          "upToKg": 5,
+          "perKg": 373200
+        },
+        {
+          "upToKg": 5.5,
+          "perKg": 362727
+        },
+        {
+          "upToKg": 6,
+          "perKg": 353833
+        },
+        {
+          "upToKg": 6.5,
+          "perKg": 346461
+        },
+        {
+          "upToKg": 7,
+          "perKg": 340142
+        },
+        {
+          "upToKg": 7.5,
+          "perKg": 334666
+        },
+        {
+          "upToKg": 8,
+          "perKg": 329750
+        },
+        {
+          "upToKg": 8.5,
+          "perKg": 325529
+        },
+        {
+          "upToKg": 9,
+          "perKg": 321888
+        },
+        {
+          "upToKg": 9.5,
+          "perKg": 318421
+        },
+        {
+          "upToKg": 10,
+          "perKg": 315400
+        },
+        {
+          "upToKg": 10.5,
+          "perKg": 312571
+        },
+        {
+          "upToKg": 11,
+          "perKg": 310090
+        },
+        {
+          "upToKg": 11.5,
+          "perKg": 307826
+        },
+        {
+          "upToKg": 12,
+          "perKg": 305750
+        },
+        {
+          "upToKg": 12.5,
+          "perKg": 303760
+        },
+        {
+          "upToKg": 13,
+          "perKg": 302000
+        },
+        {
+          "upToKg": 13.5,
+          "perKg": 299481
+        },
+        {
+          "upToKg": 14,
+          "perKg": 297214
+        },
+        {
+          "upToKg": 14.5,
+          "perKg": 295103
+        },
+        {
+          "upToKg": 15,
+          "perKg": 293066
+        },
+        {
+          "upToKg": 15.5,
+          "perKg": 291161
+        },
+        {
+          "upToKg": 16,
+          "perKg": 289375
+        },
+        {
+          "upToKg": 16.5,
+          "perKg": 287757
+        },
+        {
+          "upToKg": 17,
+          "perKg": 286176
+        },
+        {
+          "upToKg": 17.5,
+          "perKg": 284742
+        },
+        {
+          "upToKg": 18,
+          "perKg": 283333
+        },
+        {
+          "upToKg": 18.5,
+          "perKg": 282000
+        },
+        {
+          "upToKg": 19,
+          "perKg": 280789
+        },
+        {
+          "upToKg": 19.5,
+          "perKg": 279589
+        },
+        {
+          "upToKg": 20,
+          "perKg": 278500
+        },
+        {
+          "upToKg": 20.5,
+          "perKg": 277414
+        },
+        {
+          "upToKg": 99,
+          "perKg": 256000
+        },
+        {
+          "upToKg": 100,
+          "perKg": 251000
+        }
+      ],
+      "de": [
+        {
+          "upToKg": 0.5,
+          "perKg": 918000
+        },
+        {
+          "upToKg": 1,
+          "perKg": 580000
+        },
+        {
+          "upToKg": 1.5,
+          "perKg": 472666
+        },
+        {
+          "upToKg": 2,
+          "perKg": 415000
+        },
+        {
+          "upToKg": 2.5,
+          "perKg": 384000
+        },
+        {
+          "upToKg": 3,
+          "perKg": 360333
+        },
+        {
+          "upToKg": 3.5,
+          "perKg": 346857
+        },
+        {
+          "upToKg": 4,
+          "perKg": 334000
+        },
+        {
+          "upToKg": 4.5,
+          "perKg": 323777
+        },
+        {
+          "upToKg": 5,
+          "perKg": 335600
+        },
+        {
+          "upToKg": 5.5,
+          "perKg": 329818
+        },
+        {
+          "upToKg": 6,
+          "perKg": 322333
+        },
+        {
+          "upToKg": 6.5,
+          "perKg": 316000
+        },
+        {
+          "upToKg": 7,
+          "perKg": 310714
+        },
+        {
+          "upToKg": 7.5,
+          "perKg": 305866
+        },
+        {
+          "upToKg": 8,
+          "perKg": 301750
+        },
+        {
+          "upToKg": 8.5,
+          "perKg": 298235
+        },
+        {
+          "upToKg": 9,
+          "perKg": 294888
+        },
+        {
+          "upToKg": 9.5,
+          "perKg": 292000
+        },
+        {
+          "upToKg": 10,
+          "perKg": 289500
+        },
+        {
+          "upToKg": 10.5,
+          "perKg": 289238
+        },
+        {
+          "upToKg": 11,
+          "perKg": 287000
+        },
+        {
+          "upToKg": 11.5,
+          "perKg": 284956
+        },
+        {
+          "upToKg": 12,
+          "perKg": 283083
+        },
+        {
+          "upToKg": 12.5,
+          "perKg": 281360
+        },
+        {
+          "upToKg": 13,
+          "perKg": 279769
+        },
+        {
+          "upToKg": 13.5,
+          "perKg": 277481
+        },
+        {
+          "upToKg": 14,
+          "perKg": 275285
+        },
+        {
+          "upToKg": 14.5,
+          "perKg": 273241
+        },
+        {
+          "upToKg": 15,
+          "perKg": 271466
+        },
+        {
+          "upToKg": 15.5,
+          "perKg": 270967
+        },
+        {
+          "upToKg": 16,
+          "perKg": 269250
+        },
+        {
+          "upToKg": 16.5,
+          "perKg": 267696
+        },
+        {
+          "upToKg": 17,
+          "perKg": 266235
+        },
+        {
+          "upToKg": 17.5,
+          "perKg": 264800
+        },
+        {
+          "upToKg": 18,
+          "perKg": 263444
+        },
+        {
+          "upToKg": 18.5,
+          "perKg": 262270
+        },
+        {
+          "upToKg": 19,
+          "perKg": 261052
+        },
+        {
+          "upToKg": 19.5,
+          "perKg": 259897
+        },
+        {
+          "upToKg": 20,
+          "perKg": 258900
+        },
+        {
+          "upToKg": 20.5,
+          "perKg": 259365
+        },
+        {
+          "upToKg": 99,
+          "perKg": 239000
+        },
+        {
+          "upToKg": 100,
+          "perKg": 233000
         }
       ],
       "jp": [
         {
-          "upToKg": 2,
-          "perKg": 206000
+          "upToKg": 0.5,
+          "perKg": 2280000
         },
         {
-          "upToKg": 5,
-          "perKg": 165000
+          "upToKg": 1,
+          "perKg": 1140000
+        },
+        {
+          "upToKg": 1.5,
+          "perKg": 760000
+        },
+        {
+          "upToKg": 2,
+          "perKg": 570000
+        },
+        {
+          "upToKg": 2.5,
+          "perKg": 456000
+        },
+        {
+          "upToKg": 3,
+          "perKg": 380000
+        },
+        {
+          "upToKg": 3.5,
+          "perKg": 325714
+        },
+        {
+          "upToKg": 4,
+          "perKg": 285000
+        },
+        {
+          "upToKg": 4.5,
+          "perKg": 253333
+        },
+        {
+          "upToKg": 7,
+          "perKg": 176000
         },
         {
           "upToKg": 10,
-          "perKg": 145000
+          "perKg": 166000
+        },
+        {
+          "upToKg": 15,
+          "perKg": 157000
         },
         {
           "upToKg": 20,
-          "perKg": 132000
+          "perKg": 147000
+        },
+        {
+          "upToKg": 25,
+          "perKg": 138000
         },
         {
           "upToKg": 30,
-          "perKg": 125000
+          "perKg": 128000
         }
       ],
       "kr": [
         {
+          "upToKg": 0.5,
+          "perKg": 598000
+        },
+        {
+          "upToKg": 1,
+          "perKg": 299000
+        },
+        {
+          "upToKg": 1.5,
+          "perKg": 199333
+        },
+        {
           "upToKg": 2,
-          "perKg": 200000
+          "perKg": 149500
         },
         {
-          "upToKg": 5,
-          "perKg": 160000
+          "upToKg": 2.5,
+          "perKg": 119600
         },
         {
-          "upToKg": 10,
-          "perKg": 141000
+          "upToKg": 3,
+          "perKg": 99666
         },
         {
-          "upToKg": 20,
-          "perKg": 128000
-        },
-        {
-          "upToKg": 30,
-          "perKg": 122000
+          "upToKg": 100,
+          "perKg": 84000
         }
       ],
       "tw": [
         {
+          "upToKg": 0.5,
+          "perKg": 998000
+        },
+        {
+          "upToKg": 1,
+          "perKg": 499000
+        },
+        {
+          "upToKg": 1.5,
+          "perKg": 332666
+        },
+        {
           "upToKg": 2,
-          "perKg": 150000
+          "perKg": 249500
         },
         {
-          "upToKg": 5,
-          "perKg": 120000
+          "upToKg": 2.5,
+          "perKg": 199600
         },
         {
-          "upToKg": 10,
-          "perKg": 106000
+          "upToKg": 3,
+          "perKg": 166333
         },
         {
-          "upToKg": 20,
-          "perKg": 96000
-        },
-        {
-          "upToKg": 30,
-          "perKg": 91000
+          "upToKg": 100,
+          "perKg": 94000
         }
       ],
       "cn": [
         {
+          "upToKg": 0.5,
+          "perKg": 1500000
+        },
+        {
+          "upToKg": 1,
+          "perKg": 750000
+        },
+        {
+          "upToKg": 1.5,
+          "perKg": 500000
+        },
+        {
           "upToKg": 2,
-          "perKg": 156000
+          "perKg": 375000
+        },
+        {
+          "upToKg": 2.5,
+          "perKg": 300000
         },
         {
           "upToKg": 5,
-          "perKg": 125000
+          "perKg": 171000
         },
         {
           "upToKg": 10,
-          "perKg": 110000
+          "perKg": 157000
         },
         {
           "upToKg": 20,
-          "perKg": 100000
+          "perKg": 143000
         },
         {
-          "upToKg": 30,
-          "perKg": 95000
+          "upToKg": 50,
+          "perKg": 128000
+        },
+        {
+          "upToKg": 100,
+          "perKg": 114000
         }
       ],
       "my": [
         {
           "upToKg": 2,
-          "perKg": 144000
-        },
-        {
-          "upToKg": 5,
-          "perKg": 115000
+          "perKg": 170000
         },
         {
           "upToKg": 10,
-          "perKg": 101000
+          "perKg": 104000
         },
         {
-          "upToKg": 20,
-          "perKg": 92000
+          "upToKg": 45,
+          "perKg": 80000
         },
         {
-          "upToKg": 30,
-          "perKg": 87000
-        }
-      ],
-      "sg": [
-        {
-          "upToKg": 2,
-          "perKg": 138000
-        },
-        {
-          "upToKg": 5,
-          "perKg": 110000
-        },
-        {
-          "upToKg": 10,
-          "perKg": 97000
-        },
-        {
-          "upToKg": 20,
-          "perKg": 88000
-        },
-        {
-          "upToKg": 30,
-          "perKg": 84000
+          "upToKg": 100,
+          "perKg": 70000
         }
       ]
     },
+    "contactOnly": ["ca", "sg"],
+    "frozen": [
+      {
+        "destinationId": "us",
+        "fromPerKg": 389000,
+        "minKg": 22
+      },
+      {
+        "destinationId": "au",
+        "fromPerKg": 227000,
+        "minKg": 10
+      },
+      {
+        "destinationId": "gb"
+      },
+      {
+        "destinationId": "de",
+        "fromPerKg": 357000,
+        "minKg": 10
+      },
+      {
+        "destinationId": "kr",
+        "fromPerKg": 89000
+      },
+      {
+        "destinationId": "tw",
+        "fromPerKg": 99000
+      }
+    ],
+    "validUntil": "2026-12-31",
     "demo": true
   },
   "meta": {
-    "updatedAt": "2026-11-27",
-    "version": 1
+    "updatedAt": "2026-11-28",
+    "version": 2
   }
 }

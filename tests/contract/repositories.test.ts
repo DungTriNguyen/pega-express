@@ -42,14 +42,18 @@ describe.each(adapters)("adapter %s", (_name, make) => {
   const repos = make();
   it("destinations: list / getById / getBySlug", async () => {
     const list = await repos.destinations.list();
-    expect(list).toHaveLength(9);
+    expect(list).toHaveLength(12);
     expect((await repos.destinations.getById("au"))?.slug.vi).toBe("gui-hang-di-uc");
     expect((await repos.destinations.getBySlug("ship-to-australia", "en"))?.id).toBe("au");
     expect(await repos.destinations.getBySlug("khong-co", "vi")).toBeUndefined();
   });
   it("pricing có đủ bảng giá cho mọi tuyến", async () => {
     const p = await repos.pricing.get();
-    for (const d of await repos.destinations.list()) expect(p.rates[d.id]?.length).toBeGreaterThan(0);
+    for (const d of await repos.destinations.list()) {
+      if (p.contactOnly.includes(d.id)) continue;
+      expect(p.rates[d.id]?.length).toBeGreaterThan(0);
+    }
+    for (const f of p.frozen) expect(await repos.destinations.getById(f.destinationId)).toBeDefined();
   });
   it("content: faq, prohibited, policies", async () => {
     expect((await repos.content.faq()).length).toBeGreaterThan(0);

@@ -24,7 +24,7 @@ export async function Footer({
         <div>
           <Logo variant="white" className="h-10" />
           <p className="mt-5 max-w-sm text-sm">{t("about")}</p>
-          <p className="mt-3 text-xs text-charcoal-300">{t("notAffiliated")}</p>
+          {/* <p className="mt-3 text-xs text-charcoal-300">{t("notAffiliated")}</p> */}
           <ul className="mt-5 flex gap-4 text-sm">
             <li>
               <a href={site.social.facebook} target="_blank" rel="noopener noreferrer" className={linkCls}>
@@ -159,7 +159,8 @@ export async function Footer({
       <div className="container-page mt-14 flex flex-col gap-2 border-t border-charcoal-800 pt-6 text-xs text-charcoal-300 md:flex-row md:justify-between">
         <p>{t("rights", { year, legalName: site.legalName })}</p>
         <p>
-          {t("taxId")} <span className="font-mono">{site.taxId}</span> · {t("registered")}: {site.registeredAddress}
+          {/* {t("taxId")} <span className="font-mono">{site.taxId}</span>  */}
+          {t("registered")}: {site.registeredAddress}
         </p>
       </div>
     </footer>

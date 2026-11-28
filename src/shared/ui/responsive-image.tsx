@@ -7,6 +7,8 @@ export type ResponsiveImageData = {
   widths: number[];
   blurDataURL: string;
   alt: string;
+  /** false = hình minh họa (không phải ảnh chụp thật) — hiển thị nhãn tương ứng */
+  real?: boolean;
 };
 
 /**

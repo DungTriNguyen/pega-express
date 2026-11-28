@@ -44,10 +44,13 @@ export function Section({
       <div className="container-page">
         {(eyebrow || title) && (
           <header className="reveal mb-10 flex flex-col gap-4 sm:mb-14 md:flex-row md:items-end md:justify-between">
-            <div className="max-w-3xl">
+            <div className="max-w-3xl md:w-full">
               {eyebrow && <Eyebrow inverse={tone === "inverse"}>{eyebrow}</Eyebrow>}
               {title && (
-                <Heading id={headingId} className="mt-3 font-display text-display-lg font-extrabold uppercase">
+                <Heading
+                  id={headingId}
+                  className="mt-3 font-display text-display-lg leading-tight font-extrabold uppercase"
+                >
                   {title}
                 </Heading>
               )}

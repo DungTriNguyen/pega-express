@@ -26,7 +26,7 @@ export default async function AboutPage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations();
   const images = await loadImages(locale);
-  const photo = images.find((i) => i.id === "kho-nhan-vien-kiem-hang") ?? images[0]!;
+  const photo = images.find((i) => i.id === "company") ?? images[0]!;
   const facts: [string, string][] = [
     [t("pages.about.legalName"), site.legalName],
     [t("pages.about.intlName"), site.internationalName],
@@ -74,7 +74,7 @@ export default async function AboutPage({ params }: Props) {
               className="aspect-[4/3] border border-border"
             />
             <figcaption className="mt-2 font-mono text-xs text-muted">
-              ◉ {t("capability.realBadge")} — {photo.alt}
+              ◉ {photo.real ? t("capability.realBadge") : t("capability.illustrationBadge")} — {photo.alt}
             </figcaption>
           </figure>
         </div>

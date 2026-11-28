@@ -27,9 +27,9 @@ export function PageHeader({
       />
       <div className="relative container-page">
         {breadcrumbs}
-        <div className="mt-8 max-w-4xl">
+        <div className="mt-8 max-w-5xl">
           {eyebrow && <Eyebrow inverse>{eyebrow}</Eyebrow>}
-          <h1 className="mt-3 font-display text-display-xl font-extrabold uppercase">{title}</h1>
+          <h1 className="mt-3 font-display text-display-xl leading-tight font-extrabold uppercase">{title}</h1>
           {lead && <p className="mt-5 max-w-2xl text-lg text-charcoal-200">{lead}</p>}
         </div>
         {children}

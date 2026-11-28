@@ -1,64 +1,97 @@
 {
   "data": {
-    "kho-san-bay-toan-canh": {
-      "width": 1280,
-      "height": 960,
+    "banner-2": {
+      "width": 1870,
+      "height": 841,
       "widths": [
         480,
         768,
-        1280
+        1280,
+        1870
       ],
-      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAwAA4BaJYgCdH8AFd4dvS0UIAD+0EX6YTHutpKdgksfhJCtcAe6VvJEGAbmqVldpB/A0BV7fudzxbX6eDZbbkwIu4pCL6949AAA"
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAcAA4BaJYwCdADdKr+4VoAA/vFjJydzJ52k6cVKPDgt58/vSJDaws0E3UAjCu1iTvwZZAlDav4uAAA="
     },
-    "kho-nhan-vien-kiem-hang": {
-      "width": 1280,
-      "height": 960,
+    "company": {
+      "width": 1122,
+      "height": 1402,
       "widths": [
         480,
         768,
-        1280
+        1122
       ],
-      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAQCdASoQAAwAA4BaJZQAAld0XvgAAP7jf7v4srUq26iSkIGUc3d4C5elOlK1cbJKqu9Eob4XWr3bTL2tOem2iXsENGzhKEiFyR+OdOGsQtgpgAA="
+      "blurDataURL": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADwAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JYwC7ACB2MJ8jHNSaxi+AAP5VQZmNq8dUDW2YBMbWZHHrzQ1Jym4CMw+IHvuxwhqLM1Cqsc06wo0t6hPcWwJGeQWGXeacpCq0/QVL2WsSb/VQwD4WC9Hj/Z5xrDH1AAA="
     },
-    "kho-pallet-hang-xuat": {
-      "width": 1284,
-      "height": 963,
+    "ware-house": {
+      "width": 1448,
+      "height": 1086,
       "widths": [
         480,
         768,
-        1284
+        1280,
+        1448
       ],
-      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAwAA4BaJZACdAEfnpLFSMuAAP7Au2yPkVtv17gZijrUrD+JV6tb0/Wte5PYusUfjYoYOs/m/pY6+iXzA6KuV2bC8X1holidhXANIKX4HplqDT8MeMKYZ6t6gAAA"
+      "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAQCdASoQAAwAA4BaJbACdAEU7mFBzsAAzfAo1BOxqlPyRXV4THZibwwPXP8yznOMXjjGQ6cuonSnJrwDkSZia7EDFLEXZ7yWSz6PJsS/46tROyNKfnrfT5dMVVNf7fh+plmIAAA="
     },
-    "kho-pallet-dong-chuan": {
-      "width": 1280,
-      "height": 960,
+    "men-caculator": {
+      "width": 768,
+      "height": 1376,
       "widths": [
         480,
-        768,
-        1280
+        768
       ],
-      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAQCdASoQAAwAA4BaJYgCdAYv+lJAAADOEHB8NVDry/O4QdVcYgOHxja4Rp1qTWxg+OWK1JsT7rThm2JLzMs54NRoNOxzuOk02UW0Bh9TZysS9MhQgRPvpwAAAA=="
+      "blurDataURL": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAADQBACdASoQAB0APu1kqk4ppaQiMAgBMB2JYgCdMoBOAbSs+5wYwil0V3fm8gKi6AD+w9cBBSx7bf688fjCic4WDZ0cXglJ0sXRGFDg/W6uwskPP8Vg4/DKPystq31BoczQuKTExUUo3k8YSxiULjVdhiKfC8kkI08I4SvXsVHdiCGy0hKEt7SjH6zPKvfdju5kcG0V+cDlhYlI3RdQhyymbSNmnIPFTjg0j56B/2T4Q3OMXxf5GiFhhjRE985gA0r0jDl5fLz5peS2K8w/eQgA"
     },
-    "kho-hang-cho-bay": {
-      "width": 1276,
-      "height": 956,
+    "men-truck": {
+      "width": 768,
+      "height": 1376,
       "widths": [
         480,
-        768,
-        1276
+        768
       ],
-      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAwAA4BaJZgCdAEVzpmoTlQAAPln43DkW0pGBYDHSuwiUYii1wWHFZWCyKX6dov6gyuD0nbz30VzzuiqUf50WnsRMmbcz8tcagSfw3n8jO9JD4gAAA=="
+      "blurDataURL": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAACwAwCdASoQAB0APu1kqU2ppaQiMAgBMB2JYwAdoAAmwdt0N07AAADLFp+SsyOCKxXF9GV6LeJa7pmITkOKhhFnFbDeh07rOhp1OzFRjtbIyGv86ma9z0bWKa85W/xYs62uw/Qnmzyy3aJqUDTDOcK10rHJ3+7RsO+gSbxOkePFBbRl6Q5RYSi/oa+85ROz+ZAQ5r3hX5rRh+m6s0MDoAAA"
     },
-    "kho-cua-xuat-hang": {
-      "width": 1276,
-      "height": 956,
+    "pega-company": {
+      "width": 937,
+      "height": 1679,
       "widths": [
         480,
         768,
-        1276
+        937
       ],
-      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAwAA4BaJQBdgCGumrZBqkQA/oQKms1nPlYi8JXbm+D6Z6nmwfKFn74ApYFDM3FmNL81kGwhJFHetMBG4wJ19Uz/+6aTNzboAAAA"
+      "blurDataURL": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABQBACdASoQAB0APu1orU6ppiSiMAgBMB2JYwCdMoACdbxYwbPG5Mcm2TIAAP7WtScDmAEHoFkzgTSVHtHt4XIg6bOYRXhByxCht6USf3wbyYN/eWxm5MVcF58YBFv18Eowp8TnYuUlUrnryjZbZ8swRk/L4iGM/MODrnOjHNxAvjLAcMj+uD3lihLztsiKiLyhyUWNNAA="
+    },
+    "banner": {
+      "width": 1672,
+      "height": 941,
+      "widths": [
+        480,
+        768,
+        1280,
+        1672
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAkAA4BaJZgCdAEOAVQhkoAA/vd9Z1+XFwf6U0xGfQmcTrKmQD30UOB3FjO+j3gVIsC1WvPJgYUeY0ijcrvsLTQ9gk2PsAA="
+    },
+    "sea": {
+      "width": 1713,
+      "height": 918,
+      "widths": [
+        480,
+        768,
+        1280,
+        1713
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAkAA4BaJbACdAEf/SO2PhYgAPzYyW63dXIo26UZnSG6qRlof3QPaE3eQnb0iWKeFzyc7/EvcOb/eUs3uf8n6X/T1cmj0hZ2ryJAAAA="
+    },
+    "container": {
+      "width": 1536,
+      "height": 1024,
+      "widths": [
+        480,
+        768,
+        1280,
+        1536
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQAgCdASoQAAsAA4BaJZQCw7YtfsZb7pUQAP7ENfgCbGArUg61GhtoF3yEcWjNY+GJuWH7upYrkG2Kwk+VP7qyTtXlqG5DTiezKsotb9nkPQzswaq6EyJy5VjgX7RB2wZOSIm4AAA="
     }
   }
 }

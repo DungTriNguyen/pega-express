@@ -5,7 +5,7 @@ import { Check, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { routing, type AppLocale } from "@/i18n/routing";
 import { getRepositories } from "@/data";
-import { priceFromPerKg } from "@/domain/pricing";
+import { priceFromPerKg, rateTable } from "@/domain/pricing";
 import { zaloUrl } from "@/shared/config/site";
 import { Badge, CountryCode, FaqList, JsonLd, PageHeader, Section } from "@/shared/ui";
 import { buildMetadata, faqSchema, localizedUrl, serviceSchema } from "@/shared/lib/seo";
@@ -35,18 +35,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, routeSlug } = await params;
   const d = await load(locale, routeSlug);
   const repos = await getRepositories();
-  const price = priceFromPerKg(await repos.pricing.get(), d.id) ?? 0;
+  const price = priceFromPerKg(await repos.pricing.get(), d.id);
   const t = await getTranslations({ locale, namespace: "pages.destination" });
   const vars = {
     country: d.name[locale],
-    price: formatVndShort(price),
+    price: price ? formatVndShort(price) : "",
     min: d.transitDays.min,
     max: d.transitDays.max,
   };
   return buildMetadata({
     locale,
-    title: t("title", vars),
-    description: t("description", vars),
+    title: t(price ? "title" : "titleNoPrice", vars),
+    description: t(price ? "description" : "descriptionNoPrice", vars),
     hrefByLocale: {
       vi: { pathname: "/[routeSlug]", params: { routeSlug: d.slug.vi } },
       en: { pathname: "/[routeSlug]", params: { routeSlug: d.slug.en } },
@@ -64,8 +64,8 @@ export default async function DestinationPage({ params }: Props) {
     loadQuoteData(locale),
     repos.pricing.meta(),
   ]);
-  const brackets = pricing.rates[d.id] ?? [];
-  const price = priceFromPerKg(pricing, d.id) ?? 0;
+  const table = rateTable(pricing, d.id);
+  const price = priceFromPerKg(pricing, d.id);
   const country = d.name[locale];
   const faqItems = d.faq.map((f) => ({ id: f.id, q: f.q[locale], a: f.a[locale] }));
   const url = localizedUrl({ pathname: "/[routeSlug]", params: { routeSlug: d.slug[locale] } }, locale);
@@ -96,8 +96,14 @@ export default async function DestinationPage({ params }: Props) {
           <div className="bg-charcoal-900 p-4">
             <dt className="text-xs tracking-widest text-charcoal-300 uppercase">{t("common.from")}</dt>
             <dd className="mt-1 text-2xl font-semibold text-orange-300">
-              {formatVndShort(price)}
-              <span className="text-sm text-charcoal-300">{t("common.perKg")}</span>
+              {price ? (
+                <>
+                  {formatVndShort(price)}
+                  <span className="text-sm text-charcoal-300">{t("common.perKg")}</span>
+                </>
+              ) : (
+                t("routes.contact")
+              )}
             </dd>
           </div>
           <div className="bg-charcoal-900 p-4">
@@ -107,8 +113,8 @@ export default async function DestinationPage({ params }: Props) {
             </dd>
           </div>
           <div className="col-span-2 bg-charcoal-900 p-4 sm:col-span-1">
-            <dt className="text-xs tracking-widest text-charcoal-300 uppercase">{t("routes.colCode")}</dt>
-            <dd className="mt-1 text-2xl font-semibold">SGN · {d.iata}</dd>
+            <dt className="text-xs tracking-widest text-charcoal-300 uppercase">{t("routes.colOrigin")}</dt>
+            <dd className="mt-1 text-2xl font-semibold">{t("routes.originName")}</dd>
           </div>
         </dl>
       </PageHeader>
@@ -134,31 +140,49 @@ export default async function DestinationPage({ params }: Props) {
 
             <div>
               <h2 className="font-display text-display-md font-bold uppercase">{t("pages.destination.priceTable")}</h2>
-              <div className="mt-4 overflow-x-auto">
-                <table className="w-full min-w-[22rem] border-collapse text-left">
-                  <caption className="sr-only">{t("pages.destination.priceTable")}</caption>
-                  <thead>
-                    <tr className="border-b-2 border-fg font-mono text-xs tracking-widest uppercase">
-                      <th scope="col" className="py-3">
-                        {t("pages.destination.weightTier")}
-                      </th>
-                      <th scope="col" className="py-3 text-right">
-                        {t("pages.destination.perKg")}
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {brackets.map((b, i) => (
-                      <tr key={b.upToKg} className="border-b border-border">
-                        <th scope="row" className="py-3 font-normal">
-                          {i === 0 ? `0,5 – ${b.upToKg} kg` : `${brackets[i - 1]!.upToKg} – ${b.upToKg} kg`}
-                        </th>
-                        <td className="py-3 text-right font-mono font-semibold">{formatVnd(b.perKg, locale)}</td>
-                      </tr>
+              {table.packages.length === 0 && table.perKg.length === 0 && (
+                <p className="mt-4 text-muted">{t("quote.errors.contact_for_price")}</p>
+              )}
+              {table.packages.length > 0 && (
+                <>
+                  <h3 className="mt-6 font-sub text-lg font-semibold">{t("pages.destination.packageTitle")}</h3>
+                  <ul className="mt-3 grid grid-cols-2 gap-px border border-border bg-border sm:grid-cols-3">
+                    {table.packages.map((p) => (
+                      <li key={p.kg} className="flex items-baseline justify-between gap-2 bg-surface px-3 py-2">
+                        <span className="text-sm text-muted">{p.kg.toLocaleString(locale)} kg</span>
+                        <span className="font-mono text-sm font-semibold">{formatVnd(p.price, locale)}</span>
+                      </li>
                     ))}
-                  </tbody>
-                </table>
-              </div>
+                  </ul>
+                </>
+              )}
+              {table.perKg.length > 0 && (
+                <div className="mt-6 overflow-x-auto">
+                  <table className="w-full min-w-[22rem] border-collapse text-left">
+                    <caption className="sr-only">{t("pages.destination.priceTable")}</caption>
+                    <thead>
+                      <tr className="border-b-2 border-fg font-mono text-xs tracking-widest uppercase">
+                        <th scope="col" className="py-3">
+                          {t("pages.destination.weightTier")}
+                        </th>
+                        <th scope="col" className="py-3 text-right">
+                          {t("pages.destination.perKg")}
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {table.perKg.map((r) => (
+                        <tr key={r.toKg} className="border-b border-border">
+                          <th scope="row" className="py-3 font-normal">
+                            {`${r.fromKg.toLocaleString(locale)} – ${r.toKg.toLocaleString(locale)} kg`}
+                          </th>
+                          <td className="py-3 text-right font-mono font-semibold">{formatVnd(r.perKg, locale)}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
             </div>
 
             <div>

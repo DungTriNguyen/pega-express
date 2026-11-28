@@ -70,7 +70,24 @@ describe("quote — từng nước, từng mốc cân", () => {
     });
   });
 
-  it("giá từ = đơn giá thấp nhất", () => {
-    expect(priceFromPerKg(pricing, "us")).toBe(Math.min(...pricing.rates.us!.map((b) => b.perKg)));
+  it("giá từ = giá khai báo trong fromPerKg, nếu không có thì đơn giá thấp nhất", () => {
+    expect(priceFromPerKg(pricing, "us")).toBe(pricing.fromPerKg.us);
+    const noExplicit = { ...pricing, fromPerKg: {} };
+    expect(priceFromPerKg(noExplicit, "us")).toBe(Math.min(...pricing.rates.us!.map((b) => b.perKg)));
+  });
+
+  it("giá kiện nhỏ khớp giá trọn gói trong bảng giá", () => {
+    const r = quote(pricing, { destinationId: "us", actualKg: 1.5, goodsType: "general" });
+    expect(r.ok && r.low).toBe(1_024_000);
+  });
+
+  it("tuyến chưa có bảng giá → liên hệ báo giá", () => {
+    for (const id of pricing.contactOnly) {
+      expect(quote(pricing, { destinationId: id, actualKg: 1, goodsType: "general" })).toEqual({
+        ok: false,
+        reason: "contact_for_price",
+      });
+      expect(priceFromPerKg(pricing, id)).toBeUndefined();
+    }
   });
 });

@@ -8,6 +8,7 @@ import { goodsTypes } from "@/domain/schemas";
 import { DemoNotice, PageHeader, Section, buttonClass } from "@/shared/ui";
 import { buildMetadata } from "@/shared/lib/seo";
 import { formatDate, formatVnd } from "@/shared/lib/utils";
+import { FrozenRoutes } from "@/features/destinations";
 import { PageCrumbs } from "../_lib/crumbs";
 import { loadQuoteData } from "../_lib/page-data";
 
@@ -28,10 +29,8 @@ export default async function PricingPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations();
-  const { pricing, destinations } = await loadQuoteData(locale);
+  const { pricing, destinations, boardRows } = await loadQuoteData(locale);
   const meta = await (await getRepositories()).pricing.meta();
-  // Các mốc cân chung (lấy từ tuyến đầu tiên — mọi tuyến dùng cùng mốc)
-  const tiers = pricing.rates[destinations[0]!.id]!.map((b) => b.upToKg);
 
   return (
     <>
@@ -49,28 +48,35 @@ export default async function PricingPage({ params }: Props) {
       />
       <Section>
         {pricing.demo && <DemoNotice className="mb-6">{t("common.demoBadge")}</DemoNotice>}
+        {pricing.validUntil && (
+          <p className="mb-4 font-mono text-sm text-muted">
+            {t("pages.pricing.validUntil", { date: formatDate(pricing.validUntil, locale) })}
+          </p>
+        )}
         <div className="overflow-x-auto border border-border">
-          <table className="w-full min-w-[44rem] border-collapse text-left">
+          <table className="w-full min-w-[34rem] border-collapse text-left">
             <caption className="sr-only">{t("pages.pricing.h1")} (VND/kg)</caption>
             <thead className="bg-charcoal-900 text-ivory-50">
               <tr className="font-mono text-xs tracking-widest uppercase">
-                <th scope="col" className="sticky left-0 bg-charcoal-900 px-4 py-3">
+                <th scope="col" className="px-4 py-3">
+                  {t("routes.colOrigin")}
+                </th>
+                <th scope="col" className="px-4 py-3">
                   {t("routes.colDestination")}
                 </th>
-                {tiers.map((kg, i) => (
-                  <th key={kg} scope="col" className="px-4 py-3 text-right">
-                    {i === 0 ? `0,5–${kg}` : `${tiers[i - 1]}–${kg}`} kg
-                  </th>
-                ))}
+                <th scope="col" className="px-4 py-3 text-right">
+                  {t("routes.colPrice")} (VND/kg)
+                </th>
                 <th scope="col" className="px-4 py-3 text-right">
                   {t("routes.colTransit")}
                 </th>
               </tr>
             </thead>
             <tbody>
-              {destinations.map((d) => (
+              {boardRows.map((d) => (
                 <tr key={d.id} className="border-b border-border even:bg-surface-2">
-                  <th scope="row" className="sticky left-0 bg-inherit px-4 py-3 font-semibold">
+                  <td className="px-4 py-3 font-mono text-sm text-muted">{t("routes.originName")}</td>
+                  <th scope="row" className="px-4 py-3 font-semibold">
                     <Link
                       href={{ pathname: "/[routeSlug]", params: { routeSlug: d.slug[locale] } }}
                       className="hover:text-brand-strong"
@@ -78,11 +84,16 @@ export default async function PricingPage({ params }: Props) {
                       {d.name[locale]}
                     </Link>
                   </th>
-                  {(pricing.rates[d.id] ?? []).map((b) => (
-                    <td key={b.upToKg} className="px-4 py-3 text-right font-mono text-sm">
-                      {formatVnd(b.perKg, locale)}
-                    </td>
-                  ))}
+                  <td className="px-4 py-3 text-right font-mono text-sm">
+                    {d.priceFrom ? (
+                      <>
+                        <span className="text-muted">{t("common.from")} </span>
+                        <span className="font-semibold">{formatVnd(d.priceFrom, locale)}</span>
+                      </>
+                    ) : (
+                      <span className="text-brand-strong">{t("routes.contact")}</span>
+                    )}
+                  </td>
                   <td className="px-4 py-3 text-right font-mono text-sm">
                     {t("common.days", { min: d.transitDays.min, max: d.transitDays.max })}
                   </td>
@@ -91,6 +102,12 @@ export default async function PricingPage({ params }: Props) {
             </tbody>
           </table>
         </div>
+
+        <h2 id="dong-lanh" className="mt-14 font-display text-display-md font-bold uppercase">
+          {t("frozen.title")}
+        </h2>
+        <p className="mt-2 mb-6 max-w-2xl text-muted">{t("frozen.subtitle")}</p>
+        <FrozenRoutes pricing={pricing} destinations={destinations} locale={locale} />
 
         <h2 className="mt-14 font-display text-display-md font-bold uppercase">{t("pages.pricing.surcharges")}</h2>
         <table className="mt-4 w-full max-w-xl border-collapse text-left">
@@ -101,7 +118,11 @@ export default async function PricingPage({ params }: Props) {
                   {t(`quote.goods.${g}`)}
                 </th>
                 <td className="py-3 text-right font-mono">
-                  {pricing.surchargePerKg[g] ? `+${formatVnd(pricing.surchargePerKg[g]!, locale)}` : "—"}
+                  {pricing.surchargePerKg[g]
+                    ? `+${formatVnd(pricing.surchargePerKg[g]!, locale)}`
+                    : g === "general"
+                      ? "—"
+                      : t("pages.pricing.surchargeAsk")}
                 </td>
               </tr>
             ))}

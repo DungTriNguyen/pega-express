@@ -6,7 +6,7 @@ export type TrustItem = { value?: number; label: string; note: string; strong?: 
 export function TrustBar({ title, items }: { title: string; items: TrustItem[] }) {
   return (
     <section aria-label={title} className="border-b border-border bg-surface">
-      <ul className="container-page grid grid-cols-2 divide-border md:grid-cols-4 md:divide-x">
+      <ul className="container-page grid grid-cols-2 divide-border md:grid-cols-3 md:divide-x">
         {items.map((it, i) => (
           <li
             key={i}

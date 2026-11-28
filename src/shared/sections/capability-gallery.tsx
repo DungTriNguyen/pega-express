@@ -4,13 +4,13 @@ import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { ResponsiveImage, type ResponsiveImageData } from "@/shared/ui";
 
-/** Gallery kho kéo ngang (hiệu ứng e, Embla). Ảnh thật có nhãn "Ảnh thật". */
+/** Gallery kho kéo ngang (hiệu ứng e, Embla). Ảnh thật có nhãn "Ảnh thật", ảnh minh họa có nhãn "Hình minh họa". */
 export function CapabilityGallery({
   images,
   labels,
 }: {
   images: ResponsiveImageData[];
-  labels: { real: string; prev: string; next: string };
+  labels: { real: string; illustration: string; prev: string; next: string };
 }) {
   const [ref, api] = useEmblaCarousel({ align: "start", dragFree: true, containScroll: "trimSnaps" });
   return (
@@ -27,7 +27,7 @@ export function CapabilityGallery({
                     className="h-full"
                   />
                   <span className="absolute top-3 left-3 bg-charcoal-950/80 px-2 py-1 font-mono text-[0.65rem] tracking-[0.2em] text-orange-300 uppercase">
-                    ◉ {labels.real} · {String(i + 1).padStart(2, "0")}
+                    ◉ {img.real === false ? labels.illustration : labels.real} · {String(i + 1).padStart(2, "0")}
                   </span>
                 </div>
                 <figcaption className="mt-3 text-sm text-charcoal-200">{img.alt}</figcaption>
